@@ -1,0 +1,12 @@
+Added Component: Designator=U21(SOT23-3M)
+Added Component: Designator=U22(SOT23-3M)
+Added Component: Designator=U23(SOT23-3M)
+Added Pin To Net: NetName=NetJ8_1 Pin=U21-1
+Added Pin To Net: NetName=NetJ8_2 Pin=U21-2
+Added Pin To Net: NetName=NetJ10_1 Pin=U22-1
+Added Pin To Net: NetName=NetJ10_2 Pin=U22-2
+Added Pin To Net: NetName=NetJ12_1 Pin=U23-1
+Added Pin To Net: NetName=NetJ12_2 Pin=U23-2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component U21 IC_IAZ23C5V6-E3-18_VISHAY 
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component U22 IC_IAZ23C5V6-E3-18_VISHAY 
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component U23 IC_IAZ23C5V6-E3-18_VISHAY 

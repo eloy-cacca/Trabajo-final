@@ -1,0 +1,17 @@
+Added Pin To Net: NetName=UART0_RX Pin=J2-9
+Added Pin To Net: NetName=UART0_RX Pin=U11-30
+Added Net: Name=UART0_RX
+Added Pin To Net: NetName=UART0_TX Pin=J2-1
+Added Pin To Net: NetName=UART0_TX Pin=U11-29
+Added Net: Name=UART0_TX
+Added Pin To Net: NetName=UART1_RX Pin=J3-52
+Added Pin To Net: NetName=UART1_RX Pin=U11-5
+Added Net: Name=UART1_RX
+Added Pin To Net: NetName=UART1_TX Pin=J3-2
+Added Pin To Net: NetName=UART1_TX Pin=U11-6
+Added Net: Name=UART1_TX
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component U11 IC_ATSAM4S8BA-AU_ATMEL
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4

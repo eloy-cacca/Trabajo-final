@@ -1,0 +1,42 @@
+Added Component: Designator=C7(CAPC3216X135N_B)
+Added Component: Designator=C7(CAPC3216X135N_B)
+Added Component: Designator=C?(CAPC2013X110N)
+Added Component: Designator=C?(CAPC2013X110N)
+Added Component: Designator=C?(CAPC2013X110N)
+Added Component: Designator=L1(MAG_INDUCTOR2A)
+Added Component: Designator=R?(RESC3216N)
+Added Pin To Net: NetName=+5V_A Pin=C7-1
+Added Pin To Net: NetName=AGND Pin=C7-2
+Added Pin To Net: NetName=AGND Pin=C7-2
+Added Pin To Net: NetName=3.3V_ISO Pin=C?-1
+Added Pin To Net: NetName=AGND Pin=C?-2
+Added Pin To Net: NetName=GND_ISO Pin=C?-2
+Added Pin To Net: NetName=GND_ISO Pin=C?-2
+Added Pin To Net: NetName=+5V_A Pin=L1-1
+Added Pin To Net: NetName=3.3V_ISO Pin=R?-2
+Added Pin To Net: NetName=GND_ISO Pin=U6-13
+Added Pin To Net: NetName=AGND Pin=U6-26
+Added Pin To Net: NetName=AGND Pin=U6-27
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=C?-1
+Added Pin To Net: NetName=NetC7_1 Pin=L1-2
+Added Pin To Net: NetName=NetC7_1 Pin=U6-1
+Added Pin To Net: NetName=NetC7_1 Pin=U6-2
+Added Net: Name=NetC7_1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=U6-12
+Added Pin To Net: NetName=NetC?_1 Pin=U6-17
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ1_9 Pin=J1-9
+Added Net: Name=NetJ1_9
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=U6-16
+Added Net: Name=NetR?_1
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C? cap
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component R? RES_RC1206FR-0710KL_Yageo
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page5

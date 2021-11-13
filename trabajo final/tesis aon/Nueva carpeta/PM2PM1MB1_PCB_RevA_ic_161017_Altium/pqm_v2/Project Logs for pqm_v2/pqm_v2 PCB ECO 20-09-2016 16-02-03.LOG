@@ -1,0 +1,12 @@
+Added Component: Designator=C95(CAPC2013X110N)
+Added Component: Designator=C96(CAPC2013X110N)
+Added Component: Designator=Y2(CSM-3X)
+Added Pin To Net: NetName=PB8 Pin=C95-1
+Added Pin To Net: NetName=GND_ISO Pin=C95-2
+Added Pin To Net: NetName=PB9 Pin=C96-1
+Added Pin To Net: NetName=GND_ISO Pin=C96-2
+Added Pin To Net: NetName=PB8 Pin=Y2-1
+Added Pin To Net: NetName=PB9 Pin=Y2-2
+Added Member To Class: ClassName=pqm_v2_page5 Member=Component C95 CAP_C0805X150J5GACTU_KEMET
+Added Member To Class: ClassName=pqm_v2_page5 Member=Component C96 CAP_C0805X150J5GACTU_KEMET
+Added Member To Class: ClassName=pqm_v2_page5 Member=Component Y2 MSC_ECS-120-20-3X-TR_ECS

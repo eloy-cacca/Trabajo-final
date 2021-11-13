@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=SD_MCCK Pin=J11-41
+Removed Pin From Net: NetName=SD_MCCDA Pin=J11-42
+Added Pin To Net: NetName=SD_MCCDA Pin=J11-41
+Added Pin To Net: NetName=SD_MCCK Pin=J11-42
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J11 CON_HeaderX70

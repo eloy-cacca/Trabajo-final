@@ -1,0 +1,8 @@
+Added Component: Designator=U11(TSQFP50P1600X1600-100N)
+Added Class: Name=pqm_v2_page5
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R32 Res
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4
+Added Room: Name=pqm_v2_page5

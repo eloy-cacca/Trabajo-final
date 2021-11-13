@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=NetC24_2 Pin=C76-1
+Change Component Comment : Designator=U12 Old Comment=* New Comment=ISL21010
+Change Component Comment : Designator=U13 Old Comment=* New Comment=ISL21010
+Added Component: Designator=C77(CAPC2013X110N)
+Added Component: Designator=C78(CAPC2013X110N)
+Added Component: Designator=U14(SOT23-5AM)
+Added Pin To Net: NetName=+5V Pin=C76-1
+Added Pin To Net: NetName=NetR14_2 Pin=C77-1
+Added Pin To Net: NetName=AGND Pin=C77-2
+Added Pin To Net: NetName=NetC24_2 Pin=C78-1
+Added Pin To Net: NetName=AGND Pin=C78-2
+Added Pin To Net: NetName=AGND Pin=U14-2
+Added Pin To Net: NetName=+5V Pin=U14-4
+Added Pin To Net: NetName=NetR14_2 Pin=U14-5
+Change Net Name : Old Net Name=NetR14_2 New Net Name=NetC77_1
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component C21 cap
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component C73 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C77 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C78 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U14 LM4132

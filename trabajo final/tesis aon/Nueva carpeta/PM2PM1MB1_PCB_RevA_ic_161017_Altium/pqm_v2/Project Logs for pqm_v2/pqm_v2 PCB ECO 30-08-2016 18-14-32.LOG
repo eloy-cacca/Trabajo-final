@@ -1,0 +1,6 @@
+Added Component: Designator=R109(RESC2013X065BN)
+Added Pin To Net: NetName=3.3V_ISO Pin=R109-2
+Added Pin To Net: NetName=NetR109_1 Pin=R109-1
+Added Pin To Net: NetName=NetR109_1 Pin=U11-48
+Added Net: Name=NetR109_1
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component R109 RES_AC0805JR-07100KL_YAGEO

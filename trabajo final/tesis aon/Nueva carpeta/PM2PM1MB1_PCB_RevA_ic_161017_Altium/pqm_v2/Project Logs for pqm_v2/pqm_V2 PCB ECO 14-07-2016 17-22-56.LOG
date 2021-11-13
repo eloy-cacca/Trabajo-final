@@ -1,0 +1,321 @@
+Removed Pin From Net: NetName=VIN Pin=C2-1
+Removed Pin From Net: NetName=-5V_A Pin=C2-2
+Removed Pin From Net: NetName=VIN Pin=C5-1
+Removed Pin From Net: NetName=-5V_A Pin=C6-2
+Removed Pin From Net: NetName=NetC11_1 Pin=C11-1
+Removed Pin From Net: NetName=AGND Pin=C11-2
+Removed Pin From Net: NetName=+5V_A Pin=C12-2
+Removed Pin From Net: NetName=AGND Pin=C16-1
+Removed Pin From Net: NetName=NetC16_2 Pin=C16-2
+Removed Pin From Net: NetName=NetJ6_1 Pin=J6-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=J6-2
+Removed Pin From Net: NetName=NetC14_1 Pin=R22-1
+Removed Pin From Net: NetName=NetC14_1 Pin=R23-1
+Removed Pin From Net: NetName=+5V_A Pin=U3-4
+Removed Pin From Net: NetName=NetC14_1 Pin=U3-9
+Removed Pin From Net: NetName=NetC17_1 Pin=U3-10
+Removed Pin From Net: NetName=-5V_A Pin=U3-11
+Removed Pin From Net: NetName=NetC18_1 Pin=U3-13
+Removed Pin From Net: NetName=+5V_A Pin=U4-4
+Removed Pin From Net: NetName=NetC26_2 Pin=U4-8
+Removed Pin From Net: NetName=NetC26_1 Pin=U4-9
+Removed Pin From Net: NetName=NetC29_1 Pin=U4-10
+Removed Pin From Net: NetName=-5V_A Pin=U4-11
+Removed Pin From Net: NetName=NetC30_1 Pin=U4-13
+Removed Member From Class: ClassName=pqm_v2_page1 Member=C*2
+Removed Member From Class: ClassName=pqm_v2_page1 Member=U3
+Removed Member From Class: ClassName=pqm_v2_page1 Member=U4
+Change Component DesignItemId : Designator=C14 Old DesignItemId=cap New DesignItemId=CAP_C3216X7R1E105M085AA_TDK
+Change Component DesignItemId : Designator=C15 Old DesignItemId=cap New DesignItemId=CAP_C3225Y5V1H106Z_TDK
+Change Component DesignItemId : Designator=C16 Old DesignItemId=cap New DesignItemId=CAP_C3225Y5V1H106Z_TDK
+Change Component DesignItemId : Designator=C11 Old DesignItemId=cap New DesignItemId=CAP_EEU-FC1E121_PANASONIC
+Change Component DesignItemId : Designator=C12 Old DesignItemId=cap New DesignItemId=CAP_EEU-FC1E121_PANASONIC
+Change Component DesignItemId : Designator=C5 Old DesignItemId=CAP_C3216X7R1E105M085AA_TDK New DesignItemId=CAP_EEU-FC1E121_PANASONIC
+Change Component DesignItemId : Designator=C6 Old DesignItemId=CAP_C3216X7R1E105M085AA_TDK New DesignItemId=CAP_EEU-FC1E121_PANASONIC
+Change Component Footprint: Designator=C15 Old Footprint=CAPC3216X135N_B New Footprint=CAPC3225X135N
+Change Component Footprint: Designator=C16 Old Footprint=CAPC3216X135N_B New Footprint=CAPC3225X135N
+Change Component Footprint: Designator=C5 Old Footprint=CAPC3216X135N_B New Footprint=CAPPRD250W50D630H1250
+Change Component Footprint: Designator=C6 Old Footprint=CAPC3216X135N_B New Footprint=CAPPRD250W50D630H1250
+Change Component Footprint: Designator=C11 Old Footprint=CAPC3216X135N_B New Footprint=CAPPRD250W50D630H1250
+Change Component Footprint: Designator=C12 Old Footprint=CAPC3216X135N_B New Footprint=CAPPRD250W50D630H1250
+Change Component Footprint: Designator=L1 Old Footprint=Inductor2A New Footprint=MAG_INDUCTOR2A
+Change Component Comment : Designator=R5 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R9 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R10 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R11 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R15 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R16 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R17 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R18 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R19 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R23 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R24 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R25 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R29 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R30 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R31 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R32 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R33 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R37 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R38 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R39 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R43 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R44 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R45 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R46 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R47 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R51 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R52 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R53 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R57 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R58 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R59 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R60 Old Comment=* New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=C14 Old Comment=cap New Comment=CAP_C3216X7R1E105M085AA_TDK
+Change Component Comment : Designator=C15 Old Comment=cap New Comment=CAP_C3225Y5V1H106Z_TDK
+Change Component Comment : Designator=C16 Old Comment=cap New Comment=CAP_C3225Y5V1H106Z_TDK
+Change Component Comment : Designator=C11 Old Comment=cap New Comment=CAP_EEU-FC1E121_PANASONIC
+Change Component Comment : Designator=C12 Old Comment=cap New Comment=CAP_EEU-FC1E121_PANASONIC
+Change Component Comment : Designator=C5 Old Comment=CAP_C3216X7R1E105M085AA_TDK New Comment=CAP_EEU-FC1E121_PANASONIC
+Change Component Comment : Designator=C6 Old Comment=CAP_C3216X7R1E105M085AA_TDK New Comment=CAP_EEU-FC1E121_PANASONIC
+Change Component Designator: OldDesignator=C7 NewDesignator=C17
+Change Component Designator: OldDesignator=C8 NewDesignator=C18
+Change Component Designator: OldDesignator=C9 NewDesignator=C19
+Change Component Designator: OldDesignator=C10 NewDesignator=C20
+Change Component Designator: OldDesignator=C13 NewDesignator=C23
+Change Component Designator: OldDesignator=C17 NewDesignator=C27
+Change Component Designator: OldDesignator=C18 NewDesignator=C28
+Change Component Designator: OldDesignator=C19 NewDesignator=C29
+Change Component Designator: OldDesignator=C20 NewDesignator=C30
+Change Component Designator: OldDesignator=C21 NewDesignator=C31
+Change Component Designator: OldDesignator=C22 NewDesignator=C32
+Change Component Designator: OldDesignator=C23 NewDesignator=C33
+Change Component Designator: OldDesignator=C24 NewDesignator=C34
+Change Component Designator: OldDesignator=C25 NewDesignator=C35
+Change Component Designator: OldDesignator=C26 NewDesignator=C36
+Change Component Designator: OldDesignator=C27 NewDesignator=C37
+Change Component Designator: OldDesignator=C28 NewDesignator=C38
+Change Component Designator: OldDesignator=C29 NewDesignator=C39
+Change Component Designator: OldDesignator=C30 NewDesignator=C40
+Change Component Designator: OldDesignator=C*2 NewDesignator=C2
+Change Component Designator: OldDesignator=C*3 NewDesignator=C9
+Change Component Designator: OldDesignator=C? NewDesignator=C7
+Change Component Designator: OldDesignator=C? NewDesignator=C8
+Change Component Designator: OldDesignator=C? NewDesignator=C13
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R7
+Change Component Designator: OldDesignator=R6 NewDesignator=R8
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R10
+Change Component Designator: OldDesignator=R9 NewDesignator=R11
+Change Component Designator: OldDesignator=R10 NewDesignator=R12
+Change Component Designator: OldDesignator=R11 NewDesignator=R13
+Change Component Designator: OldDesignator=R12 NewDesignator=R14
+Change Component Designator: OldDesignator=R13 NewDesignator=R15
+Change Component Designator: OldDesignator=R14 NewDesignator=R16
+Change Component Designator: OldDesignator=R15 NewDesignator=R17
+Change Component Designator: OldDesignator=R16 NewDesignator=R18
+Change Component Designator: OldDesignator=R17 NewDesignator=R19
+Change Component Designator: OldDesignator=R18 NewDesignator=R20
+Change Component Designator: OldDesignator=R19 NewDesignator=R21
+Change Component Designator: OldDesignator=R20 NewDesignator=R22
+Change Component Designator: OldDesignator=R21 NewDesignator=R23
+Change Component Designator: OldDesignator=R22 NewDesignator=R24
+Change Component Designator: OldDesignator=R23 NewDesignator=R25
+Change Component Designator: OldDesignator=R24 NewDesignator=R26
+Change Component Designator: OldDesignator=R25 NewDesignator=R27
+Change Component Designator: OldDesignator=R26 NewDesignator=R28
+Change Component Designator: OldDesignator=R27 NewDesignator=R29
+Change Component Designator: OldDesignator=R28 NewDesignator=R30
+Change Component Designator: OldDesignator=R29 NewDesignator=R31
+Change Component Designator: OldDesignator=R30 NewDesignator=R32
+Change Component Designator: OldDesignator=R31 NewDesignator=R33
+Change Component Designator: OldDesignator=R32 NewDesignator=R34
+Change Component Designator: OldDesignator=R33 NewDesignator=R35
+Change Component Designator: OldDesignator=R34 NewDesignator=R36
+Change Component Designator: OldDesignator=R35 NewDesignator=R37
+Change Component Designator: OldDesignator=R36 NewDesignator=R38
+Change Component Designator: OldDesignator=R37 NewDesignator=R39
+Change Component Designator: OldDesignator=R38 NewDesignator=R40
+Change Component Designator: OldDesignator=R39 NewDesignator=R41
+Change Component Designator: OldDesignator=R40 NewDesignator=R42
+Change Component Designator: OldDesignator=R41 NewDesignator=R43
+Change Component Designator: OldDesignator=R42 NewDesignator=R44
+Change Component Designator: OldDesignator=R43 NewDesignator=R45
+Change Component Designator: OldDesignator=R44 NewDesignator=R46
+Change Component Designator: OldDesignator=R45 NewDesignator=R47
+Change Component Designator: OldDesignator=R46 NewDesignator=R48
+Change Component Designator: OldDesignator=R47 NewDesignator=R49
+Change Component Designator: OldDesignator=R48 NewDesignator=R50
+Change Component Designator: OldDesignator=R49 NewDesignator=R51
+Change Component Designator: OldDesignator=R50 NewDesignator=R52
+Change Component Designator: OldDesignator=R51 NewDesignator=R53
+Change Component Designator: OldDesignator=R52 NewDesignator=R54
+Change Component Designator: OldDesignator=R53 NewDesignator=R55
+Change Component Designator: OldDesignator=R54 NewDesignator=R56
+Change Component Designator: OldDesignator=R55 NewDesignator=R57
+Change Component Designator: OldDesignator=R56 NewDesignator=R58
+Change Component Designator: OldDesignator=R57 NewDesignator=R59
+Change Component Designator: OldDesignator=R58 NewDesignator=R60
+Change Component Designator: OldDesignator=R59 NewDesignator=R61
+Change Component Designator: OldDesignator=R60 NewDesignator=R62
+Change Component Designator: OldDesignator=R? NewDesignator=R4
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Component Description : Designator=C14 Old Description= New Description=1 µF, 25 V, Capacitores cerámicos, X7R, 1206 (3216 métrico), 0.126" L x 0.063" A (3.20 mm x 1.60 mm)
+Change Component Library : Designator=R7 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R11 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R12 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R13 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R17 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R18 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R19 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R20 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R21 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R25 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R26 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R27 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R31 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R32 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R33 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R34 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R35 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R39 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R40 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R41 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R45 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R46 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R47 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R48 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R49 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R53 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R54 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R55 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R59 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R60 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R61 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Change Component Library : Designator=R62 Old Library=LyrtronLibrary.IntLib New Library=pqm_v2_lib_res.SchLib
+Added Component: Designator=C10(CAPC3216X135N_B)
+Added Component: Designator=C21(CAPC3216X135N_B)
+Added Component: Designator=C22(CAPC3216X135N_B)
+Added Component: Designator=C24(CAPC3216X135N_B)
+Added Component: Designator=C25(CAPC3216X135N_B)
+Added Component: Designator=C26(CAPC3216X135N_B)
+Added Component: Designator=J6(PHOENIX_1729128)
+Added Component: Designator=L2(MAG_INDUCTOR2A)
+Added Pin To Net: NetName=+5V_A Pin=C5-1
+Added Pin To Net: NetName=+5V_A Pin=C6-1
+Added Pin To Net: NetName=AGND Pin=C6-2
+Added Pin To Net: NetName=+5V_A Pin=C7-1
+Added Pin To Net: NetName=AGND Pin=C7-2
+Added Pin To Net: NetName=VIN Pin=C10-1
+Added Pin To Net: NetName=AGND Pin=C10-2
+Added Pin To Net: NetName=AGND Pin=C11-1
+Added Pin To Net: NetName=-5V_A Pin=C11-2
+Added Pin To Net: NetName=-5V_A Pin=C12-2
+Added Pin To Net: NetName=AGND Pin=C13-1
+Added Pin To Net: NetName=-5V_A Pin=C13-2
+Added Pin To Net: NetName=-5V_A Pin=C14-2
+Added Pin To Net: NetName=VIN Pin=C15-1
+Added Pin To Net: NetName=-5V_A Pin=C15-2
+Added Pin To Net: NetName=VIN Pin=C16-1
+Added Pin To Net: NetName=-5V_A Pin=C16-2
+Added Pin To Net: NetName=NetC11_1 Pin=C21-1
+Added Pin To Net: NetName=AGND Pin=C21-2
+Added Pin To Net: NetName=AGND Pin=C22-1
+Added Pin To Net: NetName=+5V_A Pin=C22-2
+Added Pin To Net: NetName=AGND Pin=C26-1
+Added Pin To Net: NetName=NetC16_2 Pin=C26-2
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Pin To Net: NetName=NetC?_2 Pin=L2-1
+Added Pin To Net: NetName=AGND Pin=L2-2
+Added Pin To Net: NetName=AGND Pin=R4-1
+Added Pin To Net: NetName=-5V_A Pin=R6-2
+Added Pin To Net: NetName=NetC14_1 Pin=U2-7
+Added Pin To Net: NetName=+5V_A Pin=U3-8
+Added Pin To Net: NetName=NetC17_1 Pin=U3-12
+Added Pin To Net: NetName=+5V_A Pin=U4-8
+Added Pin To Net: NetName=NetC29_1 Pin=U4-12
+Added Pin To Net: NetName=NetC26_1 Pin=U4-13
+Added Pin To Net: NetName=NetC26_2 Pin=U4-14
+Change Net Name : Old Net Name=NetC7_1 New Net Name=NetC17_1
+Change Net Name : Old Net Name=NetC7_2 New Net Name=NetC17_2
+Change Net Name : Old Net Name=NetC8_1 New Net Name=NetC18_1
+Change Net Name : Old Net Name=NetC8_2 New Net Name=NetC18_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC19_2
+Change Net Name : Old Net Name=NetC10_1 New Net Name=NetC20_1
+Change Net Name : Old Net Name=NetC11_1 New Net Name=NetC21_1
+Change Net Name : Old Net Name=NetC16_2 New Net Name=NetC26_2
+Change Net Name : Old Net Name=NetC17_1 New Net Name=NetC27_1
+Change Net Name : Old Net Name=NetC18_1 New Net Name=NetC28_1
+Change Net Name : Old Net Name=NetC19_1 New Net Name=NetC29_1
+Change Net Name : Old Net Name=NetC19_2 New Net Name=NetC29_2
+Change Net Name : Old Net Name=NetC20_1 New Net Name=NetC30_1
+Change Net Name : Old Net Name=NetC20_2 New Net Name=NetC30_2
+Change Net Name : Old Net Name=NetC21_2 New Net Name=NetC31_2
+Change Net Name : Old Net Name=NetC22_1 New Net Name=NetC32_1
+Change Net Name : Old Net Name=NetC23_1 New Net Name=NetC33_1
+Change Net Name : Old Net Name=NetC26_1 New Net Name=NetC36_1
+Change Net Name : Old Net Name=NetC26_2 New Net Name=NetC36_2
+Change Net Name : Old Net Name=NetC28_2 New Net Name=NetC38_2
+Change Net Name : Old Net Name=NetC29_1 New Net Name=NetC39_1
+Change Net Name : Old Net Name=NetC30_1 New Net Name=NetC40_1
+Change Net Name : Old Net Name=NetC?_1 New Net Name=NetC8_1
+Change Net Name : Old Net Name=NetC?_2 New Net Name=NetC8_2
+Change Net Name : Old Net Name=NetR4_2 New Net Name=NetR5_2
+Change Net Name : Old Net Name=NetR6_1 New Net Name=NetR8_1
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR9_1
+Change Net Name : Old Net Name=NetR12_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR13_1 New Net Name=NetR15_1
+Change Net Name : Old Net Name=NetR15_2 New Net Name=NetR17_2
+Change Net Name : Old Net Name=NetR20_1 New Net Name=NetR22_1
+Change Net Name : Old Net Name=NetR21_1 New Net Name=NetR23_1
+Change Net Name : Old Net Name=NetR26_1 New Net Name=NetR28_1
+Change Net Name : Old Net Name=NetR27_1 New Net Name=NetR29_1
+Change Net Name : Old Net Name=NetR34_1 New Net Name=NetR36_1
+Change Net Name : Old Net Name=NetR35_1 New Net Name=NetR37_1
+Change Net Name : Old Net Name=NetR40_1 New Net Name=NetR42_1
+Change Net Name : Old Net Name=NetR41_1 New Net Name=NetR43_1
+Change Net Name : Old Net Name=NetR48_1 New Net Name=NetR50_1
+Change Net Name : Old Net Name=NetR49_1 New Net Name=NetR51_1
+Change Net Name : Old Net Name=NetR54_1 New Net Name=NetR56_1
+Change Net Name : Old Net Name=NetR55_1 New Net Name=NetR57_1
+Added Pin To Net: NetName=NetC24_1 Pin=C24-1
+Added Pin To Net: NetName=NetC24_1 Pin=R24-1
+Added Pin To Net: NetName=NetC24_1 Pin=R25-1
+Added Pin To Net: NetName=NetC24_1 Pin=U3-13
+Added Net: Name=NetC24_1
+Added Pin To Net: NetName=NetC24_2 Pin=C24-2
+Added Pin To Net: NetName=NetC24_2 Pin=R25-2
+Added Pin To Net: NetName=NetC24_2 Pin=R26-2
+Added Pin To Net: NetName=NetC24_2 Pin=U3-14
+Added Net: Name=NetC24_2
+Added Pin To Net: NetName=NetC25_1 Pin=C25-1
+Added Pin To Net: NetName=NetC25_1 Pin=R21-1
+Added Net: Name=NetC25_1
+Added Pin To Net: NetName=NetC25_2 Pin=C25-2
+Added Pin To Net: NetName=NetC25_2 Pin=R27-1
+Added Net: Name=NetC25_2
+Added Pin To Net: NetName=NetC37_1 Pin=C37-1
+Added Pin To Net: NetName=NetC37_1 Pin=R49-1
+Added Net: Name=NetC37_1
+Added Pin To Net: NetName=NetC37_2 Pin=C37-2
+Added Pin To Net: NetName=NetC37_2 Pin=R55-1
+Added Net: Name=NetC37_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=R6-1
+Added Pin To Net: NetName=NetR4_2 Pin=U2-6
+Added Net: Name=NetR4_2
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C7 CAP_C3216X7R1E105M085AA_TDK
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C10 CAP_C3216X7R1E105M085AA_TDK
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C11 CAP_EEU-FC1E121_PANASONIC
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C12 CAP_EEU-FC1E121_PANASONIC
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C13 CAP_C3216X7R1E105M085AA_TDK
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C14 CAP_C3216X7R1E105M085AA_TDK
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C15 CAP_C3225Y5V1H106Z_TDK
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C16 CAP_C3225Y5V1H106Z_TDK
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J6 HeaderX2
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component L2 MAG_SRR1005-100M_BOURNS
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component R5 RES_ERJ-8GEYJ822V_Panasonic
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component U1 IC_LM22673TJ-ADJ
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component U2 IC_LM22673TJ-ADJ

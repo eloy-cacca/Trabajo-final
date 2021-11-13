@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=C5 Old DesignItemId=CAP_EEU-FC1E121_PANASONIC New DesignItemId=CAP_ELXY250ELL121MF15D_UC
+Change Component DesignItemId : Designator=C6 Old DesignItemId=CAP_EEU-FC1E121_PANASONIC New DesignItemId=CAP_ELXY250ELL121MF15D_UC
+Change Component Comment : Designator=C5 Old Comment=CAP_EEU-FC1E121_PANASONIC New Comment=CAP_ELXY250ELL121MF15D_UC
+Change Component Comment : Designator=C6 Old Comment=CAP_EEU-FC1E121_PANASONIC New Comment=CAP_ELXY250ELL121MF15D_UC
+Change Component Description : Designator=C5 Old Description=120µF 25V Aluminum Capacitors Radial, Can 1000 Hrs @ 105°C New Description=CAP ALUM 120UF 20% 25V RADIAL
+Change Component Description : Designator=C6 Old Description=120µF 25V Aluminum Capacitors Radial, Can 1000 Hrs @ 105°C New Description=CAP ALUM 120UF 20% 25V RADIAL

@@ -1,0 +1,25 @@
+Remove Pin=J11-41 From Net=SPI_NPCS0
+Remove Pin=J11-42 From Net=SPI_SPCK
+Remove Pin=J11-43 From Net=SPI_MOSI
+Remove Pin=J11-44 From Net=SPI_MISO
+Remove Pin=J11-63 From Net=AD9
+Remove Pin=J11-64 From Net=AD8
+Remove Pin=J11-65 From Net=AD5
+Remove Pin=J11-66 From Net=AD4
+Remove Pin=J11-67 From Net=AD3
+Remove Pin=J11-68 From Net=AD2
+Remove Pin=J11-69 From Net=AD1
+Remove Pin=J11-70 From Net=AD0
+Remove Pin=U11B-35 From Net=SPI_NPCS3
+Change Pin Designator/Name:  Old Designator=J11-39 Old Name=39 New Designator =63 New Name=63
+Change Pin Designator/Name:  Old Designator=J11-47 Old Name=47 New Designator =42 New Name=42
+Change Pin Designator/Name:  Old Designator=J11-48 Old Name=48 New Designator =43 New Name=43
+Change Pin Designator/Name:  Old Designator=J11-51 Old Name=51 New Designator =55 New Name=55
+Change Pin Designator/Name:  Old Designator=J11-52 Old Name=52 New Designator =56 New Name=56
+Change Pin Designator/Name:  Old Designator=J11-54 Old Name=54 New Designator =64 New Name=64
+Change Pin Designator/Name:  Old Designator=J11-55 Old Name=55 New Designator =65 New Name=65
+Change Pin Designator/Name:  Old Designator=J11-56 Old Name=56 New Designator =66 New Name=66
+Change Pin Designator/Name:  Old Designator=J11-57 Old Name=57 New Designator =67 New Name=67
+Change Pin Designator/Name:  Old Designator=J11-58 Old Name=58 New Designator =68 New Name=68
+Change Pin Designator/Name:  Old Designator=J11-59 Old Name=59 New Designator =69 New Name=69
+Change Pin Designator/Name:  Old Designator=J11-60 Old Name=60 New Designator =70 New Name=70

@@ -1,0 +1,28 @@
+Added Component: Designator=J18(RAD2)
+Added Component: Designator=J19(RAD2)
+Added Component: Designator=J20(RAD2)
+Added Component: Designator=J21(RAD2)
+Added Pin To Net: NetName=VL3 Pin=J19-1
+Added Pin To Net: NetName=AGND Pin=J19-2
+Added Pin To Net: NetName=VL4 Pin=J21-1
+Added Pin To Net: NetName=AGND Pin=J21-2
+Added Pin To Net: NetName=NetJ18_1 Pin=J18-1
+Added Pin To Net: NetName=NetJ18_1 Pin=R34-1
+Added Pin To Net: NetName=NetJ18_1 Pin=R35-2
+Added Net: Name=NetJ18_1
+Added Pin To Net: NetName=NetJ18_2 Pin=J18-2
+Added Pin To Net: NetName=NetJ18_2 Pin=R40-1
+Added Pin To Net: NetName=NetJ18_2 Pin=R41-2
+Added Net: Name=NetJ18_2
+Added Pin To Net: NetName=NetJ20_1 Pin=J20-1
+Added Pin To Net: NetName=NetJ20_1 Pin=R48-1
+Added Pin To Net: NetName=NetJ20_1 Pin=R49-2
+Added Net: Name=NetJ20_1
+Added Pin To Net: NetName=NetJ20_2 Pin=J20-2
+Added Pin To Net: NetName=NetJ20_2 Pin=R54-1
+Added Pin To Net: NetName=NetJ20_2 Pin=R55-2
+Added Net: Name=NetJ20_2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J18 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J19 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J20 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J21 CON_RADX2

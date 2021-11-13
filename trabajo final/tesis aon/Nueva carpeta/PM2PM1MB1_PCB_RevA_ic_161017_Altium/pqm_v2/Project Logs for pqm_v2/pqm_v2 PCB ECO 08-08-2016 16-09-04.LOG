@@ -1,0 +1,8 @@
+Added Component: Designator=L3(INDC4532X170N)
+Added Pin To Net: NetName=NetC59_1 Pin=L3-1
+Added Pin To Net: NetName=NetC60_1 Pin=L3-2
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component L3 MAG_CM453232-100KLCT_BOURNS
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4

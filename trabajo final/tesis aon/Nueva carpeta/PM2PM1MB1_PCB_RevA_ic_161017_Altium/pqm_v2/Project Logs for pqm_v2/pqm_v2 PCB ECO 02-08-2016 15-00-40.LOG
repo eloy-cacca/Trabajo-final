@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetC7_1 Pin=C7-1
+Removed Pin From Net: NetName=NetC?_1 Pin=C?-1
+Removed Pin From Net: NetName=GND_ISO Pin=C?-2
+Removed Pin From Net: NetName=NetC7_1 Pin=L1-2
+Added Pin To Net: NetName=+5V_A Pin=C7-1
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=AGND Pin=C7-2
+Added Pin To Net: NetName=3.3V_ISO Pin=C?-1
+Added Pin To Net: NetName=NetC7_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=AGND Pin=C?-2
+Added Pin To Net: NetName=GND_ISO Pin=C?-2
+Added Pin To Net: NetName=GND_ISO Pin=C?-2
+Added Pin To Net: NetName=+5V_A Pin=L1-1
+Added Pin To Net: NetName=+5V_A Pin=L1-2
+Added Pin To Net: NetName=NetC7_1 Pin=L1-2
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component L1 MAG_SRR1005-100M_BOURNS

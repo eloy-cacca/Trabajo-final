@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=I2C_TCLK0 Pin=*-55
+Added Pin To Net: NetName=I2C_TCLK0 Pin=U11-36
+Added Net: Name=I2C_TCLK0
+Added Pin To Net: NetName=I2C_TWD0 Pin=*-56
+Added Pin To Net: NetName=I2C_TWD0 Pin=U11-43
+Added Net: Name=I2C_TWD0

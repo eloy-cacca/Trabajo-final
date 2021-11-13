@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=TRSTN Pin=J4-5
+Removed Pin From Net: NetName=TDO_DSP Pin=J4-8
+Added Pin To Net: NetName=TDO_DSP Pin=J4-5
+Added Pin To Net: NetName=TRSTN Pin=J4-8

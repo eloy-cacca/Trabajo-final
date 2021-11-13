@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=AGND Pin=U14-2
+Removed Pin From Net: NetName=+5V Pin=U14-3
+Removed Pin From Net: NetName=+5V Pin=U14-4
+Removed Pin From Net: NetName=NetC77_1 Pin=U14-5
+Change Component DesignItemId : Designator=C34 Old DesignItemId=cap New DesignItemId=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component DesignItemId : Designator=C14 Old DesignItemId=cap New DesignItemId=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component DesignItemId : Designator=C77 Old DesignItemId=CAP_CC0805KRX7R8BB104_YAGEO New DesignItemId=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component DesignItemId : Designator=U12 Old DesignItemId=IC_ISL21010_INTERSIL New DesignItemId=IC_ISL21010_1V5_INTERSIL
+Change Component DesignItemId : Designator=U13 Old DesignItemId=IC_ISL21010_INTERSIL New DesignItemId=IC_ISL21010_1V5_INTERSIL
+Change Component DesignItemId : Designator=U14 Old DesignItemId=IC_LM4132_TI New DesignItemId=IC_ISL21010_2V5_INTERSIL
+Change Component Footprint: Designator=U14 Old Footprint=SOT23-5AM New Footprint=SOT23-3M
+Change Component Comment : Designator=C34 Old Comment=cap New Comment=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component Comment : Designator=C14 Old Comment=cap New Comment=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component Comment : Designator=C77 Old Comment=CAP_CC0805KRX7R8BB104_YAGEO New Comment=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component Comment : Designator=U14 Old Comment=LM4132 New Comment=ISL21010
+Change Component Description : Designator=C14 Old Description= New Description=CAP CER 0.1UF 25V 10% X7R 0805
+Change Component Description : Designator=C34 Old Description= New Description=CAP CER 1UF 16V X7R 0805
+Change Component Description : Designator=U2 Old Description= New Description=IC REG ISOLATED 3.3V 0.3A 12SOP
+Change Component Description : Designator=C77 Old Description=CAP CER 0.1UF 25V 10% X7R 0805 New Description=CAP CER 1UF 16V X7R 0805
+Change Component Description : Designator=U7 Old Description=FET-Input, Low Power Instrumentation Amplifier New Description=IC OPAMP INSTR 600KHZ 8SOIC
+Change Component Description : Designator=U8 Old Description=FET-Input, Low Power Instrumentation Amplifier New Description=IC OPAMP INSTR 600KHZ 8SOIC
+Change Component Description : Designator=U9 Old Description=FET-Input, Low Power Instrumentation Amplifier New Description=IC OPAMP INSTR 600KHZ 8SOIC
+Change Component Description : Designator=U10 Old Description=FET-Input, Low Power Instrumentation Amplifier New Description=IC OPAMP INSTR 600KHZ 8SOIC
+Added Pin To Net: NetName=+5V Pin=U14-1
+Added Pin To Net: NetName=NetC77_1 Pin=U14-2
+Added Pin To Net: NetName=AGND Pin=U14-3

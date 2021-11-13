@@ -1,0 +1,14 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [pqm_v2.PrjPCB]
+   Generated File[pqm_v2-RoundHoles.TXT]
+   Generated File[pqm_v2-SquareHoles.TXT]
+   Generated File[pqm_v2.DRL]
+   Generated File[pqm_v2.LDP]
+   Generated File[pqm_v2.DRR]
+
+
+Files Generated   : 5
+Documents Printed : 0
+
+Finished Output Generation At 16:42:00 On 13/10/2016

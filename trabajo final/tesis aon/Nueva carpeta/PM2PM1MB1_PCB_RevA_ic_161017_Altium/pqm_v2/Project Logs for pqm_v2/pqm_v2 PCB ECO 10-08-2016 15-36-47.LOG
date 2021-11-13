@@ -1,0 +1,11 @@
+Change Component Designator: OldDesignator=J? NewDesignator=J9
+Change Component Designator: OldDesignator=J? NewDesignator=J10
+Added Pin To Net: NetName=AD0 Pin=J10-1
+Added Pin To Net: NetName=AD1 Pin=J10-2
+Added Pin To Net: NetName=AD2 Pin=J10-3
+Added Pin To Net: NetName=AD3 Pin=J10-4
+Added Pin To Net: NetName=AD4 Pin=J10-5
+Added Pin To Net: NetName=AD5 Pin=J10-6
+Added Pin To Net: NetName=AD8 Pin=J10-7
+Added Pin To Net: NetName=AD9 Pin=J10-8
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J9 HeaderX2

@@ -1,0 +1,5 @@
+Change Component DesignItemId : Designator=U11 Old DesignItemId=IC_ATSAM4S4C-AU_ATMEL New DesignItemId=IC_ATSAM4S8BA-AU_ATMEL
+Change Component Comment : Designator=U11 Old Comment=SAM4S4C New Comment=IC_ATSAM4S8BA-AU_ATMEL
+Change Component Description : Designator=U11 Old Description=IC MCU 32BIT 256KB FLASH 100LQFP New Description=IC MCU 32BIT 512KB FLASH 64LQFP
+Added Pin To Net: NetName=3.3V_ISO Pin=U2-14
+Added Member To Class: ClassName=pqm_v2_page5 Member=Component U11 IC_ATSAM4S8BA-AU_ATMEL

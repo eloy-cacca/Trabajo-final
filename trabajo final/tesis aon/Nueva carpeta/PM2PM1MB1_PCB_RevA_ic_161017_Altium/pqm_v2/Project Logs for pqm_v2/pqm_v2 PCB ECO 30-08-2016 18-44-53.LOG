@@ -1,0 +1,15 @@
+Added Component: Designator=C87(CAPC2013X110N)
+Added Component: Designator=C88(CAPC2013X110N)
+Added Component: Designator=U15(SOT23-3M)
+Added Pin To Net: NetName=3.3V_ISO Pin=C87-1
+Added Pin To Net: NetName=GND_ISO Pin=C87-2
+Added Pin To Net: NetName=GND_ISO Pin=C88-2
+Added Pin To Net: NetName=3.3V_ISO Pin=U15-1
+Added Pin To Net: NetName=GND_ISO Pin=U15-3
+Added Pin To Net: NetName=ADVREF Pin=C88-1
+Added Pin To Net: NetName=ADVREF Pin=U11-1
+Added Pin To Net: NetName=ADVREF Pin=U15-2
+Added Net: Name=ADVREF
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component C87 CAP_CC0805KKX7R7BB105_YAGEO
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component C88 CAP_CC0805KKX7R7BB105_YAGEO
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component U15 ISL21010_3V0

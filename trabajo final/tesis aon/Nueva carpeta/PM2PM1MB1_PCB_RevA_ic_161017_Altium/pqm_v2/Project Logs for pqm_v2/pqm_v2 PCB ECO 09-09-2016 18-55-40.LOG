@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+5V Pin=C50-1
+Removed Pin From Net: NetName=AGND Pin=C50-2
+Removed Pin From Net: NetName=+5V Pin=C51-1
+Removed Pin From Net: NetName=AGND Pin=C51-2
+Removed Pin From Net: NetName=+5V Pin=C52-1
+Removed Pin From Net: NetName=AGND Pin=C52-2
+Removed Pin From Net: NetName=+5V Pin=C53-1
+Removed Pin From Net: NetName=AGND Pin=C53-2
+Removed Pin From Net: NetName=TDO_DSP Pin=J3-98
+Added Pin To Net: NetName=NetC50_2 Pin=C50-2
+Added Pin To Net: NetName=NetC50_2 Pin=C51-2
+Added Pin To Net: NetName=NetC50_2 Pin=C52-2
+Added Pin To Net: NetName=NetC50_2 Pin=C53-2
+Added Net: Name=NetC50_2
+Added Pin To Net: NetName=NetC51_1 Pin=C51-1
+Added Pin To Net: NetName=NetC51_1 Pin=C52-1
+Added Pin To Net: NetName=NetC51_1 Pin=C53-1
+Added Net: Name=NetC51_1

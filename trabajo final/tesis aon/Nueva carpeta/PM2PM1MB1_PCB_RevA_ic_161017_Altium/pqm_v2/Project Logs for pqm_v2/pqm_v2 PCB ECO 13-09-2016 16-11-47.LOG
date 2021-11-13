@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DSP_GPIO14 Pin=J20-12
+Removed Pin From Net: NetName=DSP_GPIO25 Pin=J20-13
+Added Pin To Net: NetName=DSP_GPIO25 Pin=J20-12
+Added Pin To Net: NetName=DSP_GPIO14 Pin=J20-13

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+5V Pin=C93-1
+Removed Pin From Net: NetName=AGND Pin=C93-2
+Removed Pin From Net: NetName=IL_1V5_B Pin=C94-1
+Removed Pin From Net: NetName=AGND Pin=C94-2
+Added Component: Designator=C93(CAPC2013X110N)
+Added Component: Designator=C94(CAPC2013X110N)
+Added Pin To Net: NetName=+5V Pin=C75-1
+Added Pin To Net: NetName=AGND Pin=C75-2
+Added Pin To Net: NetName=AGND Pin=C78-2
+Added Pin To Net: NetName=+5V Pin=C93-1
+Added Pin To Net: NetName=AGND Pin=C93-2
+Added Pin To Net: NetName=IL_1V5_B Pin=C94-1
+Added Pin To Net: NetName=AGND Pin=C94-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C75 CAP_CC0805KKX7R7BB105_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C78 CAP_CC0805KKX7R7BB105_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U13 ISL21010_1V5

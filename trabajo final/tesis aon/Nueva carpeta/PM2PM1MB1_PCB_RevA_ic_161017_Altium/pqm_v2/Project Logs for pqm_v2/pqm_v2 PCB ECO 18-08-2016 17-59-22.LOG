@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=+5V Pin=C35-1
+Added Pin To Net: NetName=+5V Pin=C44-1
+Added Pin To Net: NetName=+5V Pin=C69-1
+Added Pin To Net: NetName=+5V Pin=C70-1
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component J6 HeaderX8
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J11 CON_HeaderX70
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U7 IC_INA121U

@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=USB_VBUS Pin=J5-10
+Added Pin To Net: NetName=USB_VBUS Pin=J5-5

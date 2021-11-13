@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=J6-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=J6-2
+Change Component Footprint: Designator=C8 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C9 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C10 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C11 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C12 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C13 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C14 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C15 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C16 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C17 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C18 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C19 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C20 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C21 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C22 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C23 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C24 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C25 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C26 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C27 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C28 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C29 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C30 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Change Component Footprint: Designator=C31 Old Footprint=CAPC3216X135N_B New Footprint=CAPC2013X110N
+Added Component: Designator=J6(PHOENIX_1729128)
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J6 HeaderX2

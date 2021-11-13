@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=UART_RX_ISO Pin=U11-5
+Removed Pin From Net: NetName=UART_TX_ISO Pin=U11-6
+Change Net Name : Old Net Name=UART_RX_SUPPLY New Net Name=DSP_UART_RX_SUPPLY
+Change Net Name : Old Net Name=UART_TX_SUPPLY New Net Name=DSP_UART_TX_SUPPLY
+Added Pin To Net: NetName=ARM_UART_RX_COMM Pin=U11-30
+Added Net: Name=ARM_UART_RX_COMM
+Added Pin To Net: NetName=ARM_UART_RX_ISO Pin=U11-5
+Added Net: Name=ARM_UART_RX_ISO
+Added Pin To Net: NetName=ARM_UART_RX Pin=J3-52
+Added Net: Name=ARM_UART_RX
+Added Pin To Net: NetName=ARM_UART_TX_COMM Pin=U11-29
+Added Net: Name=ARM_UART_TX_COMM
+Added Pin To Net: NetName=ARM_UART_TX_ISO Pin=U11-6
+Added Net: Name=ARM_UART_TX_ISO
+Added Pin To Net: NetName=ARM_UART_TX Pin=J3-2
+Added Net: Name=ARM_UART_TX

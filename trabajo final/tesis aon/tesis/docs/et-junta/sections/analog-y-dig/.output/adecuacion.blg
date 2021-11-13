@@ -1,0 +1,9 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is '.output\adecuacion.blg'
+[136] biber-MSWIN64:340> INFO - === 
+[184] Biber.pm:415> INFO - Reading '.output\adecuacion.bcf'
+[325] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[343] Biber.pm:4340> INFO - Processing section 0
+[355] Biber.pm:4531> INFO - Looking for bibtex format file '../informe/bibliography.bib' for section 0
+[621] Utils.pm:411> ERROR - Cannot find '../informe/bibliography.bib'!
+[621] Biber.pm:132> INFO - ERRORS: 1

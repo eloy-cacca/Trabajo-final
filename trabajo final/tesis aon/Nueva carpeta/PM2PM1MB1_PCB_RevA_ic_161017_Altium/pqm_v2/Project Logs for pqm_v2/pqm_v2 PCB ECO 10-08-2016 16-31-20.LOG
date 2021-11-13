@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=SD_MCCK Pin=J11-53
+Removed Pin From Net: NetName=SD_MCDA0 Pin=J11-54
+Added Pin To Net: NetName=SD_MCDA0 Pin=J11-53
+Added Pin To Net: NetName=SD_MCCK Pin=J11-54

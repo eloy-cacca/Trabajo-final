@@ -1,0 +1,85 @@
+%% ----------------------------------------------------------------
+%% SETTINGS
+%% ----------------------------------------------------------------
+\documentclass[../et.tex]{subfiles}
+
+%% ----------------------------------------------------------------
+%% BEGIN
+%% ----------------------------------------------------------------
+\begin{document}
+
+%% ----------------------------------------------------------------
+%% DOCUMENT
+%% ----------------------------------------------------------------
+
+%% ----------------------------------------------------------------
+\subsection{Generación de corriente}
+%% ----------------------------------------------------------------
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    \rowcolor[HTML]{C0C0C0}
+    Requisito relacionado   & Descripción                           \\ \hline
+    RF01                    & Generación y adquisición de corriente \\ \hline
+  \end{tabular}
+\end{table}
+
+\subfile{analog-y-dig/gen-corriente}
+
+
+%% ----------------------------------------------------------------
+\subsection{Adecuación y filtrado}
+\label{sec:analog-y-dig.adecuacion}
+%% ----------------------------------------------------------------
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    \rowcolor[HTML]{C0C0C0}
+    Requisito relacionado   & Descripción                           \\ \hline
+    RF01                    & Generación y adquisición de corriente \\ \hline
+  \end{tabular}
+\end{table}
+
+\subfile{analog-y-dig/adecuacion}
+
+
+%% ----------------------------------------------------------------
+\subsection{ADC}
+%% ----------------------------------------------------------------
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    \rowcolor[HTML]{C0C0C0}
+    Requisito relacionado   & Descripción                           \\ \hline
+    RF01                    & Generación y adquisición de corriente \\ \hline
+  \end{tabular}
+\end{table}
+
+\subfile{analog-y-dig/adc}
+
+%% ----------------------------------------------------------------
+\subsection{Microcontrolador}
+%% ----------------------------------------------------------------
+\begin{table}[H]
+  \centering
+  \begin{tabular}{|c|c|}
+    \hline
+    \rowcolor[HTML]{C0C0C0}
+    Requisito relacionado   & Descripción                                     \\ \hline
+    RF01                    & Generación y adquisición de corriente           \\ \hline
+    RF02                    & Sistema de control gráfico y gestión de ensayos \\ \hline
+  \end{tabular}
+\end{table}
+
+\subfile{analog-y-dig/micro}
+
+%% ----------------------------------------------------------------
+\subsection{Fuentes de alimentación}
+%% ----------------------------------------------------------------
+\subfile{analog-y-dig/fuentes}
+
+
+\end{document}

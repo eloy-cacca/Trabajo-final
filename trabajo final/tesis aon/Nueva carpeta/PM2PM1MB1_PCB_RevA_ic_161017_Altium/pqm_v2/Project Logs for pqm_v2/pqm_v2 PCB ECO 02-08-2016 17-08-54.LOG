@@ -1,0 +1,96 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=R14-2
+Removed Pin From Net: NetName=NetJ6_2 Pin=R63-2
+Removed Pin From Net: NetName=NetJ6_3 Pin=R70-2
+Removed Pin From Net: NetName=NetJ6_4 Pin=R76-2
+Removed Pin From Net: NetName=NetJ6_5 Pin=R83-2
+Removed Pin From Net: NetName=NetJ6_6 Pin=R89-2
+Removed Pin From Net: NetName=NetJ6_7 Pin=R96-2
+Removed Pin From Net: NetName=NetJ6_8 Pin=R102-2
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R14
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R18
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R63
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R64
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R70
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R71
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R76
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R77
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R83
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R84
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R89
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R90
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R96
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R97
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R102
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R103
+Change Component DesignItemId : Designator=U7 Old DesignItemId=IC_ATSAM4S4C-AU_ATMEL New DesignItemId=IC_INA121U
+Change Component Footprint: Designator=U7 Old Footprint=TSQFP50P1600X1600-100N New Footprint=SOIC127P600-8BN
+Change Component Comment : Designator=U7 Old Comment=SAM4S4C New Comment=IC_INA121U
+Added Component: Designator=R32(RESC2013X065BN)
+Added Component: Designator=R32(RESC2013X065BN)
+Added Component: Designator=R32(RESC2013X065BN)
+Added Component: Designator=R32(RESC2013X065BN)
+Added Component: Designator=R32(RESC2013X065BN)
+Added Component: Designator=R32(RESC2013X065BN)
+Added Component: Designator=R32(RESC2013X065BN)
+Added Component: Designator=R32(RESC2013X065BN)
+Added Component: Designator=U8(SOIC127P600-8BN)
+Added Component: Designator=U9(SOIC127P600-8BN)
+Added Component: Designator=U10(SOIC127P600-8BN)
+Added Component: Designator=U11(TSQFP50P1600X1600-100N)
+Added Pin To Net: NetName=NetJ6_1 Pin=R32-1
+Added Pin To Net: NetName=NetJ6_3 Pin=R32-1
+Added Pin To Net: NetName=NetJ6_5 Pin=R32-1
+Added Pin To Net: NetName=NetJ6_7 Pin=R32-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R32-2
+Added Pin To Net: NetName=NetJ6_4 Pin=R32-2
+Added Pin To Net: NetName=NetJ6_6 Pin=R32-2
+Added Pin To Net: NetName=NetJ6_8 Pin=R32-2
+Added Pin To Net: NetName=NetJ6_1 Pin=U7-2
+Added Pin To Net: NetName=NetJ6_2 Pin=U7-3
+Added Pin To Net: NetName=AGND Pin=U7-4
+Added Pin To Net: NetName=+5V_A Pin=U7-7
+Added Pin To Net: NetName=NetJ6_3 Pin=U8-2
+Added Pin To Net: NetName=NetJ6_4 Pin=U8-3
+Added Pin To Net: NetName=AGND Pin=U8-4
+Added Pin To Net: NetName=+5V_A Pin=U8-7
+Added Pin To Net: NetName=NetJ6_5 Pin=U9-2
+Added Pin To Net: NetName=NetJ6_6 Pin=U9-3
+Added Pin To Net: NetName=NetJ6_7 Pin=U10-2
+Added Pin To Net: NetName=NetJ6_8 Pin=U10-3
+Added Pin To Net: NetName=AGND Pin=U10-4
+Added Pin To Net: NetName=+5V_A Pin=U10-7
+Added Pin To Net: NetName=NetR32_1 Pin=R32-1
+Added Pin To Net: NetName=NetR32_1 Pin=U8-1
+Added Net: Name=NetR32_1
+Added Pin To Net: NetName=NetR32_2 Pin=R32-2
+Added Pin To Net: NetName=NetR32_2 Pin=U9-8
+Added Net: Name=NetR32_2
+Added Pin To Net: NetName=NetR65_2 Pin=R65-2
+Added Pin To Net: NetName=NetR65_2 Pin=R78-2
+Added Pin To Net: NetName=NetR65_2 Pin=R91-2
+Added Pin To Net: NetName=NetR65_2 Pin=R104-2
+Added Pin To Net: NetName=NetR65_2 Pin=U7-5
+Added Pin To Net: NetName=NetR65_2 Pin=U8-5
+Added Pin To Net: NetName=NetR65_2 Pin=U9-5
+Added Pin To Net: NetName=NetR65_2 Pin=U10-5
+Added Net: Name=NetR65_2
+Added Pin To Net: NetName=NetR72_2 Pin=R72-2
+Added Pin To Net: NetName=NetR72_2 Pin=U8-6
+Added Net: Name=NetR72_2
+Added Pin To Net: NetName=NetR85_2 Pin=R85-2
+Added Pin To Net: NetName=NetR85_2 Pin=U9-6
+Added Net: Name=NetR85_2
+Added Pin To Net: NetName=NetR98_2 Pin=R98-2
+Added Pin To Net: NetName=NetR98_2 Pin=U10-6
+Added Net: Name=NetR98_2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U5 IC_TLV2474_ANALOG
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U7 IC_INA121U
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U8 IC_INA121U
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U9 IC_INA121U
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U10 IC_INA121U
+Added Member To Class: ClassName=pqm_v2_page5 Member=Component U11 SAM4S4C
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4
+Added Room: Name=pqm_v2_page5

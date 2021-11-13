@@ -1,0 +1,10 @@
+Change Component Footprint: Designator=J18 Old Footprint=HDRX9 New Footprint=HEADER_DSP_1
+Added Pin To Net: NetName=AGND Pin=J18-10
+Added Pin To Net: NetName=VL1 Pin=J18-11
+Added Pin To Net: NetName=VL2 Pin=J18-12
+Added Pin To Net: NetName=VL3 Pin=J18-13
+Added Pin To Net: NetName=VL4 Pin=J18-14
+Added Pin To Net: NetName=NetJ3_13 Pin=J18-15
+Added Pin To Net: NetName=NetJ3_11 Pin=J18-16
+Added Pin To Net: NetName=NetJ3_9 Pin=J18-17
+Added Pin To Net: NetName=NetJ3_7 Pin=J18-18

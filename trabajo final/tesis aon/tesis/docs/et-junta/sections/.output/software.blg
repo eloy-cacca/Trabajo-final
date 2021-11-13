@@ -1,0 +1,9 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'sections\.output\software.blg'
+[168] biber-MSWIN64:340> INFO - === 
+[220] Biber.pm:415> INFO - Reading 'sections\.output\software.bcf'
+[383] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[390] Utils.pm:395> WARN - The file 'sections\.output\software.bcf' does not contain any citations!
+[401] bbl.pm:654> INFO - Writing 'sections\.output\software.bbl' with encoding 'UTF-8'
+[401] bbl.pm:757> INFO - Output to sections\.output\software.bbl
+[402] Biber.pm:128> INFO - WARNINGS: 1

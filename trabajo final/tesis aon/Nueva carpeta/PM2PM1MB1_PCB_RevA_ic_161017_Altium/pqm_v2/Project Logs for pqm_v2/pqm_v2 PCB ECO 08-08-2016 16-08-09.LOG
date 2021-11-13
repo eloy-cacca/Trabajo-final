@@ -1,0 +1,70 @@
+Change Component Designator: OldDesignator=C? NewDesignator=C49
+Change Component Designator: OldDesignator=C? NewDesignator=C50
+Change Component Designator: OldDesignator=C? NewDesignator=C51
+Change Component Designator: OldDesignator=C? NewDesignator=C52
+Change Component Designator: OldDesignator=C? NewDesignator=C53
+Change Component Designator: OldDesignator=C? NewDesignator=C54
+Change Component Designator: OldDesignator=C? NewDesignator=C55
+Change Component Designator: OldDesignator=C? NewDesignator=C56
+Change Component Designator: OldDesignator=C? NewDesignator=C57
+Change Component Designator: OldDesignator=C? NewDesignator=C58
+Change Component Designator: OldDesignator=C? NewDesignator=C59
+Change Component Designator: OldDesignator=C? NewDesignator=C60
+Change Component Designator: OldDesignator=C? NewDesignator=C61
+Change Component Designator: OldDesignator=C? NewDesignator=C62
+Change Component Designator: OldDesignator=C? NewDesignator=C63
+Change Component Designator: OldDesignator=C? NewDesignator=C64
+Change Component Designator: OldDesignator=C? NewDesignator=C65
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=D? NewDesignator=D3
+Added Pin To Net: NetName=+5V Pin=C49-1
+Added Pin To Net: NetName=AGND Pin=C49-2
+Added Pin To Net: NetName=+5V Pin=C50-1
+Added Pin To Net: NetName=AGND Pin=C50-2
+Added Pin To Net: NetName=+5V Pin=C51-1
+Added Pin To Net: NetName=AGND Pin=C51-2
+Added Pin To Net: NetName=+5V Pin=C52-1
+Added Pin To Net: NetName=AGND Pin=C52-2
+Added Pin To Net: NetName=+5V Pin=C53-1
+Added Pin To Net: NetName=AGND Pin=C53-2
+Added Pin To Net: NetName=GND_ISO Pin=C54-2
+Added Pin To Net: NetName=GND_ISO Pin=C55-2
+Added Pin To Net: NetName=GND_ISO Pin=C56-2
+Added Pin To Net: NetName=GND_ISO Pin=C57-2
+Added Pin To Net: NetName=GND_ISO Pin=C59-2
+Added Pin To Net: NetName=GND_ISO Pin=C60-2
+Added Pin To Net: NetName=GND_ISO Pin=C61-1
+Added Pin To Net: NetName=GND_ISO Pin=C62-1
+Added Pin To Net: NetName=GND_ISO Pin=C63-1
+Added Pin To Net: NetName=GND_ISO Pin=C64-1
+Added Pin To Net: NetName=GND_ISO Pin=C65-1
+Added Pin To Net: NetName=3.3V_ISO Pin=D2-2
+Added Pin To Net: NetName=NetC54_1 Pin=C54-1
+Added Pin To Net: NetName=NetC54_1 Pin=C55-1
+Added Pin To Net: NetName=NetC54_1 Pin=C56-1
+Added Pin To Net: NetName=NetC54_1 Pin=C57-1
+Added Pin To Net: NetName=NetC54_1 Pin=C58-1
+Added Pin To Net: NetName=NetC54_1 Pin=D2-1
+Added Pin To Net: NetName=NetC54_1 Pin=D3-1
+Added Pin To Net: NetName=NetC54_1 Pin=U11-7
+Added Pin To Net: NetName=NetC54_1 Pin=U11-18
+Added Pin To Net: NetName=NetC54_1 Pin=U11-45
+Added Pin To Net: NetName=NetC54_1 Pin=U11-58
+Added Net: Name=NetC54_1
+Added Pin To Net: NetName=NetC59_1 Pin=C59-1
+Added Pin To Net: NetName=NetC59_1 Pin=C61-2
+Added Pin To Net: NetName=NetC59_1 Pin=C62-2
+Added Pin To Net: NetName=NetC59_1 Pin=C63-2
+Added Pin To Net: NetName=NetC59_1 Pin=C64-2
+Added Pin To Net: NetName=NetC59_1 Pin=U11-8
+Added Pin To Net: NetName=NetC59_1 Pin=U11-12
+Added Pin To Net: NetName=NetC59_1 Pin=U11-24
+Added Pin To Net: NetName=NetC59_1 Pin=U11-54
+Added Net: Name=NetC59_1
+Added Pin To Net: NetName=NetC60_1 Pin=C60-1
+Added Pin To Net: NetName=NetC60_1 Pin=C65-2
+Added Pin To Net: NetName=NetC60_1 Pin=U11-64
+Added Net: Name=NetC60_1
+Added Pin To Net: NetName=NetD3_2 Pin=D3-2
+Added Net: Name=NetD3_2
+Added Class: Name=pqm_v2_page2

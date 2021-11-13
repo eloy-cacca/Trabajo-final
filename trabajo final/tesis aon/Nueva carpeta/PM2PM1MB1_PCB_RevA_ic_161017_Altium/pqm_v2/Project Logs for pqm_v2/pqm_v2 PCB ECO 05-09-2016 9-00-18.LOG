@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=UART0_TX Pin=U11-29
+Removed Pin From Net: NetName=UART0_RX Pin=U11-30
+Change Component Designator: OldDesignator=J? NewDesignator=J19
+Added Component: Designator=J?(HDRX9)
+Added Pin To Net: NetName=AGND Pin=J3-8
+Added Pin To Net: NetName=AGND Pin=J3-10
+Added Pin To Net: NetName=AGND Pin=J3-12
+Added Pin To Net: NetName=AGND Pin=J3-14
+Added Pin To Net: NetName=VL4 Pin=J3-15
+Added Pin To Net: NetName=VL3 Pin=J3-17
+Added Pin To Net: NetName=VL2 Pin=J3-19
+Added Pin To Net: NetName=VL1 Pin=J3-21
+Added Pin To Net: NetName=AGND Pin=J19-1
+Added Pin To Net: NetName=VL1 Pin=J19-2
+Added Pin To Net: NetName=VL2 Pin=J19-3
+Added Pin To Net: NetName=VL3 Pin=J19-4
+Added Pin To Net: NetName=VL4 Pin=J19-5
+Added Pin To Net: NetName=AGND Pin=J?-1
+Added Pin To Net: NetName=IL1 Pin=J?-2
+Added Pin To Net: NetName=IL2 Pin=J?-3
+Added Pin To Net: NetName=IL3 Pin=J?-4
+Added Pin To Net: NetName=IL4 Pin=J?-5
+Change Net Name : Old Net Name=UART0_RX New Net Name=UART1_RX
+Change Net Name : Old Net Name=UART0_TX New Net Name=UART1_TX
+Added Pin To Net: NetName=NetJ3_57 Pin=J3-57
+Added Pin To Net: NetName=NetJ3_57 Pin=J?-9
+Added Net: Name=NetJ3_57
+Added Pin To Net: NetName=NetJ3_59 Pin=J3-59
+Added Pin To Net: NetName=NetJ3_59 Pin=J?-8
+Added Net: Name=NetJ3_59
+Added Pin To Net: NetName=NetJ3_61 Pin=J3-61
+Added Pin To Net: NetName=NetJ3_61 Pin=J?-7
+Added Net: Name=NetJ3_61
+Added Pin To Net: NetName=NetJ3_63 Pin=J3-63
+Added Pin To Net: NetName=NetJ3_63 Pin=J?-6
+Added Net: Name=NetJ3_63
+Added Pin To Net: NetName=UART0_RX Pin=J1-1
+Added Pin To Net: NetName=UART0_RX Pin=J3-43
+Added Pin To Net: NetName=UART0_RX Pin=U11-30
+Added Net: Name=UART0_RX
+Added Pin To Net: NetName=UART0_TX Pin=J1-9
+Added Pin To Net: NetName=UART0_TX Pin=J3-93
+Added Pin To Net: NetName=UART0_TX Pin=U11-29
+Added Net: Name=UART0_TX
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J? COM_HeaderX9

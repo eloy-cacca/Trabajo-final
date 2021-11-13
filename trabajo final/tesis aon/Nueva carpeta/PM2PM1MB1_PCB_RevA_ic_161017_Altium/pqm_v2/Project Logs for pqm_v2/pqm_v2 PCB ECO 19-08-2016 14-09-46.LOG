@@ -1,0 +1,37 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=R110-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R110-2
+Added Component: Designator=R110(RESC2013X065BN)
+Added Component: Designator=R115(RESC2013X065BN)
+Added Component: Designator=R116(RESC2013X065BN)
+Added Component: Designator=R117(RESC2013X065BN)
+Added Component: Designator=R118(RESC2013X065BN)
+Added Component: Designator=R119(RESC2013X065BN)
+Added Component: Designator=R120(RESC2013X065BN)
+Added Component: Designator=R121(RESC2013X065BN)
+Added Component: Designator=R122(RESC2013X065BN)
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Pin To Net: NetName=NetJ6_5 Pin=R115-1
+Added Pin To Net: NetName=NetR14_2 Pin=R115-2
+Added Pin To Net: NetName=NetJ6_5 Pin=R116-1
+Added Pin To Net: NetName=NetR14_2 Pin=R116-2
+Added Pin To Net: NetName=NetR14_2 Pin=R117-1
+Added Pin To Net: NetName=NetJ6_6 Pin=R117-2
+Added Pin To Net: NetName=NetR14_2 Pin=R118-1
+Added Pin To Net: NetName=NetJ6_6 Pin=R118-2
+Added Pin To Net: NetName=NetJ6_7 Pin=R119-1
+Added Pin To Net: NetName=NetR14_2 Pin=R119-2
+Added Pin To Net: NetName=NetJ6_7 Pin=R120-1
+Added Pin To Net: NetName=NetR14_2 Pin=R120-2
+Added Pin To Net: NetName=NetR14_2 Pin=R121-1
+Added Pin To Net: NetName=NetJ6_8 Pin=R121-2
+Added Pin To Net: NetName=NetR14_2 Pin=R122-1
+Added Pin To Net: NetName=NetJ6_8 Pin=R122-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R115 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R116 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R117 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R118 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R119 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R120 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R121 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R122 Res

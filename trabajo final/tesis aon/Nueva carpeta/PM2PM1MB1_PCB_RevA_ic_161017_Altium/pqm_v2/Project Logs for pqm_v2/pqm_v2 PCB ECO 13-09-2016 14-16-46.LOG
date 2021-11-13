@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=AGND Pin=J20-25
+Removed Pin From Net: NetName=AGND Pin=J20-26
+Removed Pin From Net: NetName=DSP_SCIA_TX Pin=J20-27
+Removed Pin From Net: NetName=DSP_SCIA_RX Pin=J20-28
+Removed Pin From Net: NetName=DSP_I2C_SCLA Pin=J20-29
+Removed Pin From Net: NetName=DSP_I2C_SDAA Pin=J20-30
+Added Pin To Net: NetName=AGND Pin=J20-23
+Added Pin To Net: NetName=AGND Pin=J20-24
+Added Pin To Net: NetName=DSP_SCIA_TX Pin=J20-25
+Added Pin To Net: NetName=DSP_SCIA_RX Pin=J20-26
+Added Pin To Net: NetName=DSP_I2C_SCLA Pin=J20-27
+Added Pin To Net: NetName=DSP_I2C_SDAA Pin=J20-28
+Added Pin To Net: NetName=+5V Pin=J20-29
+Added Pin To Net: NetName=+5V Pin=J20-30

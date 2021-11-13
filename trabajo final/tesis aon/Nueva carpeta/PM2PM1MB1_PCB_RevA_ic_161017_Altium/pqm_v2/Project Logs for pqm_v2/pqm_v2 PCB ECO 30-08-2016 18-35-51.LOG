@@ -1,0 +1,8 @@
+Change Net Name : Old Net Name=NetJ15_tp New Net Name=PA6
+Change Net Name : Old Net Name=NetJ16_tp New Net Name=PA23
+Added Pin To Net: NetName=PA24 Pin=U11-23
+Added Net: Name=PA24
+Added Pin To Net: NetName=PB8 Pin=U11-61
+Added Net: Name=PB8
+Added Pin To Net: NetName=PB9 Pin=U11-62
+Added Net: Name=PB9

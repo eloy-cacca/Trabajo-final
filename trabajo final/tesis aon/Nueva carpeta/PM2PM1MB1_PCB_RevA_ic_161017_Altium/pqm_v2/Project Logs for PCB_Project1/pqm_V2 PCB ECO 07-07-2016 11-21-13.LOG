@@ -1,0 +1,9 @@
+Change Component Designator: OldDesignator=C1 NewDesignator=C17
+Change Component Designator: OldDesignator=C1 NewDesignator=C18
+Added Component: Designator=J?(DIMM1.27-2V100)
+Added Pin To Net: NetName=AGND Pin=C17-1
+Added Pin To Net: NetName=+5V_A Pin=C17-2
+Added Member To Class: ClassName=pqm_v2_pagA Member=Component C17 CAP_CL31C300JBCNNNC_SAMSUNG
+Added Member To Class: ClassName=pqm_v2_pagA Member=Component C18 CAP_CL31C300JBCNNNC_SAMSUNG
+Added Member To Class: ClassName=pqm_v2_pagA Member=Component J? DIM 100 - F28335
+Added Room: Name=pqm_v2_pagA

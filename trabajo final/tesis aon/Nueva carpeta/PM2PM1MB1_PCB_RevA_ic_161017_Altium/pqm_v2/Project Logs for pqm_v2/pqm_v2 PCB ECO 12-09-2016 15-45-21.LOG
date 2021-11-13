@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DSP_I2C_SCLA Pin=J20-7
+Removed Pin From Net: NetName=DSP_I2C_SDAA Pin=J20-8
+Added Pin To Net: NetName=DSP_I2C_SCLA Pin=J20-29
+Added Pin To Net: NetName=DSP_I2C_SDAA Pin=J20-30

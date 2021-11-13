@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=TDI_DSP Pin=J5-3
+Removed Pin From Net: NetName=TCK_DSP Pin=J5-7
+Added Pin To Net: NetName=TCK_DSP Pin=J5-3
+Added Pin To Net: NetName=TDI_DSP Pin=J5-7

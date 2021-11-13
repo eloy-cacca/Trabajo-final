@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=UART_TX_SUPPLY Pin=J3-41
+Removed Pin From Net: NetName=UART_RX_SUPPLY Pin=J3-91
+Removed Pin From Net: NetName=UART_TX_SUPPLY Pin=J20-17
+Removed Pin From Net: NetName=UART_RX_SUPPLY Pin=J20-18
+Added Component: Designator=J21(RAD2)
+Added Component: Designator=J22(RAD2)
+Added Pin To Net: NetName=UART_RX_SUPPLY Pin=J21-1
+Added Pin To Net: NetName=UART_TX_SUPPLY Pin=J21-2
+Added Pin To Net: NetName=DSP_SCIB_RX Pin=J3-91
+Added Pin To Net: NetName=DSP_SCIB_RX Pin=J20-17
+Added Pin To Net: NetName=DSP_SCIB_RX Pin=J22-1
+Added Net: Name=DSP_SCIB_RX
+Added Pin To Net: NetName=DSP_SCIB_TX Pin=J3-41
+Added Pin To Net: NetName=DSP_SCIB_TX Pin=J20-18
+Added Pin To Net: NetName=DSP_SCIB_TX Pin=J22-2
+Added Net: Name=DSP_SCIB_TX
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J21 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J22 CON_RADX2

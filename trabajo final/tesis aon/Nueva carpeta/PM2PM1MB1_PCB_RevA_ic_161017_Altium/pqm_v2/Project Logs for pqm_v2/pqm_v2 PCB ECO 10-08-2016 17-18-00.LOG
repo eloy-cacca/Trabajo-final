@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=I2C_TCLK0 Pin=J11-42
+Removed Pin From Net: NetName=I2C_TWD0 Pin=J11-43
+Added Pin To Net: NetName=I2C_TWD0 Pin=J11-42
+Added Pin To Net: NetName=I2C_TCLK0 Pin=J11-43

@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=R110-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R110-2
+Added Component: Designator=R110(RESC2013X065BN)
+Added Pin To Net: NetName=+5V Pin=C21-1
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Pin To Net: NetName=+5V Pin=U?-1
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component C21 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R110 Res

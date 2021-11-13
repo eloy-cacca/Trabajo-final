@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "PM2_FW_ARMA", "PM2_FW_ARMA.cproj", "{C9382FDC-B9A4-45D4-BD8B-14A1C821F8EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		APP_AND_BOOT|ARM = APP_AND_BOOT|ARM
+		APP|ARM = APP|ARM
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9382FDC-B9A4-45D4-BD8B-14A1C821F8EE}.APP_AND_BOOT|ARM.ActiveCfg = APP_AND_BOOT|ARM
+		{C9382FDC-B9A4-45D4-BD8B-14A1C821F8EE}.APP_AND_BOOT|ARM.Build.0 = APP_AND_BOOT|ARM
+		{C9382FDC-B9A4-45D4-BD8B-14A1C821F8EE}.APP|ARM.ActiveCfg = APP|ARM
+		{C9382FDC-B9A4-45D4-BD8B-14A1C821F8EE}.APP|ARM.Build.0 = APP|ARM
+		{C9382FDC-B9A4-45D4-BD8B-14A1C821F8EE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C9382FDC-B9A4-45D4-BD8B-14A1C821F8EE}.Debug|ARM.Build.0 = Debug|ARM
+		{C9382FDC-B9A4-45D4-BD8B-14A1C821F8EE}.Release|ARM.ActiveCfg = Release|ARM
+		{C9382FDC-B9A4-45D4-BD8B-14A1C821F8EE}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

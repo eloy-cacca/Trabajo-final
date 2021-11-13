@@ -1,0 +1,14 @@
+Change Component Footprint: Designator=C25 Old Footprint=CAPC3216X135N_B New Footprint=CAPC3225X135N
+Change Component Footprint: Designator=C26 Old Footprint=CAPC3216X135N_B New Footprint=CAPC3225X135N
+Change Component Footprint: Designator=C21 Old Footprint=CAPC3216X135N_B New Footprint=CAPPRD250W50D630H1250
+Change Component Footprint: Designator=C22 Old Footprint=CAPC3216X135N_B New Footprint=CAPPRD250W50D630H1250
+Change Component Comment: Designator=C24 Old Comment=cap New Comment=CAP_C3216X7R1E105M085AA_TDK
+Change Component Comment: Designator=C25 Old Comment=cap New Comment=CAP_C3225Y5V1H106Z_TDK
+Change Component Comment: Designator=C26 Old Comment=cap New Comment=CAP_C3225Y5V1H106Z_TDK
+Change Component Comment: Designator=C21 Old Comment=cap New Comment=CAP_EEU-FC1E121_PANASONIC
+Change Component Comment: Designator=C22 Old Comment=cap New Comment=CAP_EEU-FC1E121_PANASONIC
+Change Component Designator: OldDesignator=C21 NewDesignator=C11
+Change Component Designator: OldDesignator=C22 NewDesignator=C12
+Change Component Designator: OldDesignator=C24 NewDesignator=C14
+Change Component Designator: OldDesignator=C25 NewDesignator=C15
+Change Component Designator: OldDesignator=C26 NewDesignator=C16

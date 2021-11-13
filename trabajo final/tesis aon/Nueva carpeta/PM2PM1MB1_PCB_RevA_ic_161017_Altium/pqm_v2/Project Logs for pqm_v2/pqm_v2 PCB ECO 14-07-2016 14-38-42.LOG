@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=J6-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=J6-2
+Added Component: Designator=C200(CAPPRD250W50D630H1250)
+Added Component: Designator=J6(PHOENIX_1729128)
+Added Pin To Net: NetName=NetC2_1 Pin=C200-1
+Added Pin To Net: NetName=NetC2_2 Pin=C200-2
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C200 CAP_EEU-FC1E121_PANASONIC
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J6 HeaderX2

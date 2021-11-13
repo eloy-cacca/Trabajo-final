@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=pqm_v2_page4 Member=U2
+Change Component DesignItemId : Designator=U5 Old DesignItemId=IC_ATSAM4S4C-AU_ATMEL New DesignItemId=IC_TLV2474_ANALOG
+Change Component DesignItemId : Designator=U5 Old DesignItemId=IC_TLV2474_ANALOG New DesignItemId=IC_ATSAM4S4C-AU_ATMEL
+Change Component Footprint: Designator=U5 Old Footprint=SOIC127P600-14AN New Footprint=TSQFP50P1600X1600-100N
+Change Component Footprint: Designator=U5 Old Footprint=TSQFP50P1600X1600-100N New Footprint=SOIC127P600-14AN
+Change Component Comment : Designator=U5 Old Comment=IC_TLV2474_ANALOG New Comment=SAM4S4C
+Change Component Comment : Designator=U5 Old Comment=SAM4S4C New Comment=IC_TLV2474_ANALOG
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U6 IC_TLV2474_ANALOG

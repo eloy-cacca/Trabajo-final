@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=DSP_GPIO21 Pin=J3-90
+Added Pin To Net: NetName=DSP_GPIO21 Pin=J20-13
+Added Net: Name=DSP_GPIO21

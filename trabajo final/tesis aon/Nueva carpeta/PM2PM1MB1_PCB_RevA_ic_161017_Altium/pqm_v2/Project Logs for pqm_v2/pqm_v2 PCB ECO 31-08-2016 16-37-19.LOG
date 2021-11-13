@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=EMU0 Pin=J5-2
+Removed Pin From Net: NetName=EMU1 Pin=J5-6
+Added Pin To Net: NetName=EMU1 Pin=J5-2
+Added Pin To Net: NetName=EMU0 Pin=J5-6

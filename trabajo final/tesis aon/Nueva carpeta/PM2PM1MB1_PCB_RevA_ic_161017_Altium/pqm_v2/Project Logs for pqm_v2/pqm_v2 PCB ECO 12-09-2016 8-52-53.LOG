@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=DSP_I2C_SCLA Pin=J3-95
+Added Pin To Net: NetName=DSP_I2C_SCLA Pin=J20-1
+Added Net: Name=DSP_I2C_SCLA
+Added Pin To Net: NetName=DSP_I2C_SDAA Pin=J3-45
+Added Pin To Net: NetName=DSP_I2C_SDAA Pin=J20-2
+Added Net: Name=DSP_I2C_SDAA

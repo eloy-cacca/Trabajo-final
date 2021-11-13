@@ -1,0 +1,24 @@
+Added Component: Designator=R83(RESC2013X065BN)
+Added Component: Designator=R84(RESC2013X065BN)
+Added Component: Designator=R89(RESC2013X065BN)
+Added Component: Designator=R90(RESC2013X065BN)
+Added Component: Designator=R96(RESC2013X065BN)
+Added Component: Designator=R97(RESC2013X065BN)
+Added Pin To Net: NetName=TDI Pin=R83-1
+Added Pin To Net: NetName=3.3V_ISO Pin=R83-2
+Added Pin To Net: NetName=TMS Pin=R84-1
+Added Pin To Net: NetName=3.3V_ISO Pin=R84-2
+Added Pin To Net: NetName=TCK Pin=R89-1
+Added Pin To Net: NetName=3.3V_ISO Pin=R89-2
+Added Pin To Net: NetName=TMS Pin=R90-1
+Added Pin To Net: NetName=3.3V_ISO Pin=R90-2
+Added Pin To Net: NetName=GND_ISO Pin=R96-1
+Added Pin To Net: NetName=NetR96_2 Pin=R96-2
+Added Pin To Net: NetName=GND_ISO Pin=R97-1
+Added Pin To Net: NetName=NetR97_2 Pin=R97-2
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component R83 RES_AC0805JR-07100KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component R84 RES_AC0805JR-07100KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component R89 RES_AC0805JR-07100KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component R90 RES_AC0805JR-07100KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component R96 RES_RC0805JR-0710KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component R97 RES_RC0805JR-0710KL_YAGEO

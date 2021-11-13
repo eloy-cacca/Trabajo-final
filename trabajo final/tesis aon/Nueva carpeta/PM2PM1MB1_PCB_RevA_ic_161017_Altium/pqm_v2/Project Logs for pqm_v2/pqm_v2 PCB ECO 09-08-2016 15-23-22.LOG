@@ -1,0 +1,20 @@
+Added Component: Designator=C67(CAPC2013X110N)
+Added Component: Designator=C68(CAPC2013X110N)
+Added Component: Designator=Y1(XTAL3215X090N)
+Added Pin To Net: NetName=GND_ISO Pin=C67-2
+Added Pin To Net: NetName=GND_ISO Pin=C68-2
+Added Pin To Net: NetName=NetC67_1 Pin=C67-1
+Added Pin To Net: NetName=NetC67_1 Pin=U11-32
+Added Pin To Net: NetName=NetC67_1 Pin=Y1-1
+Added Net: Name=NetC67_1
+Added Pin To Net: NetName=NetC68_1 Pin=C68-1
+Added Pin To Net: NetName=NetC68_1 Pin=U11-31
+Added Pin To Net: NetName=NetC68_1 Pin=Y1-2
+Added Net: Name=NetC68_1
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component C67 CAP_C0805X150J5GACTU_KEMET
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component C68 CAP_C0805X150J5GACTU_KEMET
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component Y1 MSC_ECS-.327-12.5-34S-TR_ECS
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4

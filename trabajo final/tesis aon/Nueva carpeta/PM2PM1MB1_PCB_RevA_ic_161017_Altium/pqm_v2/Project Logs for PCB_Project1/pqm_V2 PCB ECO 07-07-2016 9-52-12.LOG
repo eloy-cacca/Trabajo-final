@@ -1,0 +1,23 @@
+Added Component: Designator=*(DIMM1.27-2V100)
+Added Component: Designator=C?(CAPC3216X135N)
+Added Component: Designator=C?(CAPC3216X135N)
+Added Component: Designator=R?(RESC3216X071N)
+Added Component: Designator=R?(RESC3216X071N)
+Added Component: Designator=R?(RESC3216X071N)
+Added Component: Designator=R?(RESC3216X071N)
+Added Component: Designator=R?(RESC3216X071N)
+Added Component: Designator=R?(RESC3216X071N)
+Added Component: Designator=R?(RESC3216X071N)
+Added Component: Designator=R?(RESC3216X071N)
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=R?-1
+Added Pin To Net: NetName=NetC?_1 Pin=R?-2
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=R?-1
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-2
+Added Net: Name=NetR?_1
+Added Class: Name=pqm_v2_pagA
+Added Room: Name=pqm_v2_pagA

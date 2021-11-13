@@ -1,0 +1,63 @@
+Removed Pin From Net: NetName=VL4 Pin=J3-15
+Removed Pin From Net: NetName=VL3 Pin=J3-17
+Removed Pin From Net: NetName=VL2 Pin=J3-19
+Removed Pin From Net: NetName=VL1 Pin=J3-21
+Removed Pin From Net: NetName=IL4 Pin=J3-65
+Removed Pin From Net: NetName=IL3 Pin=J3-67
+Removed Pin From Net: NetName=IL2 Pin=J3-69
+Removed Pin From Net: NetName=IL1 Pin=J3-71
+Removed Pin From Net: NetName=VL3 Pin=J25-1
+Removed Pin From Net: NetName=AGND Pin=J25-2
+Removed Pin From Net: NetName=+5V Pin=U3-4
+Removed Pin From Net: NetName=AGND Pin=U3-8
+Removed Pin From Net: NetName=+5V Pin=U4-4
+Removed Pin From Net: NetName=AGND Pin=U4-8
+Removed Pin From Net: NetName=+5V Pin=U17-4
+Removed Pin From Net: NetName=AGND Pin=U17-8
+Added Component: Designator=J26(RAD2)
+Added Pin To Net: NetName=VL3 Pin=J3-15
+Added Pin To Net: NetName=VL4 Pin=J3-17
+Added Pin To Net: NetName=VL1 Pin=J3-19
+Added Pin To Net: NetName=VL2 Pin=J3-21
+Added Pin To Net: NetName=IL3 Pin=J3-65
+Added Pin To Net: NetName=IL1 Pin=J3-67
+Added Pin To Net: NetName=IL4 Pin=J3-69
+Added Pin To Net: NetName=IL2 Pin=J3-71
+Added Pin To Net: NetName=VL3 Pin=J26-1
+Added Pin To Net: NetName=AGND Pin=J26-2
+Added Pin To Net: NetName=AGND Pin=U3-4
+Added Pin To Net: NetName=+5V Pin=U3-8
+Added Pin To Net: NetName=AGND Pin=U4-4
+Added Pin To Net: NetName=+5V Pin=U4-8
+Added Pin To Net: NetName=AGND Pin=U17-4
+Added Pin To Net: NetName=+5V Pin=U17-8
+Added Pin To Net: NetName=NetJ25_1 Pin=J25-1
+Added Pin To Net: NetName=NetJ25_1 Pin=R34-1
+Added Pin To Net: NetName=NetJ25_1 Pin=R35-2
+Added Net: Name=NetJ25_1
+Added Pin To Net: NetName=NetJ25_2 Pin=J25-2
+Added Pin To Net: NetName=NetJ25_2 Pin=R40-1
+Added Pin To Net: NetName=NetJ25_2 Pin=R41-2
+Added Net: Name=NetJ25_2
+Added Class: Name=pqm_v2_page2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C12 CAP_GRM2195C1H103FA01D_MURATA
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C14 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C19 CAP_GRM2195C1H103FA01D_MURATA
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C24 CAP_GRM2195C1H103FA01D_MURATA
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C31 CAP_GRM2195C1H103FA01D_MURATA
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C33 CAP_CC1206KKX7R7BB225_YAGEO
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C34 CAP_CC0805KKX7R7BB105_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C69 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C70 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C71 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C72 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C79 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C80 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C81 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C82 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J25 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J26 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component R60 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component R102 RES_RC0805JR-07330RL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component U3 IC_TLV2472_ANALOG
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component U12 ISL21010_1V5

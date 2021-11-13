@@ -1,0 +1,84 @@
+Removed Pin From Net: NetName=NetC24_2 Pin=C78-1
+Removed Pin From Net: NetName=AGND Pin=C78-2
+Removed Pin From Net: NetName=NetJ6_1 Pin=R110-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R110-2
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R6 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R7 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R11 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R12 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R13 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R19 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R20 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R21 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R25 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R26 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R27 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R33 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R34 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R35 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R39 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R40 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R41 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R47 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R48 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R49 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R53 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R54 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component DesignItemId : Designator=R55 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R5 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R6 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R7 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R11 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R12 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R13 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R19 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R20 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R21 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R25 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R26 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R27 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R33 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R34 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R35 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R39 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R40 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R41 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R47 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R48 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R49 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R53 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R54 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Comment : Designator=R55 Old Comment=Res New Comment=RES_RC0805FR-07412KL_YAGEO
+Change Component Description : Designator=R5 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R6 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R7 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R11 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R12 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R13 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R19 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R20 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R21 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R25 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R26 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R27 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R33 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R34 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R35 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R39 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R40 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R41 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R47 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R48 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R49 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R53 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R54 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Change Component Description : Designator=R55 Old Description=Res New Description=RES SMD 412K OHM 1% 1/8W 0805
+Added Component: Designator=C78(CAPC2013X110N)
+Added Component: Designator=R110(RESC2013X065BN)
+Added Pin To Net: NetName=NetC24_2 Pin=C78-1
+Added Pin To Net: NetName=AGND Pin=C78-2
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C78 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R110 Res

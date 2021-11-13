@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=TCK_DSP Pin=J4-1
+Removed Pin From Net: NetName=EMU1 Pin=J4-2
+Removed Pin From Net: NetName=TMS_DSP Pin=J4-3
+Removed Pin From Net: NetName=EMU0 Pin=J4-4
+Added Pin To Net: NetName=EMU1 Pin=J4-1
+Added Pin To Net: NetName=TCK_DSP Pin=J4-2
+Added Pin To Net: NetName=EMU0 Pin=J4-3
+Added Pin To Net: NetName=TMS_DSP Pin=J4-4

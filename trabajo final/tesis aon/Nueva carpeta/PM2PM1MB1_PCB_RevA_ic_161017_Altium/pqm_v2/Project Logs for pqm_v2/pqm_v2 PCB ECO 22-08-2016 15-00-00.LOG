@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=+5V Pin=C21-1
+Removed Pin From Net: NetName=AGND Pin=C21-2
+Removed Pin From Net: NetName=NetC10_2 Pin=C73-1
+Removed Pin From Net: NetName=AGND Pin=C73-2
+Removed Member From Class: ClassName=pqm_v2_page4 Member=C21
+Removed Member From Class: ClassName=pqm_v2_page4 Member=C73
+Added Component: Designator=C75(CAPC2013X110N)
+Added Component: Designator=C76(CAPC2013X110N)
+Added Pin To Net: NetName=NetC10_2 Pin=C73-1
+Added Pin To Net: NetName=+5V Pin=C75-1
+Added Pin To Net: NetName=AGND Pin=C75-2
+Added Pin To Net: NetName=NetC24_2 Pin=C76-1
+Added Pin To Net: NetName=AGND Pin=C76-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C75 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C76 cap

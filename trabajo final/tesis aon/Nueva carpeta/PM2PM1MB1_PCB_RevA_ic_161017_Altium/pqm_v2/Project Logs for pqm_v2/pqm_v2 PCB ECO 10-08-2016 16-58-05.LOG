@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=USB_DDM Pin=J11-69
+Removed Pin From Net: NetName=USB_DDP Pin=J11-70
+Added Pin To Net: NetName=USB_DDP Pin=J11-69
+Added Pin To Net: NetName=USB_DDM Pin=J11-70

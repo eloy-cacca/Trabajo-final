@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=R? NewDesignator=R15
+Change Component Designator: OldDesignator=R? NewDesignator=R16
+Added Pin To Net: NetName=NetJ1_2 Pin=R15-1
+Added Pin To Net: NetName=USB_DDM Pin=R15-2
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component R16 RES_RC1206JR-0722RL_YAGEO

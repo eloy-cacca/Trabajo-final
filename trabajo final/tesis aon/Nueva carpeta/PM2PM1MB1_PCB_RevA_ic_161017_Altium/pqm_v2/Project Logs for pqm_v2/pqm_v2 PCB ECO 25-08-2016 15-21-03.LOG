@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=R110-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R110-2
+Change Component DesignItemId : Designator=C12 Old DesignItemId=cap New DesignItemId=CAP_GRM2195C1H103FA01D_MURATA
+Change Component DesignItemId : Designator=C36 Old DesignItemId=cap New DesignItemId=CAP_GRM2195C1H103FA01D_MURATA
+Change Component DesignItemId : Designator=C40 Old DesignItemId=cap New DesignItemId=CAP_GRM2195C1H103FA01D_MURATA
+Change Component DesignItemId : Designator=C45 Old DesignItemId=cap New DesignItemId=CAP_GRM2195C1H103FA01D_MURATA
+Change Component DesignItemId : Designator=R46 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-074K7L_YAGEO
+Change Component DesignItemId : Designator=R73 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-074K7L_YAGEO
+Change Component DesignItemId : Designator=R86 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-074K7L_YAGEO
+Change Component DesignItemId : Designator=R99 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-074K7L_YAGEO
+Change Component Comment : Designator=C12 Old Comment=cap New Comment=CAP_GRM2195C1H103FA01D_MURATA
+Change Component Comment : Designator=C36 Old Comment=cap New Comment=CAP_GRM2195C1H103FA01D_MURATA
+Change Component Comment : Designator=C40 Old Comment=cap New Comment=CAP_GRM2195C1H103FA01D_MURATA
+Change Component Comment : Designator=C45 Old Comment=cap New Comment=CAP_GRM2195C1H103FA01D_MURATA
+Change Component Comment : Designator=R46 Old Comment=Res New Comment=RES_RC0805FR-074K7L_YAGEO
+Change Component Comment : Designator=R73 Old Comment=Res New Comment=RES_RC0805FR-074K7L_YAGEO
+Change Component Comment : Designator=R86 Old Comment=Res New Comment=RES_RC0805FR-074K7L_YAGEO
+Change Component Comment : Designator=R99 Old Comment=Res New Comment=RES_RC0805FR-074K7L_YAGEO
+Change Component Description : Designator=C12 Old Description= New Description=CAP CER 10000PF 50V NP0 0805
+Change Component Description : Designator=C36 Old Description= New Description=CAP CER 10000PF 50V NP0 0805
+Change Component Description : Designator=C40 Old Description= New Description=CAP CER 10000PF 50V NP0 0805
+Change Component Description : Designator=C45 Old Description= New Description=CAP CER 10000PF 50V NP0 0805
+Change Component Description : Designator=J7 Old Description=HOLDER BATTERY COIN 20MM 1-CELL New Description=HOLDER COINCELL 2032 RETAINRCLIP
+Change Component Description : Designator=R46 Old Description=Res New Description=RES SMD 4.7K OHM 1% 1/8W 0805
+Change Component Description : Designator=R73 Old Description=Res New Description=RES SMD 4.7K OHM 1% 1/8W 0805
+Change Component Description : Designator=R86 Old Description=Res New Description=RES SMD 4.7K OHM 1% 1/8W 0805
+Change Component Description : Designator=R99 Old Description=Res New Description=RES SMD 4.7K OHM 1% 1/8W 0805
+Added Component: Designator=R110(RESC2013X065BN)
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R110 Res

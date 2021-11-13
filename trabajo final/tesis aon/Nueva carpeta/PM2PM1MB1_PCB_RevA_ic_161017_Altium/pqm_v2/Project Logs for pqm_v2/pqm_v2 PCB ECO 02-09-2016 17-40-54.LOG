@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetJ24_1 Pin=J18-1
+Removed Pin From Net: NetName=NetJ24_2 Pin=J18-2
+Removed Pin From Net: NetName=NetJ24_1 Pin=J24-1
+Removed Pin From Net: NetName=NetJ24_2 Pin=J24-2
+Removed Pin From Net: NetName=VL3 Pin=J25-1
+Removed Pin From Net: NetName=AGND Pin=J25-2
+Added Component: Designator=J24(RAD2)
+Added Component: Designator=J25(RAD2)
+Added Pin To Net: NetName=NetJ18_1 Pin=J18-1
+Added Pin To Net: NetName=NetJ18_2 Pin=J18-2
+Added Pin To Net: NetName=NetJ24_1 Pin=J24-1
+Added Pin To Net: NetName=NetJ24_2 Pin=J24-2
+Added Pin To Net: NetName=VL3 Pin=J25-1
+Added Pin To Net: NetName=AGND Pin=J25-2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J24 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J25 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R5 RES_RC0805FR-07412KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R6 RES_RC0805FR-07412KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R7 RES_RC0805FR-07412KL_YAGEO

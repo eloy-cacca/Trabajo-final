@@ -1,0 +1,81 @@
+MPX,Microsoft Project for Windows,4.0,ANSI
+10,$,1,2,.,","
+11,2,0,1,"8,00","40,00","$10,00/h","$15,00/h",1,0
+12,1,1,480,/,:,am,pm,20,20
+20,Standard,0,1,1,1,1,1,0
+25,1
+25,2,08:00,12:00,13:00,17:00
+25,3,08:00,12:00,13:00,17:00
+25,4,08:00,12:00,13:00,17:00
+25,5,08:00,12:00,13:00,17:00
+25,6,08:00,12:00,13:00,17:00
+25,7
+30,Project1,,,Standard,02/08/2021,16/02/2022,0,14/10/2021,,"$0,00","$0,00","$0,00",0h,0h,0h,0%,0d,0d,0d,0%,,,,,0d,0d
+60,Nombre,WBS,Nivel de Esquema,Costo,Duración,Duración Real,Duración Restante,% Completado,Comienzo,Fin,Predecesoras,Fijo,Hito,ID,Tipo de Restricción,Prioridad,ID Único,Número de Esquema,Summary
+61,1,2,3,30,40,42,43,44,50,51,70,80,81,90,91,95,98,99,120
+70,,0,0,,199d,,,,02/08/2021,16/02/2022,,No,,0,Lo antes posible,,0,0
+70,Incursion en conceptos referidos a la desagregacion de energia,1,1,"$0,00",10d,0d,10d,0%,02/08/2021,13/08/2021,,No,No,1,Lo antes posible,Media,674,1,Sí­
+71,Evaluar requerimientos de señales involucradas y cálculos por realizar.Reflejar en un documento resumido los conceptos relevados.
+70,Evaluar requerimientos de señales involucradas y cálculos por realizar.,1.1,2,"$0,00",10d,0d,10d,0%,02/08/2021,13/08/2021,,No,No,2,Lo antes posible,Media,12,1.1
+70,Reflejar en un documento resumido los conceptos relevados.,1.2,2,"$0,00",10d,0d,10d,0%,02/08/2021,13/08/2021,,No,No,3,Lo antes posible,Media,13,1.2
+70,Estudio y analisis de proyectos similares,2,1,"$0,00",7d,0d,7d,0%,13/08/2021,23/08/2021,,No,No,4,Lo antes posible,Media,1,2,Sí­
+70,"Evaluar ventajas y desventajas, funcionales y circuitales. Actualizar documento.",2.1,2,"$0,00",7d,0d,7d,0%,13/08/2021,23/08/2021,,No,No,5,Lo antes posible,Media,15,2.1
+70,Reflejar estado del arte en documento resumido.,2.2,2,"$0,00",7d,0d,7d,0%,13/08/2021,23/08/2021,,No,No,6,Lo antes posible,Media,14,2.2
+70,Caracterizacion del proyecto,3,1,"$0,00",35d,0d,35d,0%,24/08/2021,11/10/2021,"1,4",No,No,7,Lo antes posible,Media,90,3,Sí­
+70,Definir alcance del proyecto,3.1,2,"$0,00",2d,0d,2d,0%,24/08/2021,25/08/2021,,No,No,8,Lo antes posible,Media,17,3.1
+70,Definicion caracteristicas proyecto,3.2,2,"$0,00",3d,0d,3d,0%,26/08/2021,30/08/2021,8,No,No,9,Lo antes posible,Media,91,3.2
+70,Armado presentacion formal del proyecto,3.3,2,"$0,00",30d,0d,30d,0%,31/08/2021,11/10/2021,9,No,No,10,Lo antes posible,Media,18,3.3
+70,Diseño circuital,4,1,"$0,00",29d,0d,29d,0%,31/08/2021,08/10/2021,,No,No,11,Lo antes posible,Media,230,4,Sí­
+70,Diseño filtro antialiasing,4.1,2,"$0,00",7d,0d,7d,0%,31/08/2021,08/09/2021,9,No,No,12,Lo antes posible,Media,232,4.1,Sí­
+70,estudio de filtros,4.1.1,3,"$0,00",2d,0d,2d,0%,31/08/2021,01/09/2021,,No,No,13,Lo antes posible,Media,233,4.1.1
+70,definicion de requerimientos,4.1.2,3,"$0,00",1d,0d,1d,0%,02/09/2021,02/09/2021,13,No,No,14,Lo antes posible,Media,234,4.1.2
+70,eleccion del tipo de filtro,4.1.3,3,"$0,00",1d,0d,1d,0%,03/09/2021,03/09/2021,14,No,No,15,Lo antes posible,Media,235,4.1.3
+70,Simulacion filtro,4.1.4,3,"$0,00",1d,0d,1d,0%,06/09/2021,06/09/2021,15,No,No,16,Lo antes posible,Media,236,4.1.4
+70,estudio de componentes(hardware),4.1.5,3,"$0,00",1d,0d,1d,0%,07/09/2021,07/09/2021,16,No,No,17,Lo antes posible,Media,237,4.1.5
+70,eleccion de componentes y nueva simulacion con valores comerciales,4.1.6,3,"$0,00",1d,0d,1d,0%,08/09/2021,08/09/2021,17,No,No,18,Lo antes posible,Media,238,4.1.6
+70,"Estudio, eleccion y diseño circuital ADC externo",4.2,2,"$0,00",4d,0d,4d,0%,09/09/2021,14/09/2021,12,No,No,19,Lo antes posible,Media,239,4.2
+70,Perifericos,4.3,2,"$0,00",3d,0d,3d,0%,15/09/2021,17/09/2021,19,No,No,20,Lo antes posible,Media,240,4.3
+70,ARM,4.4,2,"$0,00",5d,0d,5d,0%,20/09/2021,24/09/2021,20,No,No,21,Lo antes posible,Media,242,4.4
+70,RTC,4.5,2,"$0,00",1d,0d,1d,0%,27/09/2021,27/09/2021,21,No,No,22,Lo antes posible,Media,241,4.5
+70,Estudio y diseño de reguladores de tension,4.6,2,"$0,00",4d,0d,4d,0%,28/09/2021,01/10/2021,22,No,No,23,Lo antes posible,Media,244,4.6
+70,Estudio fuentes de alimentacion sistema completo,4.7,2,"$0,00",5d,0d,5d,0%,04/10/2021,08/10/2021,23,No,No,24,Lo antes posible,Media,46,4.7,Sí­
+70,Requerimientos fuente,4.7.1,3,"$0,00",3d,0d,3d,0%,04/10/2021,06/10/2021,23,No,No,25,Lo antes posible,Media,47,4.7.1
+70,Eleccion fuente a utilizar,4.7.2,3,"$0,00",2d,0d,2d,0%,07/10/2021,08/10/2021,25,No,No,26,Lo antes posible,Media,48,4.7.2
+70,PCB,5,1,"$0,00",56d,0d,56d,0%,11/10/2021,27/12/2021,11,No,No,27,Lo antes posible,Media,51,5,Sí­
+70,Eleccion de componentes,5.1,2,"$0,00",5d,0d,5d,0%,11/10/2021,15/10/2021,11,No,No,28,Lo antes posible,Media,54,5.1
+70,Estudio programa de diseño (ALTIUM),5.2,2,"$0,00",5d,0d,5d,0%,11/10/2021,15/10/2021,11,No,No,29,Lo antes posible,Media,55,5.2
+70,estudio de diseño de placas,5.3,2,"$0,00",5d,0d,5d,0%,11/10/2021,15/10/2021,11,No,No,30,Lo antes posible,Media,52,5.3
+70,Consideraciones electromagneticas del diseño,5.4,2,"$0,00",3d,0d,3d,0%,11/10/2021,13/10/2021,11,No,No,31,Lo antes posible,Media,53,5.4
+70,Diseño de la placa,5.5,2,"$0,00",10d,0d,10d,0%,18/10/2021,29/10/2021,"30,31,28,29",No,No,32,Lo antes posible,Media,56,5.5
+70,Mandar a fabricar placa,5.6,2,"$0,00",20d,0d,20d,0%,01/11/2021,26/11/2021,32,No,No,33,Lo antes posible,Media,57,5.6
+70,Armado de placa,5.7,2,"$0,00",11d,0d,11d,0%,08/12/2021,22/12/2021,33,No,No,34,Lo antes posible,Media,62,5.7,Sí­
+70,Soldar componentes,5.7.1,3,"$0,00",5d,0d,5d,0%,08/12/2021,14/12/2021,,No,No,35,Lo antes posible,Media,65,5.7.1
+70,Verificar alimentaciones,5.7.2,3,"$0,00",2d,0d,2d,0%,15/12/2021,16/12/2021,35,No,No,36,Lo antes posible,Media,64,5.7.2
+70,programacion microcontrolador,5.7.3,3,"$0,00",1d,0d,1d,0%,22/12/2021,22/12/2021,"51,35",No,No,37,Lo antes posible,Media,63,5.7.3
+70,Testeo,5.8,2,"$0,00",3d,0d,3d,0%,23/12/2021,27/12/2021,34,No,No,38,Lo antes posible,Media,476,5.8,Sí­
+70,medicion de cada una de las etapas,5.8.1,3,"$0,00",1d,0d,1d,0%,23/12/2021,23/12/2021,,No,No,39,Lo antes posible,Media,480,5.8.1
+70,comparar medicion con lo simulado,5.8.2,3,"$0,00",1d,0d,1d,0%,24/12/2021,24/12/2021,39,No,No,40,Lo antes posible,Media,481,5.8.2
+70,Ajuste de parametros si es necesario,5.8.3,3,"$0,00",1d,0d,1d,0%,27/12/2021,27/12/2021,"39,40",No,No,41,Lo antes posible,Media,482,5.8.3
+70,Diseño firmware,6,1,"$0,00",32d,0d,32d,0%,29/11/2021,11/01/2022,,No,No,42,Lo antes posible,Media,26,6,Sí­
+70,Estudio caracteristicas microcontrolador,6.1,2,"$0,00",5d,0d,5d,0%,29/11/2021,03/12/2021,33,No,No,43,Lo antes posible,Media,28,6.1
+70,Estudio entorno de desarrollo,6.2,2,"$0,00",3d,0d,3d,0%,29/11/2021,01/12/2021,33,No,No,44,Lo antes posible,Media,29,6.2
+70,Estudio lenguaje de programacion en C,6.3,2,"$0,00",7d,0d,7d,0%,29/11/2021,07/12/2021,33,No,No,45,Lo antes posible,Media,30,6.3
+70,Estudio de librerias existentes,6.4,2,"$0,00",7d,0d,7d,0%,29/11/2021,07/12/2021,33,No,No,46,Lo antes posible,Media,31,6.4
+70,Diseño PLL digital,6.5,2,"$0,00",4d,0d,4d,0%,08/12/2021,13/12/2021,"43,44,45,46",No,No,47,Lo antes posible,Media,32,6.5
+70,Diseño adquisidor de señales,6.6,2,"$0,00",5d,0d,5d,0%,08/12/2021,14/12/2021,"43,44,45,46",No,No,48,Lo antes posible,Media,33,6.6
+70,Programacion de puertos e interfaces,6.7,2,"$0,00",3d,0d,3d,0%,29/11/2021,01/12/2021,33,No,No,49,Lo antes posible,Media,673,6.7
+70,Diseño de comunicacion,6.8,2,"$0,00",15d,0d,15d,0%,15/12/2021,04/01/2022,"43,44,45,46",No,No,50,Lo antes posible,Media,40,6.8,Sí­
+70,Diseño comunicación USB,6.8.1,3,"$0,00",5d,0d,5d,0%,15/12/2021,21/12/2021,,No,No,51,Lo antes posible,Media,35,6.8.1,Sí­
+70,Envio de datos,6.8.1.1,4,"$0,00",5d,0d,5d,0%,15/12/2021,21/12/2021,48,No,No,52,Lo antes posible,Media,42,6.8.1.1
+70,Diseño comunicación modulo SD,6.8.2,3,"$0,00",5d,0d,5d,0%,22/12/2021,28/12/2021,,No,No,53,Lo antes posible,Media,36,6.8.2,Sí­
+70,Guardado informacion,6.8.2.1,4,"$0,00",5d,0d,5d,0%,22/12/2021,28/12/2021,51,No,No,54,Lo antes posible,Media,38,6.8.2.1
+70,Reescribir memoria,6.8.2.2,4,"$0,00",5d,0d,5d,0%,22/12/2021,28/12/2021,51,No,No,55,Lo antes posible,Media,45,6.8.2.2
+70,Diseño comunicación modulo wifi,6.8.3,3,"$0,00",5d,0d,5d,0%,29/12/2021,04/01/2022,,No,No,56,Lo antes posible,Media,34,6.8.3,Sí­
+70,Envio de datos,6.8.3.1,4,"$0,00",5d,0d,5d,0%,29/12/2021,04/01/2022,53,No,No,57,Lo antes posible,Media,43,6.8.3.1
+70,request time,6.8.3.2,4,"$0,00",5d,0d,5d,0%,29/12/2021,04/01/2022,53,No,No,58,Lo antes posible,Media,44,6.8.3.2
+70,Pre-procesamiento datos adquiridos,6.9,2,"$0,00",5d,0d,5d,0%,05/01/2022,11/01/2022,50,No,No,59,Lo antes posible,Media,37,6.9
+70,Prueba del sistema completo,6.10,2,"$0,00",1d,0d,1d,0%,05/01/2022,05/01/2022,50,No,No,60,Lo antes posible,Media,39,6.10
+70,Gabinete y conexiones,7,1,"$0,00",6d,0d,6d,0%,12/01/2022,19/01/2022,27,No,No,61,Lo antes posible,Media,70,7,Sí­
+70,Esquema de conexiones y diseño del gabinete,7.1,2,"$0,00",3d,0d,3d,0%,12/01/2022,14/01/2022,42,No,No,62,Lo antes posible,Media,71,7.1
+70,Diseño e impresión en 3D de molde para el hardware,7.2,2,"$0,00",3d,0d,3d,0%,17/01/2022,19/01/2022,62,No,No,63,Lo antes posible,Media,72,7.2
+70,Escritura trabajo final,8,1,"$0,00",20d,0d,20d,0%,20/01/2022,16/02/2022,61,No,No,64,Lo antes posible,Media,73,8

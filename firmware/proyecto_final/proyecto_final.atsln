@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Atmel Studio Solution File, Format Version 11.00
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "proyecto_final", "proyecto_final\proyecto_final.cproj", "{DCE6C7E3-EE26-4D79-826B-08594B9AD897}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "STDIO_USB_EXAMPLE1", "STDIO_USB_EXAMPLE1\STDIO_USB_EXAMPLE1.cproj", "{E8457CA2-6DAE-4BFA-B569-E5560A577F73}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "STDIO_USB_EXAMPLE2", "STDIO_USB_EXAMPLE2\STDIO_USB_EXAMPLE2.cproj", "{002C11AC-4060-4DF3-9E58-8572F6702FFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Debug|ARM.Build.0 = Debug|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|ARM.ActiveCfg = Release|ARM
+		{DCE6C7E3-EE26-4D79-826B-08594B9AD897}.Release|ARM.Build.0 = Release|ARM
+		{E8457CA2-6DAE-4BFA-B569-E5560A577F73}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E8457CA2-6DAE-4BFA-B569-E5560A577F73}.Debug|ARM.Build.0 = Debug|ARM
+		{E8457CA2-6DAE-4BFA-B569-E5560A577F73}.Release|ARM.ActiveCfg = Release|ARM
+		{E8457CA2-6DAE-4BFA-B569-E5560A577F73}.Release|ARM.Build.0 = Release|ARM
+		{002C11AC-4060-4DF3-9E58-8572F6702FFB}.Debug|ARM.ActiveCfg = Debug|ARM
+		{002C11AC-4060-4DF3-9E58-8572F6702FFB}.Debug|ARM.Build.0 = Debug|ARM
+		{002C11AC-4060-4DF3-9E58-8572F6702FFB}.Release|ARM.ActiveCfg = Release|ARM
+		{002C11AC-4060-4DF3-9E58-8572F6702FFB}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

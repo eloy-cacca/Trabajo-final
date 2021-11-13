@@ -1,0 +1,85 @@
+%% ----------------------------------------------------------------
+%% SETTINGS
+%% ----------------------------------------------------------------
+\documentclass[../main.tex]{subfiles}
+
+%% ----------------------------------------------------------------
+%% BEGIN
+%% ----------------------------------------------------------------
+\begin{document}
+
+%% ----------------------------------------------------------------
+%% DOCUMENT
+%% ----------------------------------------------------------------
+\section{Calculo Q}
+Para optimizar el funcionamiento se calculo los valores maximos que puede tomar una variable tipo int32 para distintos valores de Q, usando la cuenta:
+\[
+    \text{Max} = \frac{2^{31 - Q}}{2^Q}
+\]
+obteniendo la siguiente tabla:
+
+\begin{table}[!hbtp]
+    \centering
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    Q  & Max  \\ \midrule
+    $15$ & $2$    \\
+    $14$ & $8$    \\
+    $13$ & $32$   \\
+    $12$ & $128$  \\
+    $11$ & $512$  \\
+    $10$ & $2048$ \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+Para el peor caso voy a simular una señal continua.
+
+\subsection{Limitante 1: signal\_processing RMS2 buffer}
+En este caso se hace un buffer de 128 y se suma el RMS2 en cada uno usando una señal int64. Luego el valor maximo antes del overflow es:
+\[
+    \text{Max} = \frac{\sqrt{2^{63 - Q} / 128}}{2^Q}
+\]
+obteniendo la siguienta tabla:
+
+\begin{table}[!hbtp]
+    \centering
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    Q  & Max  \\ \midrule
+    $15$ & $45.25$ \\
+    $14$ & $128$   \\
+    $13$ & $362$   \\
+    $12$ & $1024$  \\
+    $11$ & $2896$  \\
+    $10$ & $8192$  \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Limitante 2: index\_accum RMS2 buffer}
+Este acumula los valores del anterior, hasta 128 veces. Luego el maximo es:
+\[
+    \text{Max} = \frac{\sqrt{2^{63 - Q} / (128 \cdot 128)}}{2^Q}
+\]
+obteniendo la siguienta tabla:
+
+\begin{table}[!hbtp]
+    \centering
+    \begin{tabular}{@{}cc@{}}
+    \toprule
+    Q  & Max  \\ \midrule
+    $15$ & $4$ \\
+    $14$ & $11.3$   \\
+    $13$ & $32$   \\
+    $12$ & $90$  \\
+    $11$ & $256$  \\
+    $10$ & $724$  \\ \bottomrule
+    \end{tabular}
+\end{table}
+
+\subsection{Resultado}
+Se elige entonces utilizar Q12. De esta forma se deja un margen y se obtiene una precisión buena de todas formas, con un escalón de $2^{-12} \approx 0.0002$
+
+%% ----------------------------------------------------------------
+%% END
+%% ----------------------------------------------------------------
+\end{document}

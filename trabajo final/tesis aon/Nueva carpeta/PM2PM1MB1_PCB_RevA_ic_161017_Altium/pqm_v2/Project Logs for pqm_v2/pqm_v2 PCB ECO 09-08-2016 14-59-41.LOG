@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=NetC59_1 Pin=C64-2
+Removed Pin From Net: NetName=NetC59_1 Pin=U11-8
+Removed Pin From Net: NetName=NetC59_1 Pin=U11-12
+Removed Pin From Net: NetName=NetC59_1 Pin=U11-24
+Removed Pin From Net: NetName=NetC59_1 Pin=U11-54
+Added Component: Designator=C?(CAPC2013X110N)
+Added Pin To Net: NetName=3.3V_ISO Pin=C?-1
+Added Pin To Net: NetName=GND_ISO Pin=C?-2
+Added Pin To Net: NetName=GND_ISO Pin=U11-2
+Added Pin To Net: NetName=GND_ISO Pin=U11-17
+Added Pin To Net: NetName=TDI Pin=U11-33
+Added Pin To Net: NetName=GND_ISO Pin=U11-46
+Added Pin To Net: NetName=TDO Pin=U11-49
+Added Pin To Net: NetName=TMS Pin=U11-51
+Added Pin To Net: NetName=TCK Pin=U11-53
+Added Pin To Net: NetName=GND_ISO Pin=U11-60
+Added Pin To Net: NetName=NetC64_2 Pin=C64-2
+Added Pin To Net: NetName=NetC64_2 Pin=U11-8
+Added Pin To Net: NetName=NetC64_2 Pin=U11-12
+Added Pin To Net: NetName=NetC64_2 Pin=U11-24
+Added Pin To Net: NetName=NetC64_2 Pin=U11-54
+Added Net: Name=NetC64_2
+Added Pin To Net: NetName=NetR?_2 Pin=U11-50
+Added Net: Name=NetR?_2
+Added Pin To Net: NetName=R\E\S\E\T\ Pin=U11-39
+Added Net: Name=R\E\S\E\T\
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component C? CAP_CC0805KRX7R8BB104_YAGEO
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4

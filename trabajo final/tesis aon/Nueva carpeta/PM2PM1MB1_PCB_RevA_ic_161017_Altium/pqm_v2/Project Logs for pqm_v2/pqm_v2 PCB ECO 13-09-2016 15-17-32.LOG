@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=AGND Pin=J18-1
+Removed Pin From Net: NetName=VL1 Pin=J18-2
+Removed Pin From Net: NetName=VL2 Pin=J18-3
+Removed Pin From Net: NetName=VL3 Pin=J18-4
+Removed Pin From Net: NetName=VL4 Pin=J18-5
+Removed Pin From Net: NetName=NetJ3_13 Pin=J18-6
+Removed Pin From Net: NetName=NetJ3_11 Pin=J18-7
+Removed Pin From Net: NetName=NetJ3_9 Pin=J18-8
+Removed Pin From Net: NetName=NetJ3_7 Pin=J18-9
+Change Component DesignItemId : Designator=J18 Old DesignItemId=COM_HeaderX9 New DesignItemId=Header_DSP_1
+Change Component Comment : Designator=J18 Old Comment=COM_HeaderX9 New Comment=Header_DSP_1

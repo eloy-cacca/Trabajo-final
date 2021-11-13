@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=AGND Pin=C14-1
+Removed Pin From Net: NetName=-5V_A Pin=C14-2
+Removed Pin From Net: NetName=NetJ6_1 Pin=J6-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=J6-2
+Removed Pin From Net: NetName=-5V_A Pin=U3-11
+Removed Member From Class: ClassName=pqm_v2_page3 Member=C14
+Added Component: Designator=J6(PHOENIX_1729128)
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Pin To Net: NetName=AGND Pin=U3-11
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J6 HeaderX2
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page5

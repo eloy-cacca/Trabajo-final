@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DSP_SCIB_RX Pin=J20-17
+Removed Pin From Net: NetName=DSP_SCIB_TX Pin=J20-18
+Added Pin To Net: NetName=DSP_SCIB_TX Pin=J20-17
+Added Pin To Net: NetName=DSP_SCIB_RX Pin=J20-18

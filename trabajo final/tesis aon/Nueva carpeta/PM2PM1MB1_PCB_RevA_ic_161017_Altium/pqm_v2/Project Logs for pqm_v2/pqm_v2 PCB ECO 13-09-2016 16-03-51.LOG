@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=DSP_GPIO25 Pin=J3-85
+Added Pin To Net: NetName=DSP_GPIO25 Pin=J20-12
+Added Net: Name=DSP_GPIO25
+Added Pin To Net: NetName=DSP_GPIO27 Pin=J3-86
+Added Pin To Net: NetName=DSP_GPIO27 Pin=J20-11
+Added Net: Name=DSP_GPIO27
+Added Room: Name=pqm_v2_page5

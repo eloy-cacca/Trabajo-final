@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=L2 Old DesignItemId=MAG_SRR1005-100M_BOURNS New DesignItemId=MAG_CM453232-100KLCT_BOURNS
+Change Component Footprint: Designator=L2 Old Footprint=MAG_INDUCTOR2A New Footprint=INDC4532X170N
+Change Component Comment : Designator=L2 Old Comment=MAG_SRR1005-100M_BOURNS New Comment=MAG_CM453232-100KLCT_BOURNS

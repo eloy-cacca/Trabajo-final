@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=NetC10_2 Pin=C73-1
+Removed Pin From Net: NetName=NetJ6_1 Pin=R110-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R110-2
+Change Component Designator: OldDesignator=U? NewDesignator=U12
+Added Component: Designator=C21(CAPC2013X110N)
+Added Component: Designator=C73(CAPC2013X110N)
+Added Component: Designator=R110(RESC2013X065BN)
+Added Component: Designator=U13(SOT23-3M)
+Added Pin To Net: NetName=+5V Pin=C21-1
+Added Pin To Net: NetName=AGND Pin=C21-2
+Added Pin To Net: NetName=NetC10_2 Pin=C73-1
+Added Pin To Net: NetName=NetC24_2 Pin=C73-1
+Added Pin To Net: NetName=AGND Pin=C73-2
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Pin To Net: NetName=+5V Pin=U13-1
+Added Pin To Net: NetName=NetC24_2 Pin=U13-2
+Added Pin To Net: NetName=AGND Pin=U13-3
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C21 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C73 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R110 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component U13 *

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=DSP_SPI_STE Pin=J20-3
+Removed Pin From Net: NetName=DSP_SPI_SOMI Pin=J20-4
+Removed Pin From Net: NetName=DSP_SPI_CLK Pin=J20-5
+Removed Pin From Net: NetName=DSP_SPI_SIMO Pin=J20-6
+Added Pin To Net: NetName=DSP_SPI_STE Pin=J20-21
+Added Pin To Net: NetName=DSP_SPI_SOMI Pin=J20-22
+Added Pin To Net: NetName=DSP_SPI_CLK Pin=J20-23
+Added Pin To Net: NetName=DSP_SPI_SIMO Pin=J20-24

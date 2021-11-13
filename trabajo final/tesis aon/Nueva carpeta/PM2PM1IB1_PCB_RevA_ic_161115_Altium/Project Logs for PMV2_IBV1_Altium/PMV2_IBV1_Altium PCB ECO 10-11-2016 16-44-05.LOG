@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=LED_GREEN Pin=J2-10
+Removed Pin From Net: NetName=USB_VBUS Pin=J2-11
+Added Pin To Net: NetName=USB_VBUS Pin=J2-10
+Added Pin To Net: NetName=LED_GREEN Pin=J2-13
+Change Net Name : Old Net Name=LED_BTN01 New Net Name=BTN02
+Change Net Name : Old Net Name=LED_RED New Net Name=BTN01
+Added Pin To Net: NetName=LED_RED Pin=J2-15
+Added Net: Name=LED_RED
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component R15 RES_RC1206JR-0722RL_YAGEO

@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=DSP_SCIC_RX Pin=J3-22
+Added Pin To Net: NetName=DSP_SCIC_RX Pin=J20-10
+Added Net: Name=DSP_SCIC_RX
+Added Pin To Net: NetName=DSP_SCIC_TX Pin=J3-72
+Added Pin To Net: NetName=DSP_SCIC_TX Pin=J20-9
+Added Net: Name=DSP_SCIC_TX

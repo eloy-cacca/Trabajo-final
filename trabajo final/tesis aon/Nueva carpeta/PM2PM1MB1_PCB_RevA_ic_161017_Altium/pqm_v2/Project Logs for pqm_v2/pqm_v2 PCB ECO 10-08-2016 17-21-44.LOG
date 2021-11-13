@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND_ISO Pin=J11-51
+Removed Pin From Net: NetName=SPI_NPCS3 Pin=J11-52
+Added Pin To Net: NetName=SPI_NPCS3 Pin=J11-51
+Added Pin To Net: NetName=GND_ISO Pin=J11-52

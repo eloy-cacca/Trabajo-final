@@ -1,0 +1,27 @@
+Added Component: Designator=J?(HDR2X7)
+Added Component: Designator=J?(PHOENIX_1729128)
+Added Pin To Net: NetName=AD0 Pin=J?-1
+Added Pin To Net: NetName=AD0 Pin=U11-9
+Added Net: Name=AD0
+Added Pin To Net: NetName=AD1 Pin=J?-2
+Added Pin To Net: NetName=AD1 Pin=U11-10
+Added Net: Name=AD1
+Added Pin To Net: NetName=AD2 Pin=U11-13
+Added Net: Name=AD2
+Added Pin To Net: NetName=AD3 Pin=U11-16
+Added Net: Name=AD3
+Added Pin To Net: NetName=AD4 Pin=U11-3
+Added Net: Name=AD4
+Added Pin To Net: NetName=AD5 Pin=U11-4
+Added Net: Name=AD5
+Added Pin To Net: NetName=AD8 Pin=U11-11
+Added Net: Name=AD8
+Added Pin To Net: NetName=AD9 Pin=U11-14
+Added Net: Name=AD9
+Added Pin To Net: NetName=DAC0 Pin=J?-1
+Added Pin To Net: NetName=DAC0 Pin=U11-59
+Added Net: Name=DAC0
+Added Pin To Net: NetName=DAC1 Pin=J?-2
+Added Pin To Net: NetName=DAC1 Pin=U11-63
+Added Net: Name=DAC1
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J? CON_DSP_JTAG

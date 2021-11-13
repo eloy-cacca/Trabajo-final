@@ -1,0 +1,16 @@
+Added Component: Designator=J9(RAD2)
+Added Component: Designator=J10(RAD2)
+Added Component: Designator=J12(RAD2)
+Added Component: Designator=J13(RAD2)
+Added Pin To Net: NetName=NetC19_2 Pin=J9-1
+Added Pin To Net: NetName=AGND Pin=J9-2
+Added Pin To Net: NetName=NetC37_2 Pin=J10-1
+Added Pin To Net: NetName=AGND Pin=J10-2
+Added Pin To Net: NetName=NetC41_2 Pin=J12-1
+Added Pin To Net: NetName=AGND Pin=J12-2
+Added Pin To Net: NetName=NetC46_2 Pin=J13-1
+Added Pin To Net: NetName=AGND Pin=J13-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component J9 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component J10 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component J12 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component J13 CON_RADX2

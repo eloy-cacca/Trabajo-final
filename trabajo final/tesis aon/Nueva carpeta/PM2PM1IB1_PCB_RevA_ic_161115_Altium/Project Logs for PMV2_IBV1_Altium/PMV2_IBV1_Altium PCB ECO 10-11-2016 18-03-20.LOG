@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=BTN01 Pin=J5-12
+Removed Pin From Net: NetName=LED_GREEN Pin=J5-13
+Removed Pin From Net: NetName=BTN02 Pin=J5-14
+Removed Pin From Net: NetName=LED_RED Pin=J5-15
+Added Pin To Net: NetName=LED_GREEN Pin=J5-12
+Added Pin To Net: NetName=BTN01 Pin=J5-13
+Added Pin To Net: NetName=LED_RED Pin=J5-14
+Added Pin To Net: NetName=BTN02 Pin=J5-15
+Added Pin To Net: NetName=NetD8_1 Pin=R5-1
+Added Pin To Net: NetName=LED_GREEN Pin=R5-2
+Added Room: Name=PMV2_IBV1_Altium_page01

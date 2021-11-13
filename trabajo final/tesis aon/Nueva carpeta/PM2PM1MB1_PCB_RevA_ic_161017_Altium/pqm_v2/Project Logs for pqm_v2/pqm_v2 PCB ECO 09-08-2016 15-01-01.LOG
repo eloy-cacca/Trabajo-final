@@ -1,0 +1,12 @@
+Added Component: Designator=J8(FCI_20021121-00010C4LF)
+Added Pin To Net: NetName=3.3V_ISO Pin=J8-1
+Added Pin To Net: NetName=TMS Pin=J8-2
+Added Pin To Net: NetName=GND_ISO Pin=J8-3
+Added Pin To Net: NetName=TCK Pin=J8-4
+Added Pin To Net: NetName=GND_ISO Pin=J8-5
+Added Pin To Net: NetName=TMS Pin=J8-6
+Added Pin To Net: NetName=TCK Pin=J8-7
+Added Pin To Net: NetName=TDI Pin=J8-8
+Added Pin To Net: NetName=GND_ISO Pin=J8-9
+Added Pin To Net: NetName=R\E\S\E\T\ Pin=J8-10
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J8 CON_20021121-00010C4LF_FCI

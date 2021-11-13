@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=AD8 Pin=J11-64
+Removed Pin From Net: NetName=AD3 Pin=J11-66
+Added Pin To Net: NetName=AD8 Pin=J11-66

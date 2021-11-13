@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=SD_MCDA1 Pin=J11-53
+Removed Pin From Net: NetName=SD_MCDA1 Pin=U11-52
+Change Net Name : Old Net Name=SD_MCDA1 New Net Name=GND_ISO
+Added Pin To Net: NetName=SD_MCDA1 Pin=J11-53
+Added Pin To Net: NetName=SD_MCDA1 Pin=U11-52
+Added Net: Name=SD_MCDA1

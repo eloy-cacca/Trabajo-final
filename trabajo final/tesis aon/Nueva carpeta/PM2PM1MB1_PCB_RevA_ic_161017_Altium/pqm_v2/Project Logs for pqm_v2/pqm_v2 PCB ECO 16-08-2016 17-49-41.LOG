@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=AGND Pin=C13-1
+Removed Pin From Net: NetName=+5V Pin=C13-2
+Removed Pin From Net: NetName=AGND Pin=C25-1
+Removed Pin From Net: NetName=+5V Pin=C25-2
+Removed Pin From Net: NetName=AGND Pin=C35-1
+Removed Pin From Net: NetName=+5V Pin=C35-2
+Removed Pin From Net: NetName=AGND Pin=C44-1
+Removed Pin From Net: NetName=+5V Pin=C44-2
+Change Component DesignItemId : Designator=C13 Old DesignItemId=cap New DesignItemId=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component DesignItemId : Designator=C25 Old DesignItemId=cap New DesignItemId=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component DesignItemId : Designator=C35 Old DesignItemId=cap New DesignItemId=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component DesignItemId : Designator=C44 Old DesignItemId=cap New DesignItemId=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component Comment : Designator=C13 Old Comment=cap New Comment=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component Comment : Designator=C25 Old Comment=cap New Comment=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component Comment : Designator=C35 Old Comment=cap New Comment=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component Comment : Designator=C44 Old Comment=cap New Comment=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component Description : Designator=C13 Old Description= New Description=CAP CER 0.1UF 25V 10% X7R 0805
+Change Component Description : Designator=C25 Old Description= New Description=CAP CER 0.1UF 25V 10% X7R 0805
+Change Component Description : Designator=C35 Old Description= New Description=CAP CER 0.1UF 25V 10% X7R 0805
+Change Component Description : Designator=C44 Old Description= New Description=CAP CER 0.1UF 25V 10% X7R 0805
+Added Component: Designator=C69(CAPC2013X110N)
+Added Component: Designator=C70(CAPC2013X110N)
+Added Component: Designator=C71(CAPC2013X110N)
+Added Component: Designator=C72(CAPC2013X110N)
+Added Pin To Net: NetName=+5V Pin=C13-1
+Added Pin To Net: NetName=AGND Pin=C13-2
+Added Pin To Net: NetName=+5V Pin=C25-1
+Added Pin To Net: NetName=AGND Pin=C25-2
+Added Pin To Net: NetName=+5V_A Pin=C35-1
+Added Pin To Net: NetName=AGND Pin=C35-2
+Added Pin To Net: NetName=+5V_A Pin=C44-1
+Added Pin To Net: NetName=AGND Pin=C44-2
+Added Pin To Net: NetName=+5V_A Pin=C69-1
+Added Pin To Net: NetName=AGND Pin=C69-2
+Added Pin To Net: NetName=+5V_A Pin=C70-1
+Added Pin To Net: NetName=AGND Pin=C70-2
+Added Pin To Net: NetName=+5V Pin=C71-1
+Added Pin To Net: NetName=AGND Pin=C71-2
+Added Pin To Net: NetName=+5V Pin=C72-1
+Added Pin To Net: NetName=AGND Pin=C72-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C45 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C47 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C69 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C70 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C71 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C72 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R98 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R99 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R104 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R105 Res

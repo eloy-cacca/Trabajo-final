@@ -1,0 +1,877 @@
+% libraries
+\documentclass[titlepage, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage[RPvoltages, american voltages]{circuitikz}
+\usepackage{csquotes}   %used by biblatex
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{geometry} 
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{parskip}
+\usepackage{siunitx}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usepackage{xfrac}
+
+%% ----------------------------------------------------------------
+%% PACKAGE SETTINGS
+%% ----------------------------------------------------------------
+\decimalpoint
+\geometry{
+ a4paper,
+ total={170mm,247mm},   %210x297mm
+ left=20mm,
+ top=20mm,
+}
+%% ----------------------------------------------------------------
+%% BEGIN
+%% ----------------------------------------------------------------
+\begin{document}
+\usetikzlibrary{shapes, arrows, babel}
+\tikzstyle{block} = [draw, fill=gray!5, rectangle, 
+    minimum height=3em, minimum width=6em]
+\tikzstyle{sum} = [draw, fill=gray!10, circle, node distance=2cm]
+\tikzstyle{input} = [coordinate]
+\tikzstyle{output} = [coordinate]
+\tikzstyle{pinstyle} = [pin edge={to-,thin,black}]
+\tikzstyle{branch} = [circle,inner sep=0pt,minimum size=1mm,fill=black,draw=black]
+
+\def\normalcoord(#1){coordinate(#1)}
+\def\showcoord(#1){node[circle, red, draw, inner sep=1pt, pin={[red, overlay, inner sep=0.5pt, font=\tiny, pin distance=0.1cm, pin edge={red, overlay}]45:#1}](#1){}}
+\let\coord=\normalcoord
+
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla}
+
+% --------------------------
+\section{Análisis preliminar teórico}
+% --------------------------
+\subsection{Impedancia de carga}
+% --------------------------
+La impedancia total observada por la fuente está dada por:
+\[
+    |Z| = \sqrt{ R^2 + [2\pi f (L_{coil} + L_{clamp})]^2 }
+\]
+
+Para realizar una primera aproximación de la inductancia del cable de corriente $L_{coil}$, se puede utilizar la fórmula para el solenoide:
+\[
+    L = \frac{ \mu N^2 A }{ l }
+\]
+en donde
+\begin{itemize}
+    \item $\mu =$ constante universidad de la permeabilidad del vacío
+    \item $N =$ número de vueltas
+    \item $A =$ área del solenoide
+    \item $l =$ longitud del solenoide
+\end{itemize}
+
+Se utilizó como modelo el Fluke 5500A/COIL \cite{Fluke5500A/COIL}, aproximando la longitud del solenoide a \SI{20}{cm}, el área transversal a \SI{320}{cm^2} y 50 vueltas de cobre. A partir de estos datos se llega a:
+\[
+    L_{coil} = \SI{0,32}{mH}
+\]
+
+Para calcular la resistencia, se hace uso de la siguiente expresión:
+\[
+    R = \rho \cdot \frac{L}{A}
+\]
+en donde
+\begin{itemize}
+    \item $\rho =$ resistividad del cobre
+    \item $L =$ longitud del cable
+    \item $A =$ área transversal del cable
+\end{itemize}
+
+Nuevamente utilizando como modelo el dispositivo ya nombrado y considerando que:
+\[
+    \rho_\text{cobre} = \SI{1.68e-8}{\Omega m} \qquad \text{@ 20ºC}
+\]
+y estimando la longitud y el área transversal de un cable de \SI{3}{mm}
+\[
+    L = 2\pi \cdot \SI{5}{cm} \cdot 50 = \SI{15.7}{m}
+\]
+\[
+    A = \pi \cdot (\SI{5}{mm})^2 = \SI{78.54e-6}{m^2}
+\]
+obteniendo así una resistencia:
+\[
+    R = \rho \cdot \frac{L}{A} = \SI{1.68e-8}{\Omega m}  \cdot \frac{\SI{15.7}{m}}{\SI{78.54e-6}{m^2}} = \SI{3.36}{m \Omega}
+\]
+
+% --------------------------
+\subsection{Ripple de corriente a circuito abierto}
+% --------------------------
+El circuito a analizar para este estudio preliminar es el que se encuentra en la \autoref{fig:circuito_preliminar}.
+
+    \begin{figure}[ht]
+    \centering
+    \begin{circuitikz}
+    \ctikzset{bipoles/amp/width=1.1}
+    \draw
+     %circuito general
+      (0,0) node[label={below:$-V_{CC}$}] {} to [cute open switch, *-]   (0,3)
+      (0,3) to [cute open switch, *-*]  (0,6) node[label={above:$V_{CC}$}] {}
+      (0,3) to [L, l_=$L$]              (4,3)
+      (4,3) to [R, l_=$R$]              (4,0)
+      (4,0) to node[tlground]{}         (4,0)
+      
+      % flechas
+      (-2,2) node[not port, rotate=-90, scale=0.7](not1){}
+      (not1.out) to [short, -] (-0.5,1.5) node[inputarrow]{}
+      (-2,4.5) to [short, -] (-0.5,4.5) node[inputarrow]{}
+      (-2,4.5) to [short, -] (not1.in)
+      
+      %pwm bloque
+      
+      (-5,3) to [amp, t=PWM] (-2,3)
+      (-5,2.5) node[tlground]{} to [short, -] (-5,3)
+      
+ ; 
+    \end{circuitikz}
+    \label{fig:circuito_preliminar}
+        \caption{Generador de corriente a circuito abierto}
+    \end{figure}
+
+El análisis se realizará de forma estacionaria como de forma dinámica.
+
+
+% --------------------------
+\subsubsection{Análisis estacionario}
+% --------------------------
+Si llamamos $\Delta I_L$ a la altura pico-pico del ripple de corriente que circula por el inductor, podemos determinar que el sistema habrá llegado al estado estacionario si la "subida" es igual que la "bajada". En otras palabras:
+\[
+    \Delta I_L^{+} = I_L^{-} \qquad \text{en estado estacionario.}
+\]
+
+Tomando las siguientes definiciones:
+    \begin{itemize}
+        \item D = porcentaje de ancho del pulso PWM
+        \item T = período de la señal PWM
+        \item $I_{min} = $ corriente mínima del ripple
+        \item $I_{max} = $ corriente máxima del ripple
+        \item $\Delta I_L = $ ripple pico-pico
+        \item $\tau = L/R = $ constante de carga del circuito
+    \end{itemize}
+y conociendo la ecuación para la carga de corriente en un circuito RL:
+\[
+    i(t) = I_F - (I_F - I_I) \cdot e^{-t/\tau}
+\]
+estamos en condiciones de plantear los dos estados del circuito.
+
+\underline{$0 < t < DT$}:
+
+En este caso el circuito queda como se puede ver en la \autoref{fig:circuito_preliminar_DT}.
+
+    \begin{figure}[ht]
+    \centering
+    \begin{circuitikz}
+    \draw
+     %circuito general
+      (0,3) node[label={above:$V_{CC}$}] {} to [L, l_=$L$, *-] (4,3)
+      (4,3) to [R, l_=$R$]              (4,0)
+      (4,0) to node[tlground]{}         (4,0)
+    ; 
+    \end{circuitikz}
+    \label{fig:circuito_preliminar_DT}
+        \caption{Circuito en $0<t<DT$}
+    \end{figure}
+  
+Podemos hallar la corriente máxima que se desarrolla en este período, haciendo:
+\[
+    i(DT) = I_{max} = \frac{V_{CC}}{R} \left[1 - e^\frac{-DT}{\tau}\right] + I_{min} \cdot e^\frac{-DT}{\tau}
+\]
+
+\underline{$DT < t < (1-D)T$}:
+
+En este caso el circuito queda como se puede ver en la \autoref{fig:circuito_preliminar_(1-D)T}.
+
+    \begin{figure}[ht]
+    \centering
+    \begin{circuitikz}
+    \draw
+     %circuito general
+      (0,3) node[label={above:$-V_{CC}$}] {} to [L, l_=$L$, *-] (4,3)
+      (4,3) to [R, l_=$R$]              (4,0)
+      (4,0) to node[tlground]{}         (4,0)
+    ; 
+    \end{circuitikz}
+    \label{fig:circuito_preliminar_(1-D)T}
+        \caption{Circuito en $DT<t<(1-D)T$}
+    \end{figure}
+
+En este caso, podemos hallar la corriente mínima que se desarrolla en este período, haciendo:
+  \[
+    i(DT) = I_{min} = \frac{-V_{CC}}{R} \left[1 - e^\frac{-(1-D)T}{\tau}\right] + I_{max} \cdot e^\frac{-(1-D)T}{\tau}
+  \]
+
+Que luego, de despejes matemáticos, se llega a la expresión:
+\[
+    \boxed{
+        \Delta I_L = 2A \cdot \frac{1 - e^{-C+B} - e^{-B} + e^{-C}}{1 - e^{-C}}
+    }
+\]
+con:
+    \begin{itemize}
+        \item $A = \frac{V_{CC}}{R}$ 
+        \item $B = \frac{DT}{\tau}$
+        \item $C = \frac{T}{\tau}$
+    \end{itemize}
+
+% --------------------------
+\subsubsection{Análisis dinámico}
+% --------------------------
+Para el análisis dinámico, utilizaremos una \textit{Modelización por promediación de estados}. Nuevamente, nos encontramos con los mismos dos estados anteriores.
+
+La única variable de estado X estará definida como la corriente que circula por el inductor $i_L$, en sentido yendo a la masa. $V_o$ será la salida, que será X.
+
+\underline{$0 < t < DT$}:
+    \begin{equation*}
+    \begin{aligned}[c]
+        \Dot{X} &= A_1 X + B_1 V_{CC}\\
+        V_o     &= C_1 X
+    \end{aligned}
+    \qquad\qquad
+    \begin{aligned}[c]
+        A_1&=-R/L\\
+        B_1&=1/L\\
+        C_1&=1
+    \end{aligned}
+    \end{equation*}
+\underline{$DT < t < (1-D)T$}:
+    \begin{equation*}
+    \begin{aligned}[c]
+        \Dot{X} &= A_2 X + B_2 V_{CC}\\
+        V_o     &= C_2 X
+    \end{aligned}
+    \qquad\qquad
+    \begin{aligned}[c]
+        A_2&=-R/L\\
+        B_2&=-1/L\\
+        C_2&=1
+    \end{aligned}
+    \end{equation*}
+
+\underline{Modelo promediado}:
+ 
+El modelo promediado, surge de la combinación de ambos estados, pesados por la proporción de tiempo que están:
+\[
+    \begin{aligned}[c]
+        \Dot{X} &= [DA_1 - (1-D)A_2] X + [DB_1 - (1-D)B_2] V_{CC}\\
+        V_o     &= [DC_1 - (1-D)C_2] X
+    \end{aligned}
+\]
+ 
+El modelo promediado para este circuito, queda entonces:
+ \begin{equation*}
+    \boxed{
+    \begin{aligned}[c]
+        \Dot{X} &= A X + B V_{CC}\\
+        V_o     &= C X
+    \end{aligned}
+    \qquad\qquad
+    \begin{aligned}[c]
+        A&=-R/L\\
+        B&=\frac{2D-1}{L}\\
+        C&=1
+    \end{aligned}}
+    \end{equation*}
+
+A partir del mismo podemos hallar ciertas relaciones importantes.
+    
+\paragraph{Relación de conversión}
+Esta será la corriente de salida que se producirá, para un determinado D.
+\[ \boxed{
+    I_L = -CA^{-1}B\cdot V_{CC} = \frac{2D-1}{R} \cdot V_{CC}
+}\]
+
+\paragraph{Transferencia respecto de $\Tilde{d}$}
+\[ \boxed{
+    G_{\Tilde{d}} = \frac{i_L(s)}{\Tilde{d}(s)} = \frac{2V_{CC}}{L} \cdot \frac{1}{s+R/L}
+}\]
+
+\paragraph{Transferencia respecto de $v_{CC}$}
+\[ \boxed{
+    G_{v_{CC}} = \frac{i_L(s)}{v_{CC}(s)} = \frac{2D-1}{L} \cdot \frac{1}{s+R/L}
+}\]
+
+\paragraph{Modelo en bloques}
+Finalmente, el modelo en bloques que aplicaremos para el control es el siguiente:
+
+\begin{center}
+    \begin{tikzpicture}[auto, node distance=3cm,>=latex']
+        \node[input, label={$i_{REF}$}]   (ref) {};
+        \node[sum, right of=ref, label={[xshift=-0.3cm, yshift=-0.1cm]+}, label={[xshift=0.3cm, yshift=-0.8cm]-}]                (sum) {};
+        \node[block, right of=sum]              (Gc)  {$G_c (s)$};
+        \node[block, right of=Gc]               (Gmod)  {$G_{MOD}$};
+        \node[block, right of=Gmod]             (Gd)  {$G_{\Tilde{d}} (s)$};
+        \node[branch, right of=Gd]              (return) {};
+        \node[output, below of=return]          (ax1) {};
+        \node[block, below of=Gmod]             (H)     {$H(s)$};
+        \node[output, left of=H]          (ax2) {};
+        \node[output, right of=return, label=above:{$i_L$}, node distance=2cm]  (out) {};
+        
+        
+        \draw [->] (ref) -- (sum);
+        \draw [->] (sum) -- (Gc);
+        \draw [->] (Gc) -- (Gmod);
+        \draw [->] (Gmod) -- (Gd);
+        \draw [-] (Gd) -- (return);
+        \draw [-] (return) -- (ax1);
+        \draw [->] (ax1) -- (H);
+        \draw [-] (H) -- (ax2);
+        \draw [->] (ax2) -| (sum);
+        \draw [->] (return) -- (out);
+    \end{tikzpicture}
+\end{center}
+
+% --------------------------
+\subsection{Transitorio simplificado}
+% --------------------------
+Si bien el modelo en bloques previamente utilizado es correcto, si se coloca una frecuencia de switching para el PWM suficientemente alta, se llega al siguiente modelo en bloques:
+
+    \begin{center}
+        \begin{tikzpicture}[auto, node distance=3cm,>=latex']
+            \node[input, label={$i_{REF}$}]   (ref) {};
+            \node[sum, right of=ref, label={[xshift=-0.3cm, yshift=-0.1cm]+}, label={[xshift=0.3cm, yshift=-0.8cm]-}]                (sum) {};
+            \node[block, right of=sum]              (Gc)  {$G_c (s)$};
+            \node[block, right of=Gc]               (K)  {$K$};
+            \node[block, right of=K]             (G)  {$G(s)$};
+            \node[branch, right of=G]              (return) {};
+            \node[output, below of=return]          (ax1) {};
+            \node[block, below of=K]             (H)     {$H(s)$};
+            \node[output, left of=H]          (ax2) {};
+            \node[output, right of=return, label=above:{$i_L$}, node distance=2cm]  (out) {};
+            
+            
+            \draw [->] (ref) -- (sum);
+            \draw [->] (sum) -- (Gc);
+            \draw [->] (Gc) -- (K);
+            \draw [->] (K) -- (G);
+            \draw [-] (G) -- (return);
+            \draw [-] (return) -- (ax1);
+            \draw [->] (ax1) -- (H);
+            \draw [-] (H) -- (ax2);
+            \draw [->] (ax2) -| (sum);
+            \draw [->] (return) -- (out);
+        \end{tikzpicture}
+    \end{center}
+
+Luego del controlador $G_c(s)$ obtenemos una determinada tensión, que será la proviniente del PWM. Esta estará comprendida en el rango 0 - 1V (generalmente limitada al 10\%-90\%, \textbf{verificar}). $K$ es una ganancia que se obtiene de la tensión que aparece a la izquierda del inductor por el efecto de las llaves y la tensión aplicada:
+\[
+    K = 2V_{CC} \cdot v_i(s) - V_{CC}
+\]
+
+Finalmente, $G(s)$ será la transferencia del circuito RL:
+\[
+    G(s) = \frac{1/R}{1 + s \cdot \frac{L}{R}} = \frac{1/R}{1 + s\tau}
+\]
+
+Una transferencia de un solo polo ubicado en $1/\tau$.
+
+% --------------------------
+\subsection{Estrategias de control posibles}
+% --------------------------
+Como controlador general se utilizará PID. Debido a que la señal de referencia será una señal alterna, se deberá elegir alguna estrategia de control que permita obtener ganancia infinita a la frecuencia de la señal que se desea generar.
+
+% --------------------------
+\subsubsection{Controlador PR}
+% --------------------------
+En este tipo de control, se asegura que a la frecuencia deseada, halla ganancia infinita, de manera de que el error tienda a cero. La ecuación que describe el comportamiento es:
+\[
+    G_{PR} = K_p + K_r \cdot \frac{s}{s^2 + w_0^2}
+\]
+
+El problema que surge con el mismo, es que puede provocar problemas de estabilidad. Es por ello que se añade un término de amortiguamiento o damping, quedando así:
+\[
+    G_{PR}(s) = K_p + K_r \cdot \frac{2 \omega_c s}{s^2 + 2\omega_c s + \omega_0^2}
+\]
+donde:
+    \begin{itemize}
+        \item $K_p$: ganancia proporcional. Determina la dinámica del controlador.
+        \item $K_r$: ganancia resonante. Determina la amplitud de ganancia a la frecuencia seleccionada y controla el ancho de banda a su alrededor.
+        \item $\omega_0$: frecuencia de resonancia.
+        \item $\omega_c$: ancho de banda del sobrepico.
+    \end{itemize}
+
+% -------------------------------------------------------------
+\subsubsection{Controlador repetitivo}
+% -------------------------------------------------------------
+En este tipo de control, se tiene ganancia infinita en la fundamental y en todos los armónicos de la misma. A continuación, se presentan las ecuaciones correspondientes al controlador continuo:
+\[
+    G_{rc}(s) = k_{rc} \cdot \frac{Q(s) \cdot e^{-sT_0}}{1-e^{-sT_0}} \cdot e^{-sT_c}
+\]
+donde:
+    \begin{itemize}
+        \item $Q(s)=$ filtro pasabajos
+        \item $T_0=$ período de la fundamental que sea desea controlar
+        \item $T_c=$ phase-lead compensator
+    \end{itemize}
+    
+El diagrama en bloques correspondiente se puede ver en la \autoref{fig:rc_continuo}.
+    
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[auto, node distance=3cm,>=latex']
+        \node (e)           [input, label={$e(s)$}] {};
+        \node (sum)         [sum, right of=e, label={[xshift=-0.3cm, yshift=-0.1cm]+},                                       label={[xshift=0.3cm,yshift=-0.8cm]+}]  {};
+        \node (ret1)        [block, right of=sum]                       {$e^{-s(T_0 - T_c)}$};
+        \node (Q)           [block, right of=ret1]                      {$Q(s)$};
+        \node (return)      [branch, right of=Q]                        {};
+        \node (ax1)         [output, below of=return]                   {};
+        \node (ret2)        [block, below of=ret1, xshift=1.5cm]        {$e^{-sT_c}$};
+        \node (ax2)         [output, left of=ret2]                      {};
+        \node (out)         [output, right of=return,
+                                label=above:{$u_{rc}(s)$},
+                                node distance=2cm]                      {};
+        
+        \draw [->] (e) -- (sum);
+        \draw [->] (sum) -- (ret1);
+        \draw [->] (ret1) -- (Q);
+        \draw [-] (Q) -- (return);
+        \draw [-] (return) -- (ax1);
+        \draw [->] (ax1) -- (ret2);
+        \draw [-] (ret2) -- (ax2);
+        \draw [->] (ax2) -| (sum);
+        \draw [->] (return) -- (out);
+    \end{tikzpicture}
+    \caption{Diagrama en bloques de controlador repetitivo continuo}
+    \label{fig:rc_continuo}
+\end{figure}
+
+En el caso del controlador discreto, la ecuación es la siguiente:
+    \begin{equation}
+    \label{eq:grc}
+        G_{rc}(z) = k_{rc} \cdot \frac{Q(z) \cdot z^{-N}}{1-Q(z)\cdot z^{-N}} \cdot G_f(z)
+    \end{equation}
+donde:
+    \begin{itemize}
+        \item $Q(z)=$ filtro pasabajos
+        \item $G_f(z)=$ phase-lead compensator
+        \item $N=T_0/T_S$
+    \end{itemize}
+
+El diagrama en bloques correspondiente, se puede ver en la \autoref{fig:rc_discreto}
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[auto, node distance=3cm,>=latex']
+        \node (e)           [input, label={$e(z)$}] {};
+        \node (sum)         [sum, right of=e, label={[xshift=-0.3cm, yshift=-0.1cm]+},                                       label={[xshift=0.3cm,yshift=-0.8cm]+}]  {};
+        \node (ret1)        [block, right of=sum]                       {$z^{-N}$};
+        \node (Q)           [block, right of=ret1]                      {$Q(z)$};
+        \node (return)      [branch, right of=Q, node distance=2cm]     {};
+        \node (Gf)          [block, right of=return, node distance=2cm] {$G_f(z)$};
+        \node (ax1)         [output, below of=return, node distance=2cm]{};
+        \node (ax2)         [output, below of=sum, node distance=2cm]   {};
+        \node (out)         [output, right of=Gf,
+                                label=above:{$u_{rc}(s)$},
+                                node distance=2cm]                      {};
+        
+        \draw [->]  (e)     --  (sum);
+        \draw [->]  (sum)   --  (ret1);
+        \draw [->]  (ret1)  --  (Q);
+        \draw [-]   (Q)     --  (return);
+        \draw [-]   (return)-- (ax1);
+        \draw [-]   (ax1)   -- (ax2);
+        \draw [->]  (ax2)   -- (sum);
+        \draw [->] (return) -- (Gf);
+        \draw [->] (Gf) -- (out);
+    \end{tikzpicture}
+    \caption{Diagrama en bloques de controlador repetitivo discreto}
+    \label{fig:rc_discreto}
+\end{figure}
+
+% ------------------------------------------------------------------------------------------------
+\subsection{Diseño del controlador}
+% ------------------------------------------------------------------------------------------------
+El controlador elegido es el repetitivo, ya que se intentará controlar una señal cuya frecuencia tomará valores que sean siempre múltiplos de la fundamental: $\SI{50}{Hz}$.
+
+% -------------------------------------------
+\subsubsection{Modelización del sistema}
+% -------------------------------------------
+Para la compensación y debido a que el sistema será en definitiva controlado digitalmente, se procederá a ser resuelto en el campo discreto. El diagrama en bloques del sistema, simplificado, es el de la \autoref{fig:diagrama_sistema}.
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[auto, node distance=3cm,>=latex']
+        \node (ref)         [input, label={$i_{ref}(z)$}]               {};
+        \node (sum)         [sum, right of=ref,
+                                label={[xshift=-0.3cm, yshift=-0.1cm]+},                             label={[xshift=0.3cm,yshift=-0.8cm]-}]  {};
+        \node (ax1)         [branch, right of=sum, node distance=1cm]   {};
+        \node (ax4)         [output, above of=ax1, node distance=2cm]   {};
+        \node (Grc)         [block, right of=ax4, node distance=2cm]    {$G_{rc}(z)$};
+        \node (ax5)         [output, right of=Grc, node distance=2cm]   {};
+        \node (sum2)        [sum, below of=ax5, node distance=2cm,
+                                label={[xshift=-0.3cm, yshift=-0.1cm]+},                             label={[xshift=0.25cm,yshift=0.2cm]+}]  {};
+        \node (Gc)          [block, right of=sum2, node distance=2cm]   {$G_c(z)$};
+        \node (Gp)          [block, right of=Gc]                        {$G_p(z)$};
+        \node (return)      [branch, right of=Gp, node distance=2cm]    {};
+        \node (ax2)         [output, below of=return, node distance=2cm]{};
+        \node (ax3)         [output, below of=sum, node distance=2cm]   {};
+        \node (out)         [output, right of=return,
+                                label=above:{$y(z)$},
+                                node distance=2cm]                      {};
+        
+        
+        \draw [->]  (ref)   --  (sum);
+        \draw [-]  (sum)   --  (ax1);
+        \draw [->]  (ax1)  --  (sum2);
+        \draw [->]   (sum2)     --  (Gc);
+        \draw [->]   (Gc) -- (Gp);
+        \draw [-]   (Gp)   -- (return);
+        \draw [->]  (return)   -- (out);
+        \draw [-] (return) -- (ax2);
+        \draw [-] (ax2) -- (ax3);
+        \draw [->] (ax3) -- (sum);
+        \draw [-]  (ax1) -- (ax4);
+        \draw [->] (ax4) -- (Grc);
+        \draw [-] (Grc) -- (ax5);
+        \draw [->] (ax5) -- (sum2);
+    \end{tikzpicture} 
+    \caption{Diagrama en bloques del sistema completo (simplificado)}
+    \label{fig:diagrama_sistema}
+\end{figure}
+
+Sin el controlador $G_{rc}(z)$, la función transferencia del sistema a lazo cerrado puede ser escrita como:
+\begin{equation}
+\label{eq:transf_src}
+    T_{src}(z) = \frac{G_c(z)G_p(z)}{1+G_c(z)G_p(z)} = \frac{z^{-d}\,B^+(z)B^-(z)}{A(z)}
+\end{equation}
+donde:
+    \begin{itemize}
+        \item $d=$ retardo conocido
+        \item $B^-(z)=$ comprende todas las raíces no cancelables de $B(z)$, raíces que estén sobre o por fuera del círculo unitario y raíces indeseables.
+        \item $B^+(z)=$ raíces de $B(z)$ no comprendidas en $B^-(z)$.
+        \item $A(z)=1+G_c(z)G_p(z)$ raíces que deben estar dentro del círculo unidad.
+    \end{itemize}
+
+Considerando ahora la transferencia con el controlador $G_{rc}(z)$, esta es:
+\begin{equation}
+\label{eq:transf_crc}
+    T(z) = \frac{[1+G_{rc}(z)]\,T_{src}(z)}{1+G_{rc}(z)T_{src}(z)}
+\end{equation}
+
+Sustituyendo (\ref{eq:grc}) en (\ref{eq:transf_crc}) se obtiene:
+\begin{equation}
+\label{eq:transf_crc_completa}
+    T(z) = \frac{ [1-(1-k_{rc}G_f(z))z^{-N}Q(z)]T_{src}(z) }{ 1-[(1-k_{rc}G_f(z)T_{src}(z))Q(z)]z^{-N} }
+\end{equation}
+
+% -------------------------------------------
+\subsubsection{Criterios de estabilidad}
+% -------------------------------------------
+De acuerdo a (\ref{eq:transf_src}) y (\ref{eq:transf_crc}), se pueden derivar los criterios de estabilidad siguientes:
+\begin{enumerate}
+    \item Raíces de $1+G_c(z)G_p(z)=0$ estén dentro del círculo unitario, es decir, que sin el controlador repetitivo, el sistema a lazo cerrado $T_src(z)$ sea estable. 
+    \item Raíces de $1-[1-k_{rc}G_f(z)T_{src}(z)]Q(z)z^{-N}=0$ estén dentro del círculo unitario. Es decir que:
+    \begin{equation}
+    \label{eq:a1}
+        \big\lvert A(z)\big\rvert = \big\lvert [1-k_{rc}G_f(z)T_{src}(z)]Q(z)\big\rvert <1 \qquad \text{para $z=e^{j\omega}$ con } \omega < \frac{\pi}{T_s}
+    \end{equation}
+\end{enumerate}
+
+% -------------------------------------------
+\subsubsection{Zero-phase compensation design}
+% -------------------------------------------
+A continuación, se intentará elegir los componentes del controlador repetitivo, de manera tal que el sistema presente una respuesta sin atraso de fase.
+
+El filtro de compensacón $G_f(z)$ puede ser elegido como:
+\begin{equation}
+\label{eq:Gf1}
+    G_f(z) = \frac{z^dA(z)B^-(z^{-1})}{B^+(z)\,b}
+\end{equation}
+donde $b\geq \text{max} \, \big\lvert B^-(e^{j\omega})\big\rvert^2$. Dado que el controlador RC intrdouce un atraso $N$ y además $N \geq d$, $G_f(z)$ con una componente no-causal $z^d$ puede ser implementado.
+
+De esta forma, el producto entre $G_f(z)$ y $T_{src}(z)$ puede ser escrito como:
+\begin{equation}
+\label{eq:Gf_y_Tsrc}
+    G_f(z)T_{src}(z) = \frac{B^-(z)B^-(z^{-1})}{b} = \frac{ \big\lvert B^-(e^{j\omega})\big\rvert^2}{b} \angle \ang{0} \: \leq 1
+\end{equation}
+
+La ecuación (\ref{eq:Gf_y_Tsrc}) nos indica que $G_f(z)$ compensa exactamente el retardo producido por $T_{src}(z)$, es decir que se logra zero-phase compensation. Considerando esto y considerando que $\big\lvert Q(z) \big\rvert \leq 1$, (\ref{eq:a1}) puede ser reescrita como:
+\begin{equation}
+    \label{eq:a2}
+        \big\lvert A(z)\big\rvert = \big\lvert [1-k_{rc}G_f(z)T_{src}(z)]Q(z)\big\rvert <1
+        \Rightarrow
+        \left\lvert 1 - k_{rc} \frac{ \big\lvert B^-(z)\big\rvert^2}{b} \right\rvert < \frac{1}{\big\lvert Q(z) \big\rvert}
+    \end{equation}
+
+De esta forma, de acuerdo a (\ref{eq:Gf_y_Tsrc}) y (\ref{eq:a2}) y $\big\lvert Q(z) \big\rvert \leq 1$, un criterio para la estabilidad del sistema, puede ser simplificado como:
+\begin{equation}
+\label{eq:krc_1}
+    0 < k_{rc} < 2
+\end{equation}
+
+% -------------------------------------------
+\subsubsection{Linear-phase compensation design}
+% -------------------------------------------
+Si bien el esquema anterior funciona cuando conocemos los polos y ceros de la planta que queremos controlar, esto se dificulta cuando no los conocemos. Es por ello, que se implementa un $G_f(z)$ distinto en la práctica:
+\begin{equation}
+\label{eq:gf_real_zp}
+    G_f(z) = z^p
+\end{equation}
+
+El diagrama en bloques entonces, queda de la forma que se puede ver en la \autoref{fig:rc_linear_comp}. De esta forma, la transferencia del controlador puede ser expresada como:
+\begin{equation}
+\label{eq:grc_con_linear}
+    G_{rc}(z) = k_{rc} \frac{Q(z)z^{-N+p}}{1-Q(z)z^{-N}}
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[auto, node distance=3cm,>=latex']
+        \node (e)           [input, label={$e(z)$}] {};
+        \node (sum)         [sum, right of=e, label={[xshift=-0.3cm, yshift=-0.1cm]+},                                       label={[xshift=0.3cm,yshift=-0.8cm]+}]  {};
+        \node (ret1)        [block, right of=sum]                       {$z^{-N+p}$};
+        \node (Q)           [block, right of=ret1]                      {$Q(z)$};
+        \node (return)      [branch, right of=Q, node distance=2cm]     {};
+        \node (ax1)         [output, below of=return, node distance=2cm]{};
+        \node (zp)          [block, left of=ax1]                        {$z^{-p}$};
+        \node (ax2)         [output, below of=sum, node distance=2cm]   {};
+        \node (out)         [output, right of=return,
+                                label=above:{$u_{rc}(s)$},
+                                node distance=2cm]                      {};
+        
+        \draw [->]  (e)     --  (sum);
+        \draw [->]  (sum)   --  (ret1);
+        \draw [->]  (ret1)  --  (Q);
+        \draw [-]   (Q)     --  (return);
+        \draw [-]   (return)-- (ax1);
+        \draw [->]  (ax1)   -- (zp);
+        \draw [-]   (zp)   -- (ax2);
+        \draw [->]  (ax2)   -- (sum);
+        \draw [->] (return) -- (out);
+    \end{tikzpicture}
+    \caption{Linear phase-lead compensation para un controlador repetitivo}
+    \label{fig:rc_linear_comp}
+\end{figure}
+
+El criterio entonces para la ganancia del controlador, toma ahora dos variantes:
+    \begin{itemize}
+        \item Si $2k\pi - \frac{\pi}{2} < \theta_{T_{src}} + p\omega < 2k\pi + \frac{\pi}{2}$, $k = 0,1,2,...$ entonces:
+        \[
+            0 < k_{rc} < \frac{2\cos{(\theta_{T_{src}}+p\omega)}}{\big\lvert H(e^{j\omega}) \big\rvert}
+        \]
+        \item Si $2k\pi + \frac{\pi}{2} < \theta_{T_{src}} + p\omega < 2k\pi + \frac{3\pi}{2}$, $k = 0,1,2,...$ entonces:
+        \[
+            \frac{2\cos{(\theta_{T_{src}}+p\omega)}}{\big\lvert H(e^{j\omega})
+            \big\rvert} < k_{rc} < 0
+        \]
+    \end{itemize}
+    
+Para poder hallar los valores de $p$ y $k_{rc}$, se deberá simular y observar cuál de ellos provee la mayor estabilidad en el intervalo de frecuencias deseado.
+
+% -------------------------------------------
+\subsubsection{Aplicación al sistema real}
+% -------------------------------------------
+El sistema estará conformado como se ve en la \autoref{fig:repetida_sistema}.
+
+\begin{figure}[H]
+    \centering
+    \begin{tikzpicture}[auto, node distance=3cm,>=latex']
+        \node (ref)         [input, label={$i_{ref}(z)$}]               {};
+        \node (sum)         [sum, right of=ref,
+                                label={[xshift=-0.3cm, yshift=-0.1cm]+},                             label={[xshift=0.3cm,yshift=-0.8cm]-}]  {};
+        \node (ax1)         [branch, right of=sum, node distance=1cm]   {};
+        \node (ax4)         [output, above of=ax1, node distance=2cm]   {};
+        \node (Grc)         [block, right of=ax4, node distance=2cm]    {$G_{rc}(z)$};
+        \node (ax5)         [output, right of=Grc, node distance=2cm]   {};
+        \node (sum2)        [sum, below of=ax5, node distance=2cm,
+                                label={[xshift=-0.3cm, yshift=-0.1cm]+},                             label={[xshift=0.25cm,yshift=0.2cm]+}]  {};
+        \node (Gc)          [block, right of=sum2, node distance=2cm]   {$G_c(z)$};
+        \node (Gp)          [block, right of=Gc]                        {$G_p(z)$};
+        \node (return)      [branch, right of=Gp, node distance=2cm]    {};
+        \node (ax2)         [output, below of=return, node distance=2cm]{};
+        \node (ax3)         [output, below of=sum, node distance=2cm]   {};
+        \node (out)         [output, right of=return,
+                                label=above:{$y(z)$},
+                                node distance=2cm]                      {};
+        
+        
+        \draw [->]  (ref)   --  (sum);
+        \draw [-]  (sum)   --  (ax1);
+        \draw [->]  (ax1)  --  (sum2);
+        \draw [->]   (sum2)     --  (Gc);
+        \draw [->]   (Gc) -- (Gp);
+        \draw [-]   (Gp)   -- (return);
+        \draw [->]  (return)   -- (out);
+        \draw [-] (return) -- (ax2);
+        \draw [-] (ax2) -- (ax3);
+        \draw [->] (ax3) -- (sum);
+        \draw [-]  (ax1) -- (ax4);
+        \draw [->] (ax4) -- (Grc);
+        \draw [-] (Grc) -- (ax5);
+        \draw [->] (ax5) -- (sum2);
+    \end{tikzpicture} 
+    \caption{Diagrama en bloques de controlador repetitivo discreto}
+    \label{fig:repetida_sistema}
+\end{figure}
+
+La planta o sistema a controlar, tiene la siguiente transferencia:
+\begin{equation}
+\label{eq:gp_cont}
+    G_p(s) = \frac{1}{R} \cdot \frac{1}{1 + s\tau}
+\end{equation}
+donde $\tau = L/R$.
+
+El mismo sistema pero en el campo discreto y pasado por un ROC, es:
+\begin{equation}
+\label{eq:gp_discr}
+    G_p(z) = \frac{1}{R} \cdot \frac{1-e^{\sfrac{-T}{\tau}}}{z-e^{\sfrac{T}{\tau}}}
+\end{equation}
+
+A partir de la misma, podemos hallar la transferencia sin el controlador repetitivo:
+\begin{equation}
+\label{eq:tsrc_ideal}
+    T_{src} = \frac{\frac{k}{R}\cdot (1-e^{\sfrac{-T}{\tau}})}{z + \frac{k}{R} - \left( 1 + \frac{k}{R} \right) e^{\sfrac{-T}{\tau}}}
+\end{equation}
+donde del dominador, podemos despejar la condición para la cual el sistema sea estable:
+\begin{align*}
+    z + \frac{k}{R} - \left( 1 + \frac{k}{R} \right) e^{\sfrac{-T}{\tau}} = 0 \\
+    z_1 = -\frac{k}{R} + \left( 1 + \frac{k}{R} \right) e^{\sfrac{-T}{\tau}}
+\end{align*}
+que al ser una raíz real, se puede deducir:
+\begin{alignat}{3}
+\label{eq:k_condicion}
+    & -1 < && \qquad \qquad z_1                                                 && < 1 \nonumber \\ 
+    & -1 < && -\frac{k}{R} + \left( 1 + \frac{k}{R} \right) e^{\sfrac{-T}{\tau}} && < 1 \nonumber \\
+    & -R < && \qquad \qquad k  && < R \, \frac{1 + e^{\sfrac{-T}{\tau}}}{1 - e^{\sfrac{-T}{\tau}}}
+\end{alignat}
+
+Dado que una ganancia negativa no tendría sentido en un controlador proporcional, la condición de estabilidad queda definida como:
+\begin{equation}
+\label{eq:condicion_k}
+    k < R \, \frac{1 + e^{\sfrac{-T}{\tau}}}{1 - e^{\sfrac{-T}{\tau}}}
+\end{equation}
+
+Para valores medidos de:
+    \begin{itemize}
+        \item $R = \SI{0.1}{\Omega}$
+        \item $L = \SI{0.3}{mH}$
+        \item $\tau = \SI{3}{ms}$
+        \item $T = \frac{1}{\SI{100}{kHz}} = \SI{10}{\mu s}$
+    \end{itemize}
+reemplazándolos en (\ref{eq:condicion_k}) obtenemos:
+\begin{equation}
+\label{eq:k_real_100khz}
+    k < 60
+\end{equation}
+
+Si en cambio, el período de muestreo fuera mayor, por ejemplo: $T = \frac{1}{\SI{10}{kHz}} = \SI{0.1}{ms}$, entonces la condición sería:
+\begin{equation}
+\label{eq:k_real_10khz}
+    k < 6
+\end{equation}
+
+% --------------------------------------------------------------------------------------------------------
+\section{Diseño hardware}
+% --------------------------------------------------------------------------------------------------------
+\subsection{MOSFET driver - IRS2008}
+% --------------------------------------------------------------------------------------------------------
+\subsubsection{Resistencia de bootstrap}
+% -----------------------------
+El rol de la resistencia de bootstrap es limitar el pico de corriente que se da en el encendido del equipo. Es por esto, que para hallar su valor deberemos hacer:
+\[
+    R_{boot-min} = \frac{V_{cc} - V_f}{I_{pk}}
+\]
+considerando $I_{pk} = \SI{30}{A}$
+\[
+    R_{boot-min} = \SI{0.277}{\Omega}
+\]
+
+Elegimos entonces, el siguiente valor más cercano:
+\[
+    R_{boot} = \SI{1}{\Omega}
+\]
+de manera de dejar un margen para la máxima corriente soportada por el diodo, obteniendo así:
+\[
+    I_{pk} = \SI{8.3}{A}
+\]
+
+De esta forma, se puede encontrar la constante de tiempo que introduce la resistencia:
+\[
+    \tau = \frac{R_{boot} \times C_{boot}}{Duty} = \SI{4.7}{\mu s}
+\]
+
+Además, se puede hallar la caída de tensión promedio introducida por la resistencia:
+\[
+    V_{Rmboot} = Q_{TOT} \cdot T_{OFF} \cdot R_{boot}
+\]
+
+% -----------------------------
+\subsubsection{Capacitor de bootstrap}
+% -----------------------------
+Para la selección de este componente, nos basamos en el documento DT04-04 de International Rectifier.
+
+El primer paso es establecer la mínima bajada de tensión ($\Delta V_{BS}$) que se tiene que garantizar para que el MOSFET del lado alto se mantenga prendido. Esta caída, será la dada por la carga del gate del MOSFET y demás corrientes de leak que deben proporcionarse. Si $V_{GS min}$ es la tensión mínima de gate-source a mantener, luego la caída estará dada por:
+\[
+    \Delta V_{BS} \leq V_{CC} - V_f - V_{GS min} - V_{DS on} - V_{Rboot}
+\]
+
+Luego, se deben tener en cuenta todos los factores que contribuyen a que $V_{BS}$ disminuya:
+\begin{itemize}
+    \item Carga de Gate requerida para encender el transistor ($Q_G$)
+    \item Carga requerida por los level shifters internos del MOSFET ($Q_{LS}$), generamente 5 nC (500V/600V MOSFETs) o 20 nC (1200V MOSFETs)
+    \item Corriente de fuga Gate-Source del transistor ($I_{LK-GS}$)
+    \item Corriente de reposo de la sección flotante ($I_{QBS}$)
+    \item Corriente de fuga de la sección flotante ($I_{LK}$)
+    \item Corriente de fuga del diodo de bootstrap ($I_{LK-DIODE}$)
+    \item Corriente de desaturación del diodo encendido ($I_{DS-}$)
+    \item Corriente de fuga del capacitor de bootstrap ($I_{LK-CAP}$)
+    \item Tiempo que dura encendido el lado alto ($T_{HON}$)
+\end{itemize}
+
+$I_{LK-CAP}$ es sólo relevante cuando se utiliza un capacitor electrolítico y puede ser ignorada si se usan de otro tipo. El fabricante recomienda utilizar al menos un capacitor cerámico con bajo ESR (puede ser en paralelo con un capacitor electrolítico).
+
+Entonces se tiene:
+\[
+    Q_{TOT} = Q_G + Q_{LS} + (I_{LK-GS} + I_{QBS} + I_{LK} + I_{LK-DIODE} + I_{DS-}) \times T_{HON}
+\]
+y el mínimo tamaño del capacitor de bootstrap resulta:
+\[
+    C_{min} = \frac{Q_{TOT}}{\Delta V_{BS}}
+\]
+
+A partir del datasheet del MOSFET SISS10ADN-T1-GE3, del Half-Bridge Driver IRS2008 y del diodo ES1J, eligiendo siempre los peores casos, podemos obtener los valores necesarios para el cálculo del capacitor de bootstrap:
+\begin{itemize}
+    \item $Q_G = \SI{61}{nC}$ 
+    \item $Q_{LS} = \SI{5}{nC}$
+    \item $I_{LK-GS} = \SI{100}{nA}$
+    \item $I_{QBS} = \SI{75}{\mu A}$
+    \item $I_{LK} = \SI{50}{\mu A}$
+    \item $I_{LK-DIODE} = \SI{100}{\mu A}$
+    \item $I_{DS-} = \SI{6}{\mu A}$ (calculado a partir de la Figura 5 del datasheet)
+\end{itemize}
+
+Se obtiene entonces para $T_{HON} = 0.9 \cdot 1/\SI{100}{kHz}$, suponiendo peor caso:
+\[
+    Q_{TOT} = \SI{68.08}{nC}
+\]
+
+La mínima tensión necesaria estará dada por:
+\begin{itemize}
+    \item $V_{CC} = \SI{10}{V}$
+    \item $V_f = \SI{1.7}{V}$
+    \item $V_{GSmin} = \SI{2.4}{V}$
+    \item $V_{DSon} = I_D \cdot R_{DS(on)} = \SI{10}{A} \cdot \SI{3.95}{m\Omega} = \SI{0.0395}{V}$
+    \item $V_{R_boot} = Q_{TOT} / T_{HOFF} \cdot R_{boot} = \SI{68.08}{nC} / 0.1/\SI{100}{kHz} \cdot \SI{1}{\Omega} = \SI{0.06808}{V}$
+\end{itemize}
+\[
+    \Delta V_{BS} = \SI{5.79}{V}
+\]
+
+Finalmente, el capacitor mínimo requerido es:
+\[
+    C_{min} = \SI{11.76}{nF}
+\]
+
+Siguiendo la recomendación del DT-98-2 se elige un capacitor de al menos 30 veces el mínimo. Luego, se utiliza:
+\[
+    C_{boot} = \SI{0.47}{\mu F}
+\]
+
+También se podría considerar usar un tanque paralelo de un capacitor electrolítico grande y un capacitor cerámico pequeño.
+
+\end{document}

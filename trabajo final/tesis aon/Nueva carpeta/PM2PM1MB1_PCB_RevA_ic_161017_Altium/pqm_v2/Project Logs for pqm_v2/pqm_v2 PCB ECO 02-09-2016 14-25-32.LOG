@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=AGND Pin=U4-11
+Removed Pin From Net: NetName=NetR42_2 Pin=U4-12
+Removed Pin From Net: NetName=NetC23_2 Pin=U4-13
+Removed Pin From Net: NetName=VL3 Pin=U4-14
+Change Component DesignItemId : Designator=U4 Old DesignItemId=IC_TLV2474_ANALOG New DesignItemId=IC_TLV2472_ANALOG
+Change Component Footprint: Designator=U4 Old Footprint=SOIC127P600-14AN New Footprint=SOIC127P600-8BN
+Change Component Comment : Designator=U4 Old Comment=IC_TLV2474_ANALOG New Comment=IC_TLV2472_ANALOG
+Added Pin To Net: NetName=NetC23_2 Pin=U4-5
+Added Pin To Net: NetName=NetR42_2 Pin=U4-6
+Added Pin To Net: NetName=VL3 Pin=U4-7
+Added Pin To Net: NetName=AGND Pin=U4-8

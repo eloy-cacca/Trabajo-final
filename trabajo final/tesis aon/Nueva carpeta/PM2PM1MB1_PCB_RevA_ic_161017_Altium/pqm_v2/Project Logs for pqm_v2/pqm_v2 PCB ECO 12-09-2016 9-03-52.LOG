@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=DSP_SPI_CLK Pin=J3-39
+Added Pin To Net: NetName=DSP_SPI_CLK Pin=J20-5
+Added Net: Name=DSP_SPI_CLK
+Added Pin To Net: NetName=DSP_SPI_SIMO Pin=J3-38
+Added Pin To Net: NetName=DSP_SPI_SIMO Pin=J20-6
+Added Net: Name=DSP_SPI_SIMO
+Added Pin To Net: NetName=DSP_SPI_SOMI Pin=J3-88
+Added Pin To Net: NetName=DSP_SPI_SOMI Pin=J20-4
+Added Net: Name=DSP_SPI_SOMI
+Added Pin To Net: NetName=DSP_SPI_STE Pin=J3-89
+Added Pin To Net: NetName=DSP_SPI_STE Pin=J20-3
+Added Net: Name=DSP_SPI_STE

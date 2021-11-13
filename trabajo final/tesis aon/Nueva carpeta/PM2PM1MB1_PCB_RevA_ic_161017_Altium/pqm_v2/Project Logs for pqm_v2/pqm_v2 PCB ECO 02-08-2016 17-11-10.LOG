@@ -1,0 +1,56 @@
+Removed Pin From Net: NetName=NetR32_2 Pin=R32-2
+Removed Pin From Net: NetName=NetR32_2 Pin=U9-8
+Change Component Designator: OldDesignator=R32 NewDesignator=R14
+Change Component Designator: OldDesignator=R32 NewDesignator=R18
+Change Component Designator: OldDesignator=R32 NewDesignator=R63
+Change Component Designator: OldDesignator=R32 NewDesignator=R64
+Change Component Designator: OldDesignator=R32 NewDesignator=R70
+Change Component Designator: OldDesignator=R32 NewDesignator=R71
+Change Component Designator: OldDesignator=R32 NewDesignator=R76
+Change Component Designator: OldDesignator=R32 NewDesignator=R77
+Added Component: Designator=U11(TSQFP50P1600X1600-100N)
+Added Pin To Net: NetName=NetJ6_1 Pin=R14-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R14-2
+Added Pin To Net: NetName=NetR32_2 Pin=R32-2
+Added Pin To Net: NetName=NetJ6_3 Pin=R63-1
+Added Pin To Net: NetName=NetJ6_4 Pin=R63-2
+Added Pin To Net: NetName=NetJ6_5 Pin=R70-1
+Added Pin To Net: NetName=NetJ6_6 Pin=R70-2
+Added Pin To Net: NetName=NetJ6_7 Pin=R76-1
+Added Pin To Net: NetName=NetJ6_8 Pin=R76-2
+Added Pin To Net: NetName=NetR32_2 Pin=U7-6
+Change Net Name : Old Net Name=NetR32_1 New Net Name=NetR64_1
+Added Pin To Net: NetName=NetR18_1 Pin=R18-1
+Added Pin To Net: NetName=NetR18_1 Pin=U7-1
+Added Net: Name=NetR18_1
+Added Pin To Net: NetName=NetR18_2 Pin=R18-2
+Added Pin To Net: NetName=NetR18_2 Pin=U7-8
+Added Net: Name=NetR18_2
+Added Pin To Net: NetName=NetR64_2 Pin=R64-2
+Added Pin To Net: NetName=NetR64_2 Pin=U8-8
+Added Net: Name=NetR64_2
+Added Pin To Net: NetName=NetR71_1 Pin=R71-1
+Added Pin To Net: NetName=NetR71_1 Pin=U9-1
+Added Net: Name=NetR71_1
+Added Pin To Net: NetName=NetR71_2 Pin=R71-2
+Added Pin To Net: NetName=NetR71_2 Pin=U9-8
+Added Net: Name=NetR71_2
+Added Pin To Net: NetName=NetR77_1 Pin=R77-1
+Added Pin To Net: NetName=NetR77_1 Pin=U10-1
+Added Net: Name=NetR77_1
+Added Pin To Net: NetName=NetR77_2 Pin=R77-2
+Added Pin To Net: NetName=NetR77_2 Pin=U10-8
+Added Net: Name=NetR77_2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R14 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R18 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R63 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R64 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R70 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R71 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R76 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R77 Res
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4
+Added Room: Name=pqm_v2_page5

@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=VL3 Pin=J25-1
+Removed Pin From Net: NetName=AGND Pin=J25-2
+Added Component: Designator=J25(RAD2)
+Added Pin To Net: NetName=VL3 Pin=J25-1
+Added Pin To Net: NetName=AGND Pin=J25-2
+Added Pin To Net: NetName=NetJ25_1 Pin=J25-1
+Added Pin To Net: NetName=NetJ25_1 Pin=R34-1
+Added Pin To Net: NetName=NetJ25_1 Pin=R35-2
+Added Net: Name=NetJ25_1
+Added Pin To Net: NetName=NetJ25_2 Pin=J25-2
+Added Pin To Net: NetName=NetJ25_2 Pin=R40-1
+Added Pin To Net: NetName=NetJ25_2 Pin=R41-2
+Added Net: Name=NetJ25_2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J25 CON_RADX2

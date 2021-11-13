@@ -1,0 +1,44 @@
+Removed Pin From Net: NetName=NetJ6_2 Pin=R14-2
+Added Component: Designator=R102(RESC2013X065BN)
+Added Component: Designator=R103(RESC2013X065BN)
+Added Component: Designator=R109(RESC2013X065BN)
+Added Component: Designator=R110(RESC2013X065BN)
+Added Component: Designator=R111(RESC2013X065BN)
+Added Component: Designator=R112(RESC2013X065BN)
+Added Component: Designator=R113(RESC2013X065BN)
+Added Component: Designator=R114(RESC2013X065BN)
+Added Pin To Net: NetName=NetJ6_1 Pin=R102-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R103-2
+Added Pin To Net: NetName=NetJ6_2 Pin=R109-2
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Pin To Net: NetName=NetJ6_3 Pin=R111-1
+Added Pin To Net: NetName=NetJ6_3 Pin=R112-1
+Added Pin To Net: NetName=NetJ6_4 Pin=R113-2
+Added Pin To Net: NetName=NetJ6_4 Pin=R114-2
+Added Pin To Net: NetName=NetR14_2 Pin=R14-2
+Added Pin To Net: NetName=NetR14_2 Pin=R32-2
+Added Pin To Net: NetName=NetR14_2 Pin=R72-2
+Added Pin To Net: NetName=NetR14_2 Pin=R85-2
+Added Pin To Net: NetName=NetR14_2 Pin=R98-2
+Added Pin To Net: NetName=NetR14_2 Pin=R102-2
+Added Pin To Net: NetName=NetR14_2 Pin=R103-1
+Added Pin To Net: NetName=NetR14_2 Pin=R109-1
+Added Pin To Net: NetName=NetR14_2 Pin=R111-2
+Added Pin To Net: NetName=NetR14_2 Pin=R112-2
+Added Pin To Net: NetName=NetR14_2 Pin=R113-1
+Added Pin To Net: NetName=NetR14_2 Pin=R114-1
+Added Pin To Net: NetName=NetR14_2 Pin=U7-5
+Added Pin To Net: NetName=NetR14_2 Pin=U8-5
+Added Pin To Net: NetName=NetR14_2 Pin=U9-5
+Added Pin To Net: NetName=NetR14_2 Pin=U10-5
+Added Net: Name=NetR14_2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R76 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R102 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R103 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R109 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R110 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R111 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R112 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R113 Res
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R114 Res

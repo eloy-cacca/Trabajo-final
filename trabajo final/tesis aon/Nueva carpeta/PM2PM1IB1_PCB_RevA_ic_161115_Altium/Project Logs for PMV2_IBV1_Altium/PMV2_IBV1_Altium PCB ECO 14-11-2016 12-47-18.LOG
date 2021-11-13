@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=NetD9_2 Pin=Q?-3
+Change Component Designator: OldDesignator=Q? NewDesignator=Q1
+Change Component Designator: OldDesignator=Q? NewDesignator=Q2
+Change Component Designator: OldDesignator=R? NewDesignator=R19
+Change Component Designator: OldDesignator=R? NewDesignator=R20
+Change Component Designator: OldDesignator=R? NewDesignator=R21
+Change Component Designator: OldDesignator=R? NewDesignator=R22
+Added Pin To Net: NetName=NetD8_2 Pin=Q1-3
+Added Pin To Net: NetName=GND Pin=Q2-2
+Added Pin To Net: NetName=NetD9_2 Pin=Q2-3
+Added Pin To Net: NetName=NetD8_1 Pin=R19-1
+Added Pin To Net: NetName=3V3 Pin=R19-2
+Added Pin To Net: NetName=NetD9_1 Pin=R20-1
+Added Pin To Net: NetName=3V3 Pin=R20-2
+Added Pin To Net: NetName=LED_GREEN Pin=R21-2
+Added Pin To Net: NetName=NetQ1_1 Pin=Q1-1
+Added Pin To Net: NetName=NetQ1_1 Pin=R21-1
+Added Net: Name=NetQ1_1
+Added Pin To Net: NetName=NetQ2_1 Pin=Q2-1
+Added Pin To Net: NetName=NetQ2_1 Pin=R22-1
+Added Net: Name=NetQ2_1
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component Q1 2N7002
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component R19 RES_RC1206FR-071KL_Yageo
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component R20 RES_RC1206FR-071KL_Yageo
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component R22 RES_RC1206FR-071KL_Yageo

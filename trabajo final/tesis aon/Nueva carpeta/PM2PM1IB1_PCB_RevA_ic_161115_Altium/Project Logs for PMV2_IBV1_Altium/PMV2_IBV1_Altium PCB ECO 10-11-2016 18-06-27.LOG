@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetD8_1 Pin=R5-1
+Removed Pin From Net: NetName=LED_GREEN Pin=R5-2
+Change Component Designator: OldDesignator=R5 NewDesignator=R19
+Change Component Designator: OldDesignator=R5 NewDesignator=R20
+Added Pin To Net: NetName=NetD8_1 Pin=R19-1
+Added Pin To Net: NetName=LED_GREEN Pin=R19-2
+Added Pin To Net: NetName=NetD9_1 Pin=R20-1
+Added Pin To Net: NetName=LED_RED Pin=R20-2
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component R19 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component R20 RES_RC1206FR-0710KL_Yageo

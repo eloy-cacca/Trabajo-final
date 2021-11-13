@@ -1,0 +1,16 @@
+Added Component: Designator=X1(RESC2013X065BN)
+Added Component: Designator=X2(RESC2013X065BN)
+Added Component: Designator=X3(RESC2013X065BN)
+Added Component: Designator=X4(RESC2013X065BN)
+Added Pin To Net: NetName=NetJ6_1 Pin=X1-1
+Added Pin To Net: NetName=NetJ6_2 Pin=X1-2
+Added Pin To Net: NetName=NetJ8_1 Pin=X2-1
+Added Pin To Net: NetName=NetJ8_2 Pin=X2-2
+Added Pin To Net: NetName=NetJ10_1 Pin=X3-1
+Added Pin To Net: NetName=NetJ10_2 Pin=X3-2
+Added Pin To Net: NetName=NetJ12_1 Pin=X4-1
+Added Pin To Net: NetName=NetJ12_2 Pin=X4-2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component X1 ERZ-E10D911
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component X2 ERZ-E10D911
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component X3 ERZ-E10D911
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component X4 ERZ-E10D911

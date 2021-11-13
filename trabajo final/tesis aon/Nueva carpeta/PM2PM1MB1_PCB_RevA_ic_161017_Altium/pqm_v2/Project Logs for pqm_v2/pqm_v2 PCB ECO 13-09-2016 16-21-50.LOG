@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=DSP_SCIA_TX Pin=J20-19
+Removed Pin From Net: NetName=DSP_SCIA_RX Pin=J20-20
+Added Pin To Net: NetName=DSP_SCIA_RX Pin=J20-19
+Added Pin To Net: NetName=DSP_SCIA_TX Pin=J20-20

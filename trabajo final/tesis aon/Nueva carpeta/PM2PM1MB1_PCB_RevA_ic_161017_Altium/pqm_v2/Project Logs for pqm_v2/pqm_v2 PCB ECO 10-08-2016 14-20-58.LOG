@@ -1,0 +1,11 @@
+Added Pin To Net: NetName=SD_CD Pin=*-64
+Added Pin To Net: NetName=SD_MCDA2 Pin=*-65
+Added Pin To Net: NetName=SD_MCDA3 Pin=*-66
+Added Pin To Net: NetName=SD_MCCDA Pin=*-67
+Added Pin To Net: NetName=SD_MCCK Pin=*-68
+Added Pin To Net: NetName=SD_MCDA0 Pin=*-69
+Added Pin To Net: NetName=SD_MCDA1 Pin=*-70
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4

@@ -1,0 +1,4 @@
+Added Component: Designator=J7(CON_BAT_2032)
+Added Pin To Net: NetName=NetD3_2 Pin=J7-1
+Added Pin To Net: NetName=GND_ISO Pin=J7-2
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J7 CON_BAT

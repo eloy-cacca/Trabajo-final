@@ -1,0 +1,12 @@
+Added Component: Designator=J2(SW_FSMRA3JH)
+Added Component: Designator=J4(SW_FSMRA3JH)
+Added Pin To Net: NetName=BTN02 Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=BTN01 Pin=J4-1
+Added Pin To Net: NetName=GND Pin=J4-2
+Added Pin To Net: NetName=GND Pin=J4-3
+Added Pin To Net: NetName=GND Pin=J4-3
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component J2 MSC_Switch
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component J4 MSC_Switch

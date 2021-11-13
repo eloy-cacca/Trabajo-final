@@ -1,0 +1,3 @@
+Change Component DesignItemId : Designator=C33 Old DesignItemId=cap New DesignItemId=CAP_CC1206KKX7R7BB225_YAGEO
+Change Component Footprint: Designator=C33 Old Footprint=CAPC2013X110N New Footprint=CAPC3216X135N_B
+Change Component Comment : Designator=C33 Old Comment=cap New Comment=CAP_CC1206KKX7R7BB225_YAGEO

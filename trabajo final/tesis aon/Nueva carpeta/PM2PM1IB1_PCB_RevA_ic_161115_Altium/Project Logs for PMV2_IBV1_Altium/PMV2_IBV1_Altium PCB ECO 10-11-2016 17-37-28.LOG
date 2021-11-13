@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=J2 NewDesignator=J5
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component J5 CON_Header_2x30_PMV2
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component R5 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component R6 RES_RC1206FR-0710KL_Yageo

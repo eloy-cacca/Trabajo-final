@@ -1,0 +1,115 @@
+Removed Pin From Net: NetName=VL_1V5_A Pin=C22-1
+Removed Pin From Net: NetName=VL_1V5_A Pin=C29-1
+Removed Pin From Net: NetName=VL3 Pin=J19-1
+Removed Pin From Net: NetName=NetC8_1 Pin=R7-1
+Removed Pin From Net: NetName=NetC10_2 Pin=R13-1
+Removed Pin From Net: NetName=NetR20_1 Pin=R21-2
+Removed Pin From Net: NetName=NetR25_1 Pin=R26-2
+Removed Pin From Net: NetName=NetJ18_1 Pin=R34-1
+Removed Pin From Net: NetName=NetJ18_1 Pin=R35-2
+Removed Pin From Net: NetName=NetJ18_2 Pin=R40-1
+Removed Pin From Net: NetName=NetJ18_2 Pin=R41-2
+Removed Pin From Net: NetName=VL_1V5_A Pin=R43-2
+Removed Pin From Net: NetName=VL_1V5_A Pin=R57-2
+Removed Pin From Net: NetName=NetC17_2 Pin=U3-5
+Removed Pin From Net: NetName=NetC15_1 Pin=U3-6
+Removed Pin From Net: NetName=NetC15_2 Pin=U3-7
+Removed Pin From Net: NetName=VL2 Pin=U3-8
+Removed Pin From Net: NetName=NetC18_2 Pin=U3-9
+Removed Pin From Net: NetName=NetR28_2 Pin=U3-10
+Removed Pin From Net: NetName=AGND Pin=U3-11
+Removed Pin From Net: NetName=NetR4_1 Pin=U3-12
+Removed Pin From Net: NetName=NetC11_2 Pin=U3-13
+Removed Pin From Net: NetName=VL1 Pin=U3-14
+Change Component DesignItemId : Designator=U3 Old DesignItemId=IC_TLV2474_ANALOG New DesignItemId=IC_TLV2472_ANALOG
+Change Component Footprint: Designator=U3 Old Footprint=SOIC127P600-14AN New Footprint=SOIC127P600-8BN
+Change Component Comment : Designator=U3 Old Comment=IC_TLV2474_ANALOG New Comment=IC_TLV2472_ANALOG
+Added Component: Designator=C89(CAPC2013X110N)
+Added Component: Designator=C90(CAPC2013X110N)
+Added Component: Designator=C91(CAPC2013X110N)
+Added Component: Designator=C92(CAPC2013X110N)
+Added Component: Designator=J22(RAD2)
+Added Component: Designator=J23(RAD2)
+Added Component: Designator=J24(RAD2)
+Added Component: Designator=J25(RAD2)
+Added Component: Designator=R120(RESC2013X065BN)
+Added Component: Designator=R122(RESC2013X065BN)
+Added Component: Designator=R123(RESC2013X065BN)
+Added Component: Designator=R124(RESC2013X065BN)
+Added Component: Designator=U12(SOT23-3M)
+Added Component: Designator=U17(SOIC127P600-8BN)
+Added Pin To Net: NetName=+5V Pin=C89-1
+Added Pin To Net: NetName=AGND Pin=C89-2
+Added Pin To Net: NetName=AGND Pin=C90-2
+Added Pin To Net: NetName=+5V Pin=C91-1
+Added Pin To Net: NetName=AGND Pin=C91-2
+Added Pin To Net: NetName=+5V Pin=C92-1
+Added Pin To Net: NetName=AGND Pin=C92-2
+Added Pin To Net: NetName=VL1 Pin=J19-1
+Added Pin To Net: NetName=VL2 Pin=J23-1
+Added Pin To Net: NetName=AGND Pin=J23-2
+Added Pin To Net: NetName=VL3 Pin=J25-1
+Added Pin To Net: NetName=AGND Pin=J25-2
+Added Pin To Net: NetName=NetJ18_1 Pin=R7-1
+Added Pin To Net: NetName=NetJ18_2 Pin=R13-1
+Added Pin To Net: NetName=NetC8_1 Pin=R120-1
+Added Pin To Net: NetName=NetJ18_1 Pin=R120-2
+Added Pin To Net: NetName=NetC10_2 Pin=R122-1
+Added Pin To Net: NetName=NetJ18_2 Pin=R122-2
+Added Pin To Net: NetName=NetR20_1 Pin=R123-2
+Added Pin To Net: NetName=NetR25_1 Pin=R124-2
+Added Pin To Net: NetName=NetC11_2 Pin=U3-5
+Added Pin To Net: NetName=NetR4_1 Pin=U3-6
+Added Pin To Net: NetName=VL1 Pin=U3-7
+Added Pin To Net: NetName=AGND Pin=U3-8
+Added Pin To Net: NetName=+5V Pin=U12-1
+Added Pin To Net: NetName=AGND Pin=U12-3
+Added Pin To Net: NetName=AGND Pin=U16-4
+Added Pin To Net: NetName=+5V Pin=U16-8
+Added Pin To Net: NetName=NetC15_2 Pin=U17-1
+Added Pin To Net: NetName=NetC15_1 Pin=U17-2
+Added Pin To Net: NetName=NetC17_2 Pin=U17-3
+Added Pin To Net: NetName=+5V Pin=U17-4
+Added Pin To Net: NetName=NetC18_2 Pin=U17-5
+Added Pin To Net: NetName=NetR28_2 Pin=U17-6
+Added Pin To Net: NetName=VL2 Pin=U17-7
+Added Pin To Net: NetName=AGND Pin=U17-8
+Added Pin To Net: NetName=NetJ22_1 Pin=J22-1
+Added Pin To Net: NetName=NetJ22_1 Pin=R21-2
+Added Pin To Net: NetName=NetJ22_1 Pin=R123-1
+Added Net: Name=NetJ22_1
+Added Pin To Net: NetName=NetJ22_2 Pin=J22-2
+Added Pin To Net: NetName=NetJ22_2 Pin=R26-1
+Added Pin To Net: NetName=NetJ22_2 Pin=R27-2
+Added Net: Name=NetJ22_2
+Added Pin To Net: NetName=NetJ24_1 Pin=J24-1
+Added Pin To Net: NetName=NetJ24_1 Pin=R34-1
+Added Pin To Net: NetName=NetJ24_1 Pin=R35-2
+Added Net: Name=NetJ24_1
+Added Pin To Net: NetName=NetJ24_2 Pin=J24-2
+Added Pin To Net: NetName=NetJ24_2 Pin=R40-1
+Added Pin To Net: NetName=NetJ24_2 Pin=R41-2
+Added Net: Name=NetJ24_2
+Added Pin To Net: NetName=NetR26_2 Pin=R26-2
+Added Pin To Net: NetName=NetR26_2 Pin=R124-1
+Added Net: Name=NetR26_2
+Added Pin To Net: NetName=VL_1V5_B Pin=C22-1
+Added Pin To Net: NetName=VL_1V5_B Pin=C29-1
+Added Pin To Net: NetName=VL_1V5_B Pin=C90-1
+Added Pin To Net: NetName=VL_1V5_B Pin=R43-2
+Added Pin To Net: NetName=VL_1V5_B Pin=R57-2
+Added Pin To Net: NetName=VL_1V5_B Pin=U12-2
+Added Net: Name=VL_1V5_B
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component C89 CAP_CC0805KKX7R7BB105_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component C90 CAP_CC0805KKX7R7BB105_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component C91 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component C92 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J22 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J23 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J24 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J25 CON_RADX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R120 RES_RC0805FR-07412KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R122 RES_RC0805FR-07412KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R123 RES_RC0805FR-07412KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R124 RES_RC0805FR-07412KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component U17 IC_TLV2472_ANALOG

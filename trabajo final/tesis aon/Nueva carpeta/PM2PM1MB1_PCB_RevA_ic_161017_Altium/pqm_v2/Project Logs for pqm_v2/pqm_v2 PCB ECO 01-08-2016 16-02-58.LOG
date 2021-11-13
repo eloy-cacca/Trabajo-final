@@ -1,0 +1,26 @@
+Removed Pin From Net: NetName=AGND Pin=C26-1
+Removed Member From Class: ClassName=pqm_v2_page3 Member=C26
+Removed Member From Class: ClassName=pqm_v2_page3 Member=J4
+Removed Member From Class: ClassName=pqm_v2_page3 Member=J5
+Removed Member From Class: ClassName=pqm_v2_page3 Member=J7
+Added Pin To Net: NetName=AGND Pin=U4-11
+Added Pin To Net: NetName=NetJ?_1 Pin=R5-2
+Added Net: Name=NetJ?_1
+Added Pin To Net: NetName=NetJ?_2 Pin=R11-2
+Added Net: Name=NetJ?_2
+Added Pin To Net: NetName=NetJ?_3 Pin=R19-2
+Added Net: Name=NetJ?_3
+Added Pin To Net: NetName=NetJ?_4 Pin=R25-2
+Added Net: Name=NetJ?_4
+Added Pin To Net: NetName=NetJ?_5 Pin=R33-2
+Added Net: Name=NetJ?_5
+Added Pin To Net: NetName=NetJ?_6 Pin=R39-2
+Added Net: Name=NetJ?_6
+Added Pin To Net: NetName=NetJ?_7 Pin=R47-2
+Added Net: Name=NetJ?_7
+Added Pin To Net: NetName=NetJ?_8 Pin=R53-2
+Added Net: Name=NetJ?_8
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page5

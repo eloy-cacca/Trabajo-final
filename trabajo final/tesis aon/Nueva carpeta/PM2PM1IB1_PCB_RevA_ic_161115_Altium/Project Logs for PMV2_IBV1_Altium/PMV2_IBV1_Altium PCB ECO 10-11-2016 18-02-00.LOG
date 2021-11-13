@@ -1,0 +1,17 @@
+Added Component: Designator=D8(Led)
+Added Component: Designator=D9(Led)
+Added Component: Designator=R5(RESC3216N)
+Added Component: Designator=R5(RESC3216N)
+Added Pin To Net: NetName=GND Pin=D8-2
+Added Pin To Net: NetName=GND Pin=D9-2
+Added Pin To Net: NetName=LED_GREEN Pin=R5-2
+Added Pin To Net: NetName=LED_RED Pin=R5-2
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD8_1 Pin=R5-1
+Added Net: Name=NetD8_1
+Added Pin To Net: NetName=NetD9_1 Pin=D9-1
+Added Pin To Net: NetName=NetD9_1 Pin=R5-1
+Added Net: Name=NetD9_1
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component D8 DIO_LED
+Added Member To Class: ClassName=PMV2_IBV1_Altium_page01 Member=Component D9 DIO_LED
+Added Room: Name=PMV2_IBV1_Altium_page01

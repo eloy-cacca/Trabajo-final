@@ -1,0 +1,32 @@
+Removed Pin From Net: NetName=NetR65_2 Pin=R78-2
+Removed Pin From Net: NetName=NetR65_2 Pin=R91-2
+Removed Pin From Net: NetName=NetR65_2 Pin=R104-2
+Removed Pin From Net: NetName=NetR65_2 Pin=U7-5
+Removed Pin From Net: NetName=NetR32_2 Pin=U7-6
+Removed Pin From Net: NetName=NetR65_2 Pin=U8-5
+Removed Pin From Net: NetName=NetR65_2 Pin=U9-5
+Removed Pin From Net: NetName=NetR65_2 Pin=U10-5
+Added Pin To Net: NetName=NetR32_2 Pin=R72-2
+Added Pin To Net: NetName=NetR32_2 Pin=R85-2
+Added Pin To Net: NetName=NetR32_2 Pin=R98-2
+Added Pin To Net: NetName=NetR32_2 Pin=U7-5
+Added Pin To Net: NetName=NetR65_2 Pin=U7-6
+Added Pin To Net: NetName=NetR32_2 Pin=U8-5
+Added Pin To Net: NetName=AGND Pin=U9-4
+Added Pin To Net: NetName=NetR32_2 Pin=U9-5
+Added Pin To Net: NetName=+5V_A Pin=U9-7
+Added Pin To Net: NetName=NetR32_2 Pin=U10-5
+Added Pin To Net: NetName=NetR78_2 Pin=R78-2
+Added Pin To Net: NetName=NetR78_2 Pin=U8-6
+Added Net: Name=NetR78_2
+Added Pin To Net: NetName=NetR91_2 Pin=R91-2
+Added Pin To Net: NetName=NetR91_2 Pin=U9-6
+Added Net: Name=NetR91_2
+Added Pin To Net: NetName=NetR104_2 Pin=R104-2
+Added Pin To Net: NetName=NetR104_2 Pin=U10-6
+Added Net: Name=NetR104_2
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4
+Added Room: Name=pqm_v2_page5

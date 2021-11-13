@@ -1,0 +1,11 @@
+Change Net Name : Old Net Name=NetC9_2 New Net Name=VL1
+Change Net Name : Old Net Name=NetC10_1 New Net Name=1V5_A
+Change Net Name : Old Net Name=NetC16_2 New Net Name=VL2
+Change Net Name : Old Net Name=NetC19_2 New Net Name=IL1
+Change Net Name : Old Net Name=NetC28_2 New Net Name=VL4
+Change Net Name : Old Net Name=NetC37_2 New Net Name=IL2
+Change Net Name : Old Net Name=NetC41_2 New Net Name=IL3
+Change Net Name : Old Net Name=NetC46_2 New Net Name=IL4
+Change Net Name : Old Net Name=NetC74_2 New Net Name=VL3
+Change Net Name : Old Net Name=NetJ1_1 New Net Name=UART_RX_SUPPLY
+Change Net Name : Old Net Name=NetJ1_9 New Net Name=UART_TX_SUPPLY

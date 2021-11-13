@@ -1,0 +1,60 @@
+Removed Pin From Net: NetName=NetC24_2 Pin=C78-1
+Removed Pin From Net: NetName=AGND Pin=C78-2
+Removed Pin From Net: NetName=NetC9_2 Pin=R16-1
+Removed Pin From Net: NetName=AGND Pin=R16-2
+Removed Pin From Net: NetName=NetC28_2 Pin=R51-1
+Removed Pin From Net: NetName=NetC27_2 Pin=R51-2
+Removed Pin From Net: NetName=NetC28_2 Pin=R58-1
+Removed Pin From Net: NetName=AGND Pin=R58-2
+Removed Pin From Net: NetName=NetJ6_1 Pin=R110-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R110-2
+Change Component DesignItemId : Designator=R10 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-074K7L_YAGEO
+Change Component DesignItemId : Designator=R24 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-074K7L_YAGEO
+Change Component DesignItemId : Designator=R38 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-074K7L_YAGEO
+Change Component DesignItemId : Designator=R52 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-074K7L_YAGEO
+Change Component DesignItemId : Designator=R9 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-079K31L_YAGEO
+Change Component DesignItemId : Designator=R16 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-079K31L_YAGEO
+Change Component DesignItemId : Designator=R23 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-079K31L_YAGEO
+Change Component DesignItemId : Designator=R30 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-079K31L_YAGEO
+Change Component DesignItemId : Designator=R37 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-079K31L_YAGEO
+Change Component DesignItemId : Designator=R44 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-079K31L_YAGEO
+Change Component DesignItemId : Designator=R51 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-079K31L_YAGEO
+Change Component DesignItemId : Designator=R58 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-079K31L_YAGEO
+Change Component Comment : Designator=R10 Old Comment=Res New Comment=RES_RC0805FR-074K7L_YAGEO
+Change Component Comment : Designator=R24 Old Comment=Res New Comment=RES_RC0805FR-074K7L_YAGEO
+Change Component Comment : Designator=R38 Old Comment=Res New Comment=RES_RC0805FR-074K7L_YAGEO
+Change Component Comment : Designator=R52 Old Comment=Res New Comment=RES_RC0805FR-074K7L_YAGEO
+Change Component Comment : Designator=R9 Old Comment=Res New Comment=RES_RC0805FR-079K31L_YAGEO
+Change Component Comment : Designator=R16 Old Comment=Res New Comment=RES_RC0805FR-079K31L_YAGEO
+Change Component Comment : Designator=R23 Old Comment=Res New Comment=RES_RC0805FR-079K31L_YAGEO
+Change Component Comment : Designator=R30 Old Comment=Res New Comment=RES_RC0805FR-079K31L_YAGEO
+Change Component Comment : Designator=R37 Old Comment=Res New Comment=RES_RC0805FR-079K31L_YAGEO
+Change Component Comment : Designator=R44 Old Comment=Res New Comment=RES_RC0805FR-079K31L_YAGEO
+Change Component Comment : Designator=R51 Old Comment=Res New Comment=RES_RC0805FR-079K31L_YAGEO
+Change Component Comment : Designator=R58 Old Comment=Res New Comment=RES_RC0805FR-079K31L_YAGEO
+Change Component Description : Designator=R10 Old Description=Res New Description=RES SMD 4.7K OHM 1% 1/8W 0805
+Change Component Description : Designator=R24 Old Description=Res New Description=RES SMD 4.7K OHM 1% 1/8W 0805
+Change Component Description : Designator=R38 Old Description=Res New Description=RES SMD 4.7K OHM 1% 1/8W 0805
+Change Component Description : Designator=R52 Old Description=Res New Description=RES SMD 4.7K OHM 1% 1/8W 0805
+Change Component Description : Designator=R9 Old Description=Res New Description=RES SMD 9.31K OHM 1% 1/8W 0805
+Change Component Description : Designator=R16 Old Description=Res New Description=RES SMD 9.31K OHM 1% 1/8W 0805
+Change Component Description : Designator=R23 Old Description=Res New Description=RES SMD 9.31K OHM 1% 1/8W 0805
+Change Component Description : Designator=R30 Old Description=Res New Description=RES SMD 9.31K OHM 1% 1/8W 0805
+Change Component Description : Designator=R37 Old Description=Res New Description=RES SMD 9.31K OHM 1% 1/8W 0805
+Change Component Description : Designator=R44 Old Description=Res New Description=RES SMD 9.31K OHM 1% 1/8W 0805
+Change Component Description : Designator=R51 Old Description=Res New Description=RES SMD 9.31K OHM 1% 1/8W 0805
+Change Component Description : Designator=R58 Old Description=Res New Description=RES SMD 9.31K OHM 1% 1/8W 0805
+Added Component: Designator=C78(CAPC2013X110N)
+Added Component: Designator=R110(RESC2013X065BN)
+Added Pin To Net: NetName=NetC24_2 Pin=C78-1
+Added Pin To Net: NetName=AGND Pin=C78-2
+Added Pin To Net: NetName=AGND Pin=R16-1
+Added Pin To Net: NetName=NetC9_2 Pin=R16-2
+Added Pin To Net: NetName=NetC27_2 Pin=R51-1
+Added Pin To Net: NetName=NetC28_2 Pin=R51-2
+Added Pin To Net: NetName=AGND Pin=R58-1
+Added Pin To Net: NetName=NetC28_2 Pin=R58-2
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C78 cap
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R110 Res

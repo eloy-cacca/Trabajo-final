@@ -1,0 +1,4 @@
+Added Pin To Net: NetName=DSP_SCIA_RX Pin=J3-43
+Added Net: Name=DSP_SCIA_RX
+Added Pin To Net: NetName=DSP_SCIA_TX Pin=J3-93
+Added Net: Name=DSP_SCIA_TX

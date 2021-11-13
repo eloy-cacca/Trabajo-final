@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=R110-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R110-2
+Added Component: Designator=R110(RESC2013X065BN)
+Added Pin To Net: NetName=AGND Pin=C49-2
+Added Pin To Net: NetName=AGND Pin=C50-2
+Added Pin To Net: NetName=AGND Pin=C51-2
+Added Pin To Net: NetName=AGND Pin=C52-2
+Added Pin To Net: NetName=AGND Pin=C53-2
+Added Pin To Net: NetName=AGND Pin=J3-27
+Added Pin To Net: NetName=AGND Pin=J3-37
+Added Pin To Net: NetName=AGND Pin=J3-47
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R110 Res

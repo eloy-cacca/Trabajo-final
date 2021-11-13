@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=NetR47_1 Pin=R48-2
+Removed Pin From Net: NetName=NetJ4_8 Pin=R53-2
+Added Component: Designator=R112(RESC2013X065BN)
+Added Component: Designator=R114(RESC2013X065BN)
+Added Pin To Net: NetName=NetR47_1 Pin=R112-2
+Added Pin To Net: NetName=NetJ4_8 Pin=R114-2
+Added Pin To Net: NetName=NetR48_2 Pin=R48-2
+Added Pin To Net: NetName=NetR48_2 Pin=R112-1
+Added Net: Name=NetR48_2
+Added Pin To Net: NetName=NetR53_2 Pin=R53-2
+Added Pin To Net: NetName=NetR53_2 Pin=R114-1
+Added Net: Name=NetR53_2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R112 RES_RC0805FR-07412KL_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R114 RES_RC0805FR-07412KL_YAGEO

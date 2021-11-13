@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=R110-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R110-2
+Change Component DesignItemId : Designator=J11 Old DesignItemId=CON_HeaderX70 New DesignItemId=CON_HeaderX40
+Change Component Comment : Designator=J11 Old Comment=CON_HeaderX70 New Comment=CON_HeaderX40
+Added Component: Designator=R110(RESC2013X065BN)
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Pin To Net: NetName=GPIO17 Pin=J3-88
+Added Net: Name=GPIO17
+Added Pin To Net: NetName=GPIO19 Pin=J3-89
+Added Net: Name=GPIO19
+Added Pin To Net: NetName=GPIO21 Pin=J3-90
+Added Net: Name=GPIO21
+Added Pin To Net: NetName=GPIO23 Pin=J3-91
+Added Net: Name=GPIO23
+Added Pin To Net: NetName=GPIO31 Pin=J3-94
+Added Net: Name=GPIO31
+Added Pin To Net: NetName=GPIO33 Pin=J3-95
+Added Net: Name=GPIO33
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R110 Res

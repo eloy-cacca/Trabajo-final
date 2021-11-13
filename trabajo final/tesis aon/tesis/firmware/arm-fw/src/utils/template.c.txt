@@ -1,0 +1,49 @@
+/**
+ * @file		   main.c
+ * @brief          main function.
+ * @details
+ * @author         Agustin Aon
+ * @version        0.01
+ * @date           21 July 2020
+ * @details
+ * @copyright
+ *
+ * @addtogroup main
+ * @{                                
+ */
+
+/**************************** INCLUDES ***************************************/
+
+/**************************** MACROS *****************************************/
+
+/**************************** ENUMS, STRUCTS *********************************/
+
+/**************************** FUNCTION PROTOTYPES ****************************/
+
+/**************************** LOCAL VARIABLES ********************************/
+
+/**************************** GLOBAL VARIABLES *******************************/
+
+/**************************** LOCAL FUNCTIONS ********************************/
+
+/**************************** GLOBAL FUNCTIONS *******************************/
+
+/**
+  * \brief One liner for the item.
+  * \details As many paragraphs as necessary for the details
+  *
+  * \param[in] name Description
+  * \param[in,out] name Description
+  * \param[out] name Description
+  *
+  * \return @e value Description
+  * \warning Some warning.
+  * \note A note
+  * \sa name (reference to another item)
+  * \todo todo list
+
+  * 
+  */
+
+/** @}*/
+

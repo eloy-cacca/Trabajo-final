@@ -1,0 +1,386 @@
+Removed Pin From Net: NetName=AGND Pin=C4-1
+Removed Pin From Net: NetName=NetC4_2 Pin=C4-2
+Removed Pin From Net: NetName=AGND Pin=C8-1
+Removed Pin From Net: NetName=NetC8_2 Pin=C8-2
+Removed Pin From Net: NetName=AGND Pin=C12-1
+Removed Pin From Net: NetName=AGND Pin=C16-1
+Removed Pin From Net: NetName=NetC16_2 Pin=C16-2
+Removed Pin From Net: NetName=AGND Pin=C18-1
+Removed Pin From Net: NetName=+5V_A Pin=C18-2
+Removed Pin From Net: NetName=NetJ4_2 Pin=J4-2
+Removed Pin From Net: NetName=NetC2_1 Pin=R5-1
+Removed Pin From Net: NetName=NetC1_2 Pin=R5-2
+Removed Pin From Net: NetName=NetC4_2 Pin=R6-1
+Removed Pin From Net: NetName=NetC2_1 Pin=R6-2
+Removed Pin From Net: NetName=NetC2_2 Pin=R10-1
+Removed Pin From Net: NetName=NetC3_2 Pin=R11-1
+Removed Pin From Net: NetName=AGND Pin=R12-1
+Removed Pin From Net: NetName=NetJ2_1 Pin=R13-2
+Removed Pin From Net: NetName=NetC5_1 Pin=R16-2
+Removed Pin From Net: NetName=NetC8_2 Pin=R18-1
+Removed Pin From Net: NetName=NetC7_2 Pin=R21-1
+Removed Pin From Net: NetName=NetC7_2 Pin=R23-1
+Removed Pin From Net: NetName=NetC7_1 Pin=R23-2
+Removed Pin From Net: NetName=AGND Pin=R24-1
+Removed Pin From Net: NetName=NetC9_1 Pin=R27-1
+Removed Pin From Net: NetName=NetC10_1 Pin=R29-1
+Removed Pin From Net: NetName=NetC9_2 Pin=R29-2
+Removed Pin From Net: NetName=NetC10_1 Pin=R30-2
+Removed Pin From Net: NetName=NetC11_2 Pin=R33-1
+Removed Pin From Net: NetName=NetC10_2 Pin=R34-1
+Removed Pin From Net: NetName=AGND Pin=R36-1
+Removed Pin From Net: NetName=NetC13_1 Pin=R39-1
+Removed Pin From Net: NetName=NetC13_2 Pin=R41-2
+Removed Pin From Net: NetName=NetC16_2 Pin=R42-1
+Removed Pin From Net: NetName=NetJ4_2 Pin=R43-2
+Removed Pin From Net: NetName=NetC15_2 Pin=R45-1
+Removed Pin From Net: NetName=NetC15_2 Pin=R47-1
+Removed Pin From Net: NetName=NetC15_1 Pin=R47-2
+Removed Pin From Net: NetName=NetC4_2 Pin=U1-5
+Removed Pin From Net: NetName=NetC7_2 Pin=U1-10
+Removed Pin From Net: NetName=AGND Pin=U1-11
+Removed Pin From Net: NetName=NetC8_2 Pin=U1-12
+Removed Pin From Net: NetName=NetC15_2 Pin=U2-10
+Removed Pin From Net: NetName=AGND Pin=U2-11
+Removed Pin From Net: NetName=NetC16_2 Pin=U2-12
+Removed Member From Class: ClassName=pqm_v2_pagA Member=C17
+Removed Member From Class: ClassName=pqm_v2_pagA Member=C18
+Change Component DesignItemId : Designator=C6 Old DesignItemId=CAP_CL31C103GAFNNNE_SAMSUNG New DesignItemId=CAP_CL31C300JBCNNNC_SAMSUNG
+Change Component DesignItemId : Designator=C14 Old DesignItemId=CAP_CL31C103GAFNNNE_SAMSUNG New DesignItemId=CAP_CL31C300JBCNNNC_SAMSUNG
+Change Component DesignItemId : Designator=J5 Old DesignItemId=CON_DIM_100 New DesignItemId=CON_1729128_PHOENIX
+Change Component DesignItemId : Designator=J2 Old DesignItemId=CON_HeaderX2 New DesignItemId=CON_DB_15_female
+Change Component DesignItemId : Designator=J1 Old DesignItemId=CON_HeaderX2 New DesignItemId=CON_DB_15_male
+Change Component DesignItemId : Designator=J3 Old DesignItemId=CON_HeaderX2 New DesignItemId=CON_DIM_100
+Change Component DesignItemId : Designator=R31 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component DesignItemId : Designator=R32 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component DesignItemId : Designator=R39 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=RES_RC1206FR-0710KL_Yageo
+Change Component DesignItemId : Designator=R1 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R13 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R14 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R27 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R33 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R38 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R43 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R45 Old DesignItemId=RES_HV732BTTD1004D_KOA New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R48 Old DesignItemId=RES_RC1206FR-0710KL_Yageo New DesignItemId=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component DesignItemId : Designator=R22 Old DesignItemId=RES_RC1206FR-0710KL_Yageo New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R46 Old DesignItemId=RES_RC1206FR-0710KL_Yageo New DesignItemId=RES_RMCF1206FT3K65_Stackpole
+Change Component DesignItemId : Designator=R5 Old DesignItemId=RES_RMCF1206FT3K65_Stackpole New DesignItemId=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component DesignItemId : Designator=R16 Old DesignItemId=RES_RMCF1206FT3K65_Stackpole New DesignItemId=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component DesignItemId : Designator=R47 Old DesignItemId=RES_RMCF1206FT3K65_Stackpole New DesignItemId=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component DesignItemId : Designator=R23 Old DesignItemId=RES_RMCF1206FT3K65_Stackpole New DesignItemId=RES_RC1206FR-0710KL_Yageo
+Change Component Footprint: Designator=J3 Old Footprint=BorneraX2 New Footprint=DIMM1.27-2V100
+Change Component Footprint: Designator=J4 Old Footprint=BorneraX2 New Footprint=PHOENIX_1729128
+Change Component Footprint: Designator=C6 Old Footprint=CAPC3216X135N_B New Footprint=CAPC3216X135N
+Change Component Footprint: Designator=C14 Old Footprint=CAPC3216X135N_B New Footprint=CAPC3216X135N
+Change Component Footprint: Designator=J5 Old Footprint=DIMM1.27-2V100 New Footprint=PHOENIX_1729128
+Change Component Footprint: Designator=R5 Old Footprint=RESC3216N New Footprint=CAPC3216X135N_B
+Change Component Footprint: Designator=R16 Old Footprint=RESC3216N New Footprint=CAPC3216X135N_B
+Change Component Footprint: Designator=R47 Old Footprint=RESC3216N New Footprint=CAPC3216X135N_B
+Change Component Footprint: Designator=R48 Old Footprint=RESC3216N New Footprint=CAPC3216X135N_B
+Change Component Footprint: Designator=R31 Old Footprint=RESC3216X071N New Footprint=CAPC3216X135N_B
+Change Component Footprint: Designator=R32 Old Footprint=RESC3216X071N New Footprint=CAPC3216X135N_B
+Change Component Footprint: Designator=R1 Old Footprint=RESC3216X071N New Footprint=RESC3216N
+Change Component Footprint: Designator=R13 Old Footprint=RESC3216X071N New Footprint=RESC3216N
+Change Component Footprint: Designator=R14 Old Footprint=RESC3216X071N New Footprint=RESC3216N
+Change Component Footprint: Designator=R27 Old Footprint=RESC3216X071N New Footprint=RESC3216N
+Change Component Footprint: Designator=R33 Old Footprint=RESC3216X071N New Footprint=RESC3216N
+Change Component Footprint: Designator=R38 Old Footprint=RESC3216X071N New Footprint=RESC3216N
+Change Component Footprint: Designator=R39 Old Footprint=RESC3216X071N New Footprint=RESC3216N
+Change Component Footprint: Designator=R43 Old Footprint=RESC3216X071N New Footprint=RESC3216N
+Change Component Footprint: Designator=R45 Old Footprint=RESC3216X071N New Footprint=RESC3216N
+Change Component Comment : Designator=C6 Old Comment=CAP_CL31C103GAFNNNE_SAMSUNG New Comment=CAP_CL31C300JBCNNNC_SAMSUNG
+Change Component Comment : Designator=C14 Old Comment=CAP_CL31C103GAFNNNE_SAMSUNG New Comment=CAP_CL31C300JBCNNNC_SAMSUNG
+Change Component Comment : Designator=J5 Old Comment=DIM 100 - F28335 New Comment=CON_1729128_PHOENIX
+Change Component Comment : Designator=J2 Old Comment=HeaderX2 New Comment=DB 15 Female
+Change Component Comment : Designator=J1 Old Comment=HeaderX2 New Comment=DB 15 Male
+Change Component Comment : Designator=J3 Old Comment=HeaderX2 New Comment=DIM 100 - F28335
+Change Component Comment : Designator=R31 Old Comment=RES_HV732BTTD1004D_KOA New Comment=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component Comment : Designator=R32 Old Comment=RES_HV732BTTD1004D_KOA New Comment=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component Comment : Designator=R39 Old Comment=RES_HV732BTTD1004D_KOA New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R1 Old Comment=RES_HV732BTTD1004D_KOA New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R13 Old Comment=RES_HV732BTTD1004D_KOA New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R14 Old Comment=RES_HV732BTTD1004D_KOA New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R27 Old Comment=RES_HV732BTTD1004D_KOA New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R33 Old Comment=RES_HV732BTTD1004D_KOA New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R38 Old Comment=RES_HV732BTTD1004D_KOA New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R43 Old Comment=RES_HV732BTTD1004D_KOA New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R45 Old Comment=RES_HV732BTTD1004D_KOA New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R48 Old Comment=RES_RC1206FR-0710KL_Yageo New Comment=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component Comment : Designator=R22 Old Comment=RES_RC1206FR-0710KL_Yageo New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R46 Old Comment=RES_RC1206FR-0710KL_Yageo New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R5 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component Comment : Designator=R16 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component Comment : Designator=R47 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=CAP_CL31C103GAFNNNE_SAMSUNG
+Change Component Comment : Designator=R23 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RC1206FR-0710KL_Yageo
+Change Component Comment : Designator=R4 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R6 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R11 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R17 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R28 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R29 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R30 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R35 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Comment : Designator=R40 Old Comment=RES_RMCF1206FT3K65_Stackpole  New Comment=RES_RMCF1206FT3K65_Stackpole
+Change Component Designator: OldDesignator=C5 NewDesignator=C4
+Change Component Designator: OldDesignator=C13 NewDesignator=C12
+Change Component Designator: OldDesignator=C17 NewDesignator=C5
+Change Component Designator: OldDesignator=J4 NewDesignator=J8
+Change Component Designator: OldDesignator=R5 NewDesignator=R15
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R7
+Change Component Designator: OldDesignator=R15 NewDesignator=R20
+Change Component Designator: OldDesignator=R19 NewDesignator=R24
+Change Component Designator: OldDesignator=R20 NewDesignator=R25
+Change Component Designator: OldDesignator=R21 NewDesignator=R26
+Change Component Designator: OldDesignator=R25 NewDesignator=R34
+Change Component Designator: OldDesignator=R26 NewDesignator=R35
+Change Component Designator: OldDesignator=R28 NewDesignator=R37
+Change Component Designator: OldDesignator=R35 NewDesignator=R44
+Change Component Designator: OldDesignator=R37 NewDesignator=R50
+Change Component Designator: OldDesignator=R40 NewDesignator=R53
+Change Component Designator: OldDesignator=R44 NewDesignator=R57
+Change Component Description : Designator=R23 Old Description=RES SMD 3.65K OHM 1% 1/4W 1206 New Description=RES SMD 10K OHM 1% 1/4W 1206
+Change Component Description : Designator=R22 Old Description=RES SMD 10K OHM 1% 1/4W 1206 New Description=RES SMD 3.65K OHM 1% 1/4W 1206
+Change Component Description : Designator=R46 Old Description=RES SMD 10K OHM 1% 1/4W 1206 New Description=RES SMD 3.65K OHM 1% 1/4W 1206
+Change Component Library : Designator=J1 Old Library=pqm_v2_IC.SchLib New Library=pqm_v2_lib_connectors.SchLib
+Change Component Library : Designator=J2 Old Library=pqm_v2_IC.SchLib New Library=pqm_v2_lib_connectors.SchLib
+Change Component Library : Designator=U1 Old Library=pqm_v2_IC.SchLib New Library=pqm_v2_lib_ic.SchLib
+Change Component Library : Designator=U2 Old Library=pqm_v2_IC.SchLib New Library=pqm_v2_lib_ic.SchLib
+Added Component: Designator=C8(CAPC3216X135N_B)
+Added Component: Designator=C13(CAPC3216X135N)
+Added Component: Designator=C16(CAPC3216X135N_B)
+Added Component: Designator=J4(PHOENIX_1729128)
+Added Component: Designator=J6(PHOENIX_1729128)
+Added Component: Designator=J7(PHOENIX_1729128)
+Added Component: Designator=R5(RESC3216X071N)
+Added Component: Designator=R12(RESC3216N)
+Added Component: Designator=R18(RESC3216X071N)
+Added Component: Designator=R19(RESC3216X071N)
+Added Component: Designator=R21(RESC3216N)
+Added Component: Designator=R28(RESC3216N)
+Added Component: Designator=R36(RESC3216X071N)
+Added Component: Designator=R40(RESC3216X071N)
+Added Component: Designator=R41(RESC3216X071N)
+Added Component: Designator=R42(RESC3216X071N)
+Added Component: Designator=R49(RESC3216N)
+Added Component: Designator=R51(RESC3216X071N)
+Added Component: Designator=R52(RESC3216X071N)
+Added Component: Designator=R54(RESC3216N)
+Added Component: Designator=R55(RESC3216N)
+Added Component: Designator=R56(RESC3216X071N)
+Added Component: Designator=R58(RESC3216X071N)
+Added Component: Designator=R59(RESC3216N)
+Added Component: Designator=R60(RESC3216N)
+Added Component: Designator=R61(RESC3216N)
+Added Component: Designator=R62(RESC3216N)
+Added Component: Designator=R63(CAPC3216X135N_B)
+Added Component: Designator=R64(CAPC3216X135N_B)
+Added Pin To Net: NetName=AGND Pin=C3-1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=AGND Pin=C6-1
+Added Pin To Net: NetName=AGND Pin=C8-1
+Added Pin To Net: NetName=NetC8_2 Pin=C8-2
+Added Pin To Net: NetName=AGND Pin=C11-1
+Added Pin To Net: NetName=AGND Pin=C13-1
+Added Pin To Net: NetName=+5V_A Pin=C13-2
+Added Pin To Net: NetName=AGND Pin=C14-1
+Added Pin To Net: NetName=AGND Pin=C16-1
+Added Pin To Net: NetName=NetC16_2 Pin=C16-2
+Added Pin To Net: NetName=NetJ2_1 Pin=J2-2
+Added Pin To Net: NetName=NetJ4_2 Pin=J4-2
+Added Pin To Net: NetName=NetC2_2 Pin=R1-1
+Added Pin To Net: NetName=NetC1_2 Pin=R6-2
+Added Pin To Net: NetName=NetC2_1 Pin=R7-1
+Added Pin To Net: NetName=NetJ4_2 Pin=R8-2
+Added Pin To Net: NetName=NetC3_2 Pin=R12-1
+Added Pin To Net: NetName=AGND Pin=R12-2
+Added Pin To Net: NetName=AGND Pin=R13-2
+Added Pin To Net: NetName=AGND Pin=R14-2
+Added Pin To Net: NetName=AGND Pin=R15-1
+Added Pin To Net: NetName=AGND Pin=R16-1
+Added Pin To Net: NetName=NetC7_2 Pin=R17-1
+Added Pin To Net: NetName=NetC4_2 Pin=R21-1
+Added Pin To Net: NetName=NetC5_1 Pin=R21-2
+Added Pin To Net: NetName=NetC4_2 Pin=R22-2
+Added Pin To Net: NetName=NetC7_1 Pin=R23-1
+Added Pin To Net: NetName=NetC8_2 Pin=R26-1
+Added Pin To Net: NetName=NetC8_2 Pin=R28-1
+Added Pin To Net: NetName=AGND Pin=R28-2
+Added Pin To Net: NetName=AGND Pin=R29-2
+Added Pin To Net: NetName=AGND Pin=R30-2
+Added Pin To Net: NetName=AGND Pin=R31-1
+Added Pin To Net: NetName=AGND Pin=R32-1
+Added Pin To Net: NetName=NetC10_2 Pin=R33-1
+Added Pin To Net: NetName=NetC9_1 Pin=R36-1
+Added Pin To Net: NetName=NetC9_2 Pin=R38-2
+Added Pin To Net: NetName=NetC10_1 Pin=R39-1
+Added Pin To Net: NetName=NetC11_2 Pin=R42-1
+Added Pin To Net: NetName=AGND Pin=R44-2
+Added Pin To Net: NetName=AGND Pin=R45-2
+Added Pin To Net: NetName=AGND Pin=R46-2
+Added Pin To Net: NetName=AGND Pin=R47-1
+Added Pin To Net: NetName=NetC15_2 Pin=R49-1
+Added Pin To Net: NetName=NetC13_1 Pin=R52-1
+Added Pin To Net: NetName=NetC13_2 Pin=R54-2
+Added Pin To Net: NetName=NetC15_1 Pin=R55-1
+Added Pin To Net: NetName=NetC16_2 Pin=R58-1
+Added Pin To Net: NetName=NetC16_2 Pin=R60-1
+Added Pin To Net: NetName=AGND Pin=R60-2
+Added Pin To Net: NetName=AGND Pin=R61-2
+Added Pin To Net: NetName=AGND Pin=R62-2
+Added Pin To Net: NetName=AGND Pin=R63-1
+Added Pin To Net: NetName=AGND Pin=R64-1
+Added Pin To Net: NetName=NetC2_1 Pin=U1-6
+Added Pin To Net: NetName=NetC4_2 Pin=U1-8
+Added Pin To Net: NetName=NetC8_2 Pin=U1-10
+Added Pin To Net: NetName=NetC7_1 Pin=U1-12
+Added Pin To Net: NetName=NetC7_2 Pin=U1-14
+Added Pin To Net: NetName=NetC10_1 Pin=U2-5
+Added Pin To Net: NetName=NetC16_2 Pin=U2-10
+Added Pin To Net: NetName=NetC15_1 Pin=U2-12
+Added Pin To Net: NetName=NetC15_2 Pin=U2-14
+Change Net Name : Old Net Name=NetC5_1 New Net Name=NetC4_1
+Change Net Name : Old Net Name=NetC13_1 New Net Name=NetC12_1
+Change Net Name : Old Net Name=NetC13_2 New Net Name=NetC12_2
+Change Net Name : Old Net Name=NetJ4_1 New Net Name=NetJ8_1
+Change Net Name : Old Net Name=NetR7_1 New Net Name=NetR8_1
+Change Net Name : Old Net Name=NetR8_1 New Net Name=NetR9_1
+Change Net Name : Old Net Name=NetR19_1 New Net Name=NetR24_1
+Change Net Name : Old Net Name=NetR20_1 New Net Name=NetR25_1
+Change Net Name : Old Net Name=NetR25_1 New Net Name=NetR34_1
+Added Pin To Net: NetName=-5V_A Pin=C6-2
+Added Pin To Net: NetName=-5V_A Pin=C14-2
+Added Pin To Net: NetName=-5V_A Pin=U1-11
+Added Pin To Net: NetName=-5V_A Pin=U2-11
+Added Net: Name=-5V_A
+Added Net: Name=3.3V_ISO
+Added Net: Name=GND_ISO
+Added Net: Name=NetJ1_8
+Added Net: Name=NetJ1_15
+Added Net: Name=NetJ2_8
+Added Net: Name=NetJ2_15
+Added Pin To Net: NetName=NetJ4_1 Pin=J4-1
+Added Pin To Net: NetName=NetJ4_1 Pin=R5-2
+Added Net: Name=NetJ4_1
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_1 Pin=R18-2
+Added Net: Name=NetJ6_1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Pin To Net: NetName=NetJ6_2 Pin=R24-2
+Added Net: Name=NetJ6_2
+Added Pin To Net: NetName=NetJ7_1 Pin=J7-1
+Added Pin To Net: NetName=NetJ7_1 Pin=R34-2
+Added Net: Name=NetJ7_1
+Added Pin To Net: NetName=NetJ7_2 Pin=J7-2
+Added Pin To Net: NetName=NetJ7_2 Pin=R40-2
+Added Net: Name=NetJ7_2
+Added Pin To Net: NetName=NetJ8_2 Pin=J8-2
+Added Pin To Net: NetName=NetJ8_2 Pin=R56-2
+Added Net: Name=NetJ8_2
+Added Pin To Net: NetName=NetR1_2 Pin=R1-2
+Added Pin To Net: NetName=NetR1_2 Pin=R6-1
+Added Pin To Net: NetName=NetR1_2 Pin=R7-2
+Added Pin To Net: NetName=NetR1_2 Pin=R13-1
+Added Pin To Net: NetName=NetR1_2 Pin=R15-2
+Added Net: Name=NetR1_2
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=R5-1
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR11_1 Pin=R11-1
+Added Pin To Net: NetName=NetR11_1 Pin=R27-1
+Added Pin To Net: NetName=NetR11_1 Pin=R43-1
+Added Pin To Net: NetName=NetR11_1 Pin=R59-1
+Added Net: Name=NetR11_1
+Added Pin To Net: NetName=NetR11_2 Pin=R11-2
+Added Pin To Net: NetName=NetR11_2 Pin=R14-1
+Added Pin To Net: NetName=NetR11_2 Pin=R16-2
+Added Pin To Net: NetName=NetR11_2 Pin=U1-5
+Added Net: Name=NetR11_2
+Added Pin To Net: NetName=NetR17_2 Pin=R17-2
+Added Pin To Net: NetName=NetR17_2 Pin=R22-1
+Added Pin To Net: NetName=NetR17_2 Pin=R23-2
+Added Pin To Net: NetName=NetR17_2 Pin=R29-1
+Added Pin To Net: NetName=NetR17_2 Pin=R31-2
+Added Net: Name=NetR17_2
+Added Pin To Net: NetName=NetR18_1 Pin=R18-1
+Added Pin To Net: NetName=NetR18_1 Pin=R19-2
+Added Net: Name=NetR18_1
+Added Pin To Net: NetName=NetR19_1 Pin=R19-1
+Added Pin To Net: NetName=NetR19_1 Pin=R20-2
+Added Net: Name=NetR19_1
+Added Pin To Net: NetName=NetR27_2 Pin=R27-2
+Added Pin To Net: NetName=NetR27_2 Pin=R30-1
+Added Pin To Net: NetName=NetR27_2 Pin=R32-2
+Added Pin To Net: NetName=NetR27_2 Pin=U1-13
+Added Net: Name=NetR27_2
+Added Pin To Net: NetName=NetR33_2 Pin=R33-2
+Added Pin To Net: NetName=NetR33_2 Pin=R38-1
+Added Pin To Net: NetName=NetR33_2 Pin=R39-2
+Added Pin To Net: NetName=NetR33_2 Pin=R45-1
+Added Pin To Net: NetName=NetR33_2 Pin=R47-2
+Added Net: Name=NetR33_2
+Added Pin To Net: NetName=NetR35_1 Pin=R35-1
+Added Pin To Net: NetName=NetR35_1 Pin=R36-2
+Added Net: Name=NetR35_1
+Added Pin To Net: NetName=NetR40_1 Pin=R40-1
+Added Pin To Net: NetName=NetR40_1 Pin=R41-2
+Added Net: Name=NetR40_1
+Added Pin To Net: NetName=NetR41_1 Pin=R41-1
+Added Pin To Net: NetName=NetR41_1 Pin=R42-2
+Added Net: Name=NetR41_1
+Added Pin To Net: NetName=NetR43_2 Pin=R43-2
+Added Pin To Net: NetName=NetR43_2 Pin=R46-1
+Added Pin To Net: NetName=NetR43_2 Pin=R48-2
+Added Pin To Net: NetName=NetR43_2 Pin=U2-6
+Added Net: Name=NetR43_2
+Added Pin To Net: NetName=NetR49_2 Pin=R49-2
+Added Pin To Net: NetName=NetR49_2 Pin=R54-1
+Added Pin To Net: NetName=NetR49_2 Pin=R55-2
+Added Pin To Net: NetName=NetR49_2 Pin=R61-1
+Added Pin To Net: NetName=NetR49_2 Pin=R63-2
+Added Net: Name=NetR49_2
+Added Pin To Net: NetName=NetR50_1 Pin=R50-1
+Added Pin To Net: NetName=NetR50_1 Pin=R51-2
+Added Net: Name=NetR50_1
+Added Pin To Net: NetName=NetR51_1 Pin=R51-1
+Added Pin To Net: NetName=NetR51_1 Pin=R52-2
+Added Net: Name=NetR51_1
+Added Pin To Net: NetName=NetR56_1 Pin=R56-1
+Added Pin To Net: NetName=NetR56_1 Pin=R57-2
+Added Net: Name=NetR56_1
+Added Pin To Net: NetName=NetR57_1 Pin=R57-1
+Added Pin To Net: NetName=NetR57_1 Pin=R58-2
+Added Net: Name=NetR57_1
+Added Pin To Net: NetName=NetR59_2 Pin=R59-2
+Added Pin To Net: NetName=NetR59_2 Pin=R62-1
+Added Pin To Net: NetName=NetR59_2 Pin=R64-2
+Added Pin To Net: NetName=NetR59_2 Pin=U2-13
+Added Net: Name=NetR59_2
+Added Pin To Net: NetName=VIN Pin=J1-1
+Added Pin To Net: NetName=VIN Pin=J1-2
+Added Net: Name=VIN
+Change Class Name : Old Net Name=pqm_v2_pagA New Net Name=pqm_v2_page3
+Added Class: Name=pqm_v2_page1
+Added Class: Name=pqm_v2_page2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R49 RES_RMCF1206FT3K65_Stackpole
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R50 RES_HV732BTTD1004D_KOA
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R51 RES_HV732BTTD1004D_KOA
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R52 RES_HV732BTTD1004D_KOA
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R53 RES_RMCF1206FT3K65_Stackpole
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R54 RES_RMCF1206FT3K65_Stackpole
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R55 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R56 RES_HV732BTTD1004D_KOA
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R57 RES_HV732BTTD1004D_KOA
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R58 RES_HV732BTTD1004D_KOA
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R59 RES_RMCF1206FT3K65_Stackpole
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R60 RES_RMCF1206FT3K65_Stackpole
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R61 RES_RMCF1206FT3K65_Stackpole
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R62 RES_RMCF1206FT3K65_Stackpole
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R63 CAP_CL31C103GAFNNNE_SAMSUNG
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R64 CAP_CL31C103GAFNNNE_SAMSUNG
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3

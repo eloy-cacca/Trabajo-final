@@ -1,0 +1,8 @@
+Added Component: Designator=U16(SOIC127P600-8BN)
+Added Pin To Net: NetName=NetC27_2 Pin=U16-1
+Added Pin To Net: NetName=NetC27_1 Pin=U16-2
+Added Pin To Net: NetName=NetC29_2 Pin=U16-3
+Added Pin To Net: NetName=NetC30_2 Pin=U16-5
+Added Pin To Net: NetName=NetR56_2 Pin=U16-6
+Added Pin To Net: NetName=VL4 Pin=U16-7
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component U16 IC_TLV2472_ANALOG

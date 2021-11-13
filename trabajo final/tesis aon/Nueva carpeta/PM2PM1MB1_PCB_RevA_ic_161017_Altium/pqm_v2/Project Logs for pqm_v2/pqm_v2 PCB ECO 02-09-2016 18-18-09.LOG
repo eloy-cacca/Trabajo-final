@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=VL3 Pin=J26-1
+Removed Pin From Net: NetName=AGND Pin=J26-2
+Added Component: Designator=J26(RAD2)
+Added Pin To Net: NetName=VL3 Pin=J26-1
+Added Pin To Net: NetName=AGND Pin=J26-2

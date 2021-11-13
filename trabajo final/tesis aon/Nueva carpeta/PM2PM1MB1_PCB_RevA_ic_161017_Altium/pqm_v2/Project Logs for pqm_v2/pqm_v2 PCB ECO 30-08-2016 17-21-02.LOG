@@ -1,0 +1,4 @@
+Added Component: Designator=J14(RAD2)
+Added Pin To Net: NetName=R\E\S\E\T\ Pin=J14-1
+Added Pin To Net: NetName=GND_ISO Pin=J14-2
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component J14 CON_RADX2

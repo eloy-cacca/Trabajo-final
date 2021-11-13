@@ -1,0 +1,91 @@
+Removed Pin From Net: NetName=VIN Pin=C10-1
+Removed Pin From Net: NetName=AGND Pin=C10-2
+Removed Pin From Net: NetName=NetC21_1 Pin=C21-1
+Removed Pin From Net: NetName=AGND Pin=C21-2
+Removed Pin From Net: NetName=AGND Pin=C22-1
+Removed Pin From Net: NetName=+5V_A Pin=C22-2
+Removed Pin From Net: NetName=NetC24_1 Pin=C24-1
+Removed Pin From Net: NetName=NetC24_2 Pin=C24-2
+Removed Pin From Net: NetName=NetC25_1 Pin=C25-1
+Removed Pin From Net: NetName=NetC25_2 Pin=C25-2
+Removed Pin From Net: NetName=AGND Pin=C26-1
+Removed Pin From Net: NetName=NetC26_2 Pin=C26-2
+Removed Pin From Net: NetName=NetJ6_1 Pin=J6-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=J6-2
+Removed Pin From Net: NetName=+5V_A Pin=U3-8
+Removed Pin From Net: NetName=NetC27_1 Pin=U3-12
+Removed Pin From Net: NetName=NetC24_1 Pin=U3-13
+Removed Pin From Net: NetName=NetC24_2 Pin=U3-14
+Removed Pin From Net: NetName=+5V_A Pin=U4-8
+Removed Pin From Net: NetName=NetC39_1 Pin=U4-12
+Removed Pin From Net: NetName=NetC36_1 Pin=U4-13
+Removed Pin From Net: NetName=NetC36_2 Pin=U4-14
+Removed Member From Class: ClassName=pqm_v2_page1 Member=C20
+Removed Member From Class: ClassName=pqm_v2_page1 Member=C23
+Removed Member From Class: ClassName=pqm_v2_page1 Member=C27
+Removed Member From Class: ClassName=pqm_v2_page3 Member=R5
+Removed Member From Class: ClassName=pqm_v2_page1 Member=R10
+Added Component: Designator=C10(CAPC3216X135N_B)
+Added Component: Designator=C21(CAPC3216X135N_B)
+Added Component: Designator=C22(CAPC3216X135N_B)
+Added Component: Designator=C24(CAPC3216X135N_B)
+Added Component: Designator=C25(CAPC3216X135N_B)
+Added Component: Designator=C26(CAPC3216X135N_B)
+Added Component: Designator=J6(PHOENIX_1729128)
+Added Pin To Net: NetName=VIN Pin=C10-1
+Added Pin To Net: NetName=AGND Pin=C10-2
+Added Pin To Net: NetName=NetC21_1 Pin=C21-1
+Added Pin To Net: NetName=AGND Pin=C21-2
+Added Pin To Net: NetName=AGND Pin=C22-1
+Added Pin To Net: NetName=+5V_A Pin=C22-2
+Added Pin To Net: NetName=NetC24_1 Pin=C24-1
+Added Pin To Net: NetName=NetC24_2 Pin=C24-2
+Added Pin To Net: NetName=NetC25_1 Pin=C25-1
+Added Pin To Net: NetName=NetC25_2 Pin=C25-2
+Added Pin To Net: NetName=AGND Pin=C26-1
+Added Pin To Net: NetName=NetC26_2 Pin=C26-2
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Pin To Net: NetName=+5V_A Pin=U3-4
+Added Pin To Net: NetName=NetC24_2 Pin=U3-8
+Added Pin To Net: NetName=NetC24_1 Pin=U3-9
+Added Pin To Net: NetName=NetC27_1 Pin=U3-10
+Added Pin To Net: NetName=-5V_A Pin=U3-11
+Added Pin To Net: NetName=NetC25_2 Pin=U3-12
+Added Pin To Net: NetName=NetC28_1 Pin=U3-13
+Added Pin To Net: NetName=NetC25_1 Pin=U3-14
+Added Pin To Net: NetName=+5V_A Pin=U4-4
+Added Pin To Net: NetName=NetC36_2 Pin=U4-8
+Added Pin To Net: NetName=NetC36_1 Pin=U4-9
+Added Pin To Net: NetName=NetC39_1 Pin=U4-10
+Added Pin To Net: NetName=-5V_A Pin=U4-11
+Added Pin To Net: NetName=NetC37_2 Pin=U4-12
+Added Pin To Net: NetName=NetC40_1 Pin=U4-13
+Added Pin To Net: NetName=NetC37_1 Pin=U4-14
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C2 CAP_EEE-1HA470XP_PANASONIC
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C8 CAP_C3216X7R2J103K115AA_TDK
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C10 CAP_C3216X7R1E105M085AA_TDK
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C13 CAP_C3216X7R1E105M085AA_TDK
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J6 HeaderX2
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component R4 RES_ERJ-8ENF7321V_Panasonic
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component R6 RES_ERJ-8ENF2551V_Panasonic
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R7 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R12 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R13 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R20 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R21 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R26 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R27 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R34 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R35 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R40 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R41 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R48 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R49 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R54 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R55 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R61 RES_RC1206FR-0710KL_Yageo
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R62 RES_RC1206FR-0710KL_Yageo
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3

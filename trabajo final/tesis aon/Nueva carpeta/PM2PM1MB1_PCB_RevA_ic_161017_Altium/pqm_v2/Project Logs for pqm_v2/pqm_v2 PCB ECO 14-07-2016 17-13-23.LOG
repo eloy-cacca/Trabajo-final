@@ -1,0 +1,66 @@
+Removed Pin From Net: NetName=NetC2_2 Pin=C2-2
+Removed Pin From Net: NetName=NetC2_2 Pin=C200-2
+Removed Pin From Net: NetName=NetJ6_1 Pin=J6-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=J6-2
+Removed Member From Class: ClassName=pqm_v2_page1 Member=C200
+Change Component DesignItemId : Designator=C2 Old DesignItemId=Cap Pol3 New DesignItemId=CAP_C3225Y5V1H106Z_TDK
+Change Component Comment : Designator=C2 Old Comment=120uF New Comment=CAP_C3225Y5V1H106Z_TDK
+Change Component Designator: OldDesignator=U1 NewDesignator=U3
+Change Component Designator: OldDesignator=U2 NewDesignator=U4
+Change Component Designator: OldDesignator=U? NewDesignator=U1
+Change Component Designator: OldDesignator=U? NewDesignator=U2
+Change Component Description : Designator=C2 Old Description=Polarized Capacitor New Description=10 µF, 50 V, Capacitores cerámicos, Y5V (F), 1210 (3225 métrico), 0.126" L x 0.098" A (3.20 mm x 2.50 mm)
+Change Component Library : Designator=C2 Old Library=Miscellaneous Devices.IntLib New Library=pqm_v2_lib_cap.SchLib
+Added Component: Designator=C?(CAPC3216X135N_B)
+Added Component: Designator=C?(CAPC3216X135N_B)
+Added Component: Designator=C?(CAPC3216X135N_B)
+Added Component: Designator=J6(PHOENIX_1729128)
+Added Component: Designator=R?(RESC3216N)
+Added Component: Designator=R?(RESC3216N)
+Added Pin To Net: NetName=VIN Pin=C2-1
+Added Pin To Net: NetName=-5V_A Pin=C2-2
+Added Pin To Net: NetName=VIN Pin=C5-1
+Added Pin To Net: NetName=AGND Pin=C5-2
+Added Pin To Net: NetName=-5V_A Pin=C6-2
+Added Pin To Net: NetName=VIN Pin=C*3-1
+Added Pin To Net: NetName=AGND Pin=C*3-2
+Added Pin To Net: NetName=+5V_A Pin=C?-1
+Added Pin To Net: NetName=AGND Pin=C?-1
+Added Pin To Net: NetName=-5V_A Pin=C?-2
+Added Pin To Net: NetName=AGND Pin=C?-2
+Added Pin To Net: NetName=-5V_A Pin=D2-2
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Pin To Net: NetName=+5V_A Pin=L1-2
+Added Pin To Net: NetName=+5V_A Pin=R1-1
+Added Pin To Net: NetName=-5V_A Pin=R4-1
+Added Pin To Net: NetName=AGND Pin=R?-1
+Added Pin To Net: NetName=-5V_A Pin=R?-2
+Added Pin To Net: NetName=VIN Pin=U2-2
+Added Pin To Net: NetName=-5V_A Pin=U2-4
+Added Pin To Net: NetName=-5V_A Pin=U2-8
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetR1_2
+Added Pin To Net: NetName=NetC6_1 Pin=C6-1
+Added Pin To Net: NetName=NetC6_1 Pin=U2-7
+Added Net: Name=NetC6_1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=U2-3
+Added Net: Name=NetC?_1
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=D2-1
+Added Pin To Net: NetName=NetC?_2 Pin=U2-1
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=NetR4_2 Pin=R4-2
+Added Pin To Net: NetName=NetR4_2 Pin=U2-5
+Added Net: Name=NetR4_2
+Added Pin To Net: NetName=NetR?_1 Pin=R?-1
+Added Pin To Net: NetName=NetR?_1 Pin=R?-2
+Added Pin To Net: NetName=NetR?_1 Pin=U2-6
+Added Net: Name=NetR?_1
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component C? CAP_C3216X7R1E105M085AA_TDK
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J6 HeaderX2
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component R? RES_ERJ-8ENF7321V_Panasonic
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component U1 IC_LM22673TJ-ADJ
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3

@@ -1,0 +1,6 @@
+Change Component DesignItemId : Designator=C76 Old DesignItemId=cap New DesignItemId=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component DesignItemId : Designator=C77 Old DesignItemId=cap New DesignItemId=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component Comment : Designator=C76 Old Comment=cap New Comment=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component Comment : Designator=C77 Old Comment=cap New Comment=CAP_CC0805KRX7R8BB104_YAGEO
+Change Component Description : Designator=C77 Old Description= New Description=CAP CER 0.1UF 25V 10% X7R 0805
+Change Component Description : Designator=C76 Old Description= New Description=CAP CER 1UF 16V X7R 0805

@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND_ISO Pin=*-32
+Removed Pin From Net: NetName=SD_MCDA2 Pin=*-33
+Removed Pin From Net: NetName=SD_MCCDA Pin=*-34
+Removed Pin From Net: NetName=SD_MCDA0 Pin=*-35
+Added Pin To Net: NetName=GND_ISO Pin=*-63

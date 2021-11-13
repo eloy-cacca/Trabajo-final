@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=UART0_TX Pin=J2-8
+Removed Pin From Net: NetName=UART0_RX Pin=J2-15
+Removed Pin From Net: NetName=UART1_TX Pin=J3-2
+Removed Pin From Net: NetName=UART1_RX Pin=J3-52
+Added Pin To Net: NetName=UART1_TX Pin=J2-8
+Added Pin To Net: NetName=UART1_RX Pin=J2-15
+Added Pin To Net: NetName=UART0_TX Pin=J3-2
+Added Pin To Net: NetName=UART0_RX Pin=J3-52
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4

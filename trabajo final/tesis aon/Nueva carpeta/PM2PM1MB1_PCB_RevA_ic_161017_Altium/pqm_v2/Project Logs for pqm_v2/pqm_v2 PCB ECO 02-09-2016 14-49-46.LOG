@@ -1,0 +1,27 @@
+Change Component DesignItemId : Designator=J4 Old DesignItemId=CON_HeaderX8 New DesignItemId=CON_HeaderX2
+Change Component Footprint: Designator=J4 Old Footprint=BORNERAX8 New Footprint=PHOENIX_1729128
+Change Component Comment : Designator=J4 Old Comment=HeaderX8 New Comment=HeaderX2
+Added Component: Designator=J15(PHOENIX_1729128)
+Added Component: Designator=J16(PHOENIX_1729128)
+Added Component: Designator=J17(PHOENIX_1729128)
+Added Pin To Net: NetName=NetJ15_1 Pin=J15-1
+Added Pin To Net: NetName=NetJ15_1 Pin=R19-2
+Added Net: Name=NetJ15_1
+Added Pin To Net: NetName=NetJ15_2 Pin=J15-2
+Added Pin To Net: NetName=NetJ15_2 Pin=R25-2
+Added Net: Name=NetJ15_2
+Added Pin To Net: NetName=NetJ16_1 Pin=J16-1
+Added Pin To Net: NetName=NetJ16_1 Pin=R33-2
+Added Net: Name=NetJ16_1
+Added Pin To Net: NetName=NetJ16_2 Pin=J16-2
+Added Pin To Net: NetName=NetJ16_2 Pin=R118-2
+Added Net: Name=NetJ16_2
+Added Pin To Net: NetName=NetJ17_1 Pin=J17-1
+Added Pin To Net: NetName=NetJ17_1 Pin=R47-2
+Added Net: Name=NetJ17_1
+Added Pin To Net: NetName=NetJ17_2 Pin=J17-2
+Added Pin To Net: NetName=NetJ17_2 Pin=R114-2
+Added Net: Name=NetJ17_2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J15 HeaderX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J16 HeaderX2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component J17 HeaderX2

@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetJ6_1 Pin=R110-1
+Removed Pin From Net: NetName=NetJ6_2 Pin=R110-2
+Change Component DesignItemId : Designator=C75 Old DesignItemId=cap New DesignItemId=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component DesignItemId : Designator=C78 Old DesignItemId=cap New DesignItemId=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component Comment : Designator=C75 Old Comment=cap New Comment=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component Comment : Designator=C78 Old Comment=cap New Comment=CAP_CC0805KKX7R7BB105_YAGEO
+Change Component Description : Designator=C75 Old Description= New Description=CAP CER 1UF 16V X7R 0805
+Change Component Description : Designator=C78 Old Description= New Description=CAP CER 1UF 16V X7R 0805
+Added Component: Designator=R110(RESC2013X065BN)
+Added Pin To Net: NetName=NetJ6_1 Pin=R110-1
+Added Pin To Net: NetName=NetJ6_2 Pin=R110-2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C78 CAP_CC0805KKX7R7BB105_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component R110 Res

@@ -1,0 +1,10 @@
+Added Pin To Net: NetName=USB_DDM Pin=*-62
+Added Pin To Net: NetName=USB_DDM Pin=U11-56
+Added Net: Name=USB_DDM
+Added Pin To Net: NetName=USB_DDP Pin=*-61
+Added Pin To Net: NetName=USB_DDP Pin=U11-57
+Added Net: Name=USB_DDP
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4

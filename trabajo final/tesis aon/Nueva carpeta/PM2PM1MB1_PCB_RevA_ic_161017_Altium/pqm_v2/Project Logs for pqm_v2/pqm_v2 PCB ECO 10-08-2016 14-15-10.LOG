@@ -1,0 +1,22 @@
+Added Pin To Net: NetName=GND_ISO Pin=*-32
+Added Pin To Net: NetName=SD_CD Pin=U11-25
+Added Net: Name=SD_CD
+Added Pin To Net: NetName=SD_MCCDA Pin=*-34
+Added Pin To Net: NetName=SD_MCCDA Pin=U11-38
+Added Net: Name=SD_MCCDA
+Added Pin To Net: NetName=SD_MCCK Pin=U11-41
+Added Net: Name=SD_MCCK
+Added Pin To Net: NetName=SD_MCDA0 Pin=*-35
+Added Pin To Net: NetName=SD_MCDA0 Pin=U11-42
+Added Net: Name=SD_MCDA0
+Added Pin To Net: NetName=SD_MCDA1 Pin=U11-52
+Added Net: Name=SD_MCDA1
+Added Pin To Net: NetName=SD_MCDA2 Pin=*-33
+Added Pin To Net: NetName=SD_MCDA2 Pin=U11-26
+Added Net: Name=SD_MCDA2
+Added Pin To Net: NetName=SD_MCDA3 Pin=U11-37
+Added Net: Name=SD_MCDA3
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4

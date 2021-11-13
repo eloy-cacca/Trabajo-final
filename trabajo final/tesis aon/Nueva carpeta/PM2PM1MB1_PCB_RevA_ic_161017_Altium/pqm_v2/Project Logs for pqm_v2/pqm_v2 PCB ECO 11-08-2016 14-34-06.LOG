@@ -1,0 +1,4 @@
+Change Component DesignItemId : Designator=J9 Old DesignItemId=CON_HeaderX2 New DesignItemId=HeaderX3
+Change Component Footprint: Designator=J9 Old Footprint=PHOENIX_1729128 New Footprint=PIN3
+Change Component Comment : Designator=J9 Old Comment=HeaderX2 New Comment=HeaderX3
+Added Pin To Net: NetName=GND_ISO Pin=J9-3

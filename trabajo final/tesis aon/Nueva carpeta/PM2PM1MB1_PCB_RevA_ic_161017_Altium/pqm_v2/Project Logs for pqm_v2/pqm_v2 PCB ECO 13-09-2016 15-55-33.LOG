@@ -1,0 +1,6 @@
+Added Pin To Net: NetName=DSP_GPIO05 Pin=J3-75
+Added Pin To Net: NetName=DSP_GPIO05 Pin=J20-3
+Added Net: Name=DSP_GPIO05
+Added Pin To Net: NetName=DSP_GPIO07 Pin=J3-76
+Added Pin To Net: NetName=DSP_GPIO07 Pin=J20-4
+Added Net: Name=DSP_GPIO07

@@ -1,0 +1,130 @@
+Added Component: Designator=C1(CAPC3216X135N_B)
+Added Component: Designator=C2(CAPC3216X135N_B)
+Added Component: Designator=J1(UBS MiniB)
+Added Component: Designator=J2(HeaderX70)
+Added Component: Designator=J3(SD CARD SOCKET)
+Added Component: Designator=R1(RESC3216N)
+Added Component: Designator=R2(RESC3216N)
+Added Component: Designator=R3(RESC3216N)
+Added Component: Designator=R4(RESC3216N)
+Added Component: Designator=R5(RESC3216N)
+Added Component: Designator=R6(RESC3216N)
+Added Component: Designator=R7(RESC3216N)
+Added Component: Designator=R8(RESC3216N)
+Added Component: Designator=R9(RESC3216N)
+Added Component: Designator=R10(RESC3216N)
+Added Component: Designator=R11(RESC3216N)
+Added Component: Designator=R12(RESC3216N)
+Added Component: Designator=R13(RESC3216N)
+Added Component: Designator=R14(RESC3216N)
+Added Component: Designator=U1(SOT65P210X110-6N)
+Added Pin To Net: NetName=3V3_A Pin=U1-5
+Added Net: Name=3V3_A
+Added Pin To Net: NetName=3V3 Pin=C2-1
+Added Pin To Net: NetName=3V3 Pin=J2-1
+Added Pin To Net: NetName=3V3 Pin=J2-2
+Added Pin To Net: NetName=3V3 Pin=J2-39
+Added Pin To Net: NetName=3V3 Pin=J2-40
+Added Pin To Net: NetName=3V3 Pin=J3-4
+Added Pin To Net: NetName=3V3 Pin=R3-2
+Added Pin To Net: NetName=3V3 Pin=R4-2
+Added Pin To Net: NetName=3V3 Pin=R5-2
+Added Pin To Net: NetName=3V3 Pin=R6-2
+Added Pin To Net: NetName=3V3 Pin=R7-2
+Added Net: Name=3V3
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-MH1
+Added Pin To Net: NetName=GND Pin=J1-MH2
+Added Pin To Net: NetName=GND Pin=J2-7
+Added Pin To Net: NetName=GND Pin=J2-8
+Added Pin To Net: NetName=GND Pin=J2-17
+Added Pin To Net: NetName=GND Pin=J2-18
+Added Pin To Net: NetName=GND Pin=J2-25
+Added Pin To Net: NetName=GND Pin=J2-34
+Added Pin To Net: NetName=GND Pin=J3-3
+Added Pin To Net: NetName=GND Pin=J3-6
+Added Pin To Net: NetName=GND Pin=J3-10
+Added Pin To Net: NetName=GND Pin=J3-11
+Added Pin To Net: NetName=GND Pin=R2-2
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Net: Name=GND
+Added Pin To Net: NetName=LED_BTN01 Pin=J2-15
+Added Net: Name=LED_BTN01
+Added Pin To Net: NetName=LED_BTN02 Pin=J2-16
+Added Net: Name=LED_BTN02
+Added Pin To Net: NetName=LED_GREEN Pin=J2-13
+Added Net: Name=LED_GREEN
+Added Pin To Net: NetName=LED_RED Pin=J2-14
+Added Net: Name=LED_RED
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=R1-1
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJ1_2 Pin=J1-2
+Added Pin To Net: NetName=NetJ1_2 Pin=U1-6
+Added Net: Name=NetJ1_2
+Added Pin To Net: NetName=NetJ1_3 Pin=J1-3
+Added Pin To Net: NetName=NetJ1_3 Pin=U1-4
+Added Net: Name=NetJ1_3
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=J3-1
+Added Pin To Net: NetName=NetJ3_1 Pin=R6-1
+Added Pin To Net: NetName=NetJ3_1 Pin=R11-1
+Added Net: Name=NetJ3_1
+Added Pin To Net: NetName=NetJ3_2 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_2 Pin=R7-1
+Added Pin To Net: NetName=NetJ3_2 Pin=R13-1
+Added Net: Name=NetJ3_2
+Added Pin To Net: NetName=NetJ3_5 Pin=J3-5
+Added Pin To Net: NetName=NetJ3_5 Pin=R12-1
+Added Net: Name=NetJ3_5
+Added Pin To Net: NetName=NetJ3_7 Pin=J3-7
+Added Pin To Net: NetName=NetJ3_7 Pin=R3-1
+Added Pin To Net: NetName=NetJ3_7 Pin=R8-1
+Added Net: Name=NetJ3_7
+Added Pin To Net: NetName=NetJ3_8 Pin=J3-8
+Added Pin To Net: NetName=NetJ3_8 Pin=R4-1
+Added Pin To Net: NetName=NetJ3_8 Pin=R9-1
+Added Net: Name=NetJ3_8
+Added Pin To Net: NetName=NetJ3_9 Pin=J3-9
+Added Pin To Net: NetName=NetJ3_9 Pin=R5-1
+Added Pin To Net: NetName=NetJ3_9 Pin=R10-1
+Added Net: Name=NetJ3_9
+Added Pin To Net: NetName=NetJ3_CD Pin=J3-CD
+Added Pin To Net: NetName=NetJ3_CD Pin=R14-1
+Added Net: Name=NetJ3_CD
+Added Pin To Net: NetName=SD_CD Pin=J2-27
+Added Pin To Net: NetName=SD_CD Pin=R14-2
+Added Net: Name=SD_CD
+Added Pin To Net: NetName=SD_MCCDA Pin=J2-32
+Added Pin To Net: NetName=SD_MCCDA Pin=R13-2
+Added Net: Name=SD_MCCDA
+Added Pin To Net: NetName=SD_MCCK Pin=J2-31
+Added Pin To Net: NetName=SD_MCCK Pin=R12-2
+Added Net: Name=SD_MCCK
+Added Pin To Net: NetName=SD_MCDA0 Pin=J2-33
+Added Pin To Net: NetName=SD_MCDA0 Pin=R8-2
+Added Net: Name=SD_MCDA0
+Added Pin To Net: NetName=SD_MCDA1 Pin=J2-30
+Added Pin To Net: NetName=SD_MCDA1 Pin=R9-2
+Added Net: Name=SD_MCDA1
+Added Pin To Net: NetName=SD_MCDA2 Pin=J2-28
+Added Pin To Net: NetName=SD_MCDA2 Pin=R10-2
+Added Net: Name=SD_MCDA2
+Added Pin To Net: NetName=SD_MCDA3 Pin=J2-29
+Added Pin To Net: NetName=SD_MCDA3 Pin=R11-2
+Added Net: Name=SD_MCDA3
+Added Pin To Net: NetName=USB_DDM Pin=J2-3
+Added Pin To Net: NetName=USB_DDM Pin=U1-1
+Added Net: Name=USB_DDM
+Added Pin To Net: NetName=USB_DDP Pin=J2-4
+Added Pin To Net: NetName=USB_DDP Pin=U1-3
+Added Net: Name=USB_DDP
+Added Pin To Net: NetName=USB_VBUS Pin=C1-1
+Added Pin To Net: NetName=USB_VBUS Pin=J2-10
+Added Pin To Net: NetName=USB_VBUS Pin=R1-2
+Added Pin To Net: NetName=USB_VBUS Pin=R2-1
+Added Net: Name=USB_VBUS
+Added Class: Name=PMV2_IBV1_Altium_page01
+Added Room: Name=PMV2_IBV1_Altium_page01

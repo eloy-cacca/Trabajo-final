@@ -1,0 +1,2 @@
+Added Pin To Net: NetName=ARM_UART_TX Pin=U11-29
+Added Pin To Net: NetName=ARM_UART_RX Pin=U11-30

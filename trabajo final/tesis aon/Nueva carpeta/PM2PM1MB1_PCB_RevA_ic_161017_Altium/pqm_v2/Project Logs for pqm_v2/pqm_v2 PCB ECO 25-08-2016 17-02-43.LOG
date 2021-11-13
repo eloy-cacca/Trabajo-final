@@ -1,0 +1,96 @@
+Removed Pin From Net: NetName=NetC77_1 Pin=R102-1
+Removed Pin From Net: NetName=NetJ6_1 Pin=R102-2
+Removed Pin From Net: NetName=NetJ6_2 Pin=R109-1
+Removed Pin From Net: NetName=NetC77_1 Pin=R109-2
+Removed Pin From Net: NetName=NetC77_1 Pin=R112-1
+Removed Pin From Net: NetName=NetJ6_3 Pin=R112-2
+Removed Pin From Net: NetName=NetJ6_4 Pin=R114-1
+Removed Pin From Net: NetName=NetC77_1 Pin=R114-2
+Removed Pin From Net: NetName=NetC77_1 Pin=R115-2
+Removed Pin From Net: NetName=NetC77_1 Pin=R116-2
+Removed Pin From Net: NetName=NetC77_1 Pin=R117-1
+Removed Pin From Net: NetName=NetC77_1 Pin=R118-1
+Removed Pin From Net: NetName=NetC77_1 Pin=R119-2
+Removed Pin From Net: NetName=NetC77_1 Pin=R120-2
+Removed Pin From Net: NetName=NetC77_1 Pin=R121-1
+Removed Pin From Net: NetName=NetC77_1 Pin=R122-1
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R102
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R109
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R112
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R114
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R116
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R118
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R120
+Removed Member From Class: ClassName=pqm_v2_page4 Member=R122
+Change Component DesignItemId : Designator=R115 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07510KL_YAGEO
+Change Component DesignItemId : Designator=R117 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07510KL_YAGEO
+Change Component DesignItemId : Designator=R119 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07510KL_YAGEO
+Change Component DesignItemId : Designator=R121 Old DesignItemId=Res New DesignItemId=RES_RC0805FR-07510KL_YAGEO
+Change Component Comment : Designator=R115 Old Comment=Res New Comment=RES_RC0805FR-07510KL_YAGEO
+Change Component Comment : Designator=R117 Old Comment=Res New Comment=RES_RC0805FR-07510KL_YAGEO
+Change Component Comment : Designator=R119 Old Comment=Res New Comment=RES_RC0805FR-07510KL_YAGEO
+Change Component Comment : Designator=R121 Old Comment=Res New Comment=RES_RC0805FR-07510KL_YAGEO
+Change Component Description : Designator=R115 Old Description=Res New Description=RES SMD 510K OHM 1% 1/8W 0805
+Change Component Description : Designator=R117 Old Description=Res New Description=RES SMD 510K OHM 1% 1/8W 0805
+Change Component Description : Designator=R119 Old Description=Res New Description=RES SMD 510K OHM 1% 1/8W 0805
+Change Component Description : Designator=R121 Old Description=Res New Description=RES SMD 510K OHM 1% 1/8W 0805
+Added Component: Designator=C79(CAPC2013X110N)
+Added Component: Designator=C80(CAPC2013X110N)
+Added Component: Designator=C81(CAPC2013X110N)
+Added Component: Designator=C82(CAPC2013X110N)
+Added Component: Designator=C83(CAPC2013X110N)
+Added Component: Designator=C84(CAPC2013X110N)
+Added Component: Designator=C85(CAPC2013X110N)
+Added Component: Designator=C86(CAPC2013X110N)
+Added Pin To Net: NetName=NetJ6_1 Pin=C79-1
+Added Pin To Net: NetName=NetC77_1 Pin=C79-2
+Added Pin To Net: NetName=NetC77_1 Pin=C80-1
+Added Pin To Net: NetName=NetJ6_2 Pin=C80-2
+Added Pin To Net: NetName=NetJ6_3 Pin=C81-1
+Added Pin To Net: NetName=NetC77_1 Pin=C81-2
+Added Pin To Net: NetName=NetC77_1 Pin=C82-1
+Added Pin To Net: NetName=NetJ6_4 Pin=C82-2
+Added Pin To Net: NetName=NetC77_1 Pin=C83-2
+Added Pin To Net: NetName=NetC77_1 Pin=C84-1
+Added Pin To Net: NetName=NetC77_1 Pin=C85-2
+Added Pin To Net: NetName=NetC77_1 Pin=C86-1
+Added Pin To Net: NetName=NetC77_1 Pin=R115-1
+Added Pin To Net: NetName=NetC77_1 Pin=R117-2
+Added Pin To Net: NetName=NetC77_1 Pin=R119-1
+Added Pin To Net: NetName=NetC77_1 Pin=R121-2
+Change Net Name : Old Net Name=NetJ6_1 New Net Name=NetC79_1
+Change Net Name : Old Net Name=NetJ6_2 New Net Name=NetC80_2
+Change Net Name : Old Net Name=NetJ6_3 New Net Name=NetC81_1
+Change Net Name : Old Net Name=NetJ6_4 New Net Name=NetC82_2
+Added Pin To Net: NetName=NetC83_1 Pin=C83-1
+Added Pin To Net: NetName=NetC83_1 Pin=J6-5
+Added Pin To Net: NetName=NetC83_1 Pin=R70-2
+Added Pin To Net: NetName=NetC83_1 Pin=R115-2
+Added Pin To Net: NetName=NetC83_1 Pin=U9-2
+Added Net: Name=NetC83_1
+Added Pin To Net: NetName=NetC84_2 Pin=C84-2
+Added Pin To Net: NetName=NetC84_2 Pin=J6-6
+Added Pin To Net: NetName=NetC84_2 Pin=R70-1
+Added Pin To Net: NetName=NetC84_2 Pin=R117-1
+Added Pin To Net: NetName=NetC84_2 Pin=U9-3
+Added Net: Name=NetC84_2
+Added Pin To Net: NetName=NetC85_1 Pin=C85-1
+Added Pin To Net: NetName=NetC85_1 Pin=J6-7
+Added Pin To Net: NetName=NetC85_1 Pin=R76-2
+Added Pin To Net: NetName=NetC85_1 Pin=R119-2
+Added Pin To Net: NetName=NetC85_1 Pin=U10-2
+Added Net: Name=NetC85_1
+Added Pin To Net: NetName=NetC86_2 Pin=C86-2
+Added Pin To Net: NetName=NetC86_2 Pin=J6-8
+Added Pin To Net: NetName=NetC86_2 Pin=R76-1
+Added Pin To Net: NetName=NetC86_2 Pin=R121-1
+Added Pin To Net: NetName=NetC86_2 Pin=U10-3
+Added Net: Name=NetC86_2
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C79 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C80 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C81 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C82 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C83 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C84 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C85 CAP_CC0805JRNPO9BN101_YAGEO
+Added Member To Class: ClassName=pqm_v2_page4 Member=Component C86 CAP_CC0805JRNPO9BN101_YAGEO

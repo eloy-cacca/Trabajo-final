@@ -1,0 +1,11 @@
+Added Component: Designator=C27(CAPC2013X110N)
+Added Component: Designator=R47(RESC2013X065BN)
+Added Pin To Net: NetName=NetC27_1 Pin=C27-1
+Added Pin To Net: NetName=NetC27_2 Pin=C27-2
+Added Pin To Net: NetName=NetR47_1 Pin=R47-1
+Added Pin To Net: NetName=NetJ4_7 Pin=R47-2
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component C27 cap
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component C55 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component C58 CAP_CC0805KRX7R8BB104_YAGEO
+Added Member To Class: ClassName=pqm_v2_page3 Member=Component R47 Res
+Added Member To Class: ClassName=pqm_v2_page2 Member=Component U11 IC_ATSAM4S8BA-AU_ATMEL

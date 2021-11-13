@@ -1,0 +1,8 @@
+Change Component DesignItemId : Designator=R5 Old DesignItemId=Res New DesignItemId=RES_ERJ-8ENF2551V_Panasonic
+Change Component Footprint: Designator=R5 Old Footprint=RESC2013X065BN New Footprint=RESC3216N
+Change Component Comment : Designator=R5 Old Comment=Res New Comment=RES_ERJ-8ENF2551V_Panasonic
+Added Room: Name=pqm_v2_page1
+Added Room: Name=pqm_v2_page2
+Added Room: Name=pqm_v2_page3
+Added Room: Name=pqm_v2_page4
+Added Room: Name=pqm_v2_page5

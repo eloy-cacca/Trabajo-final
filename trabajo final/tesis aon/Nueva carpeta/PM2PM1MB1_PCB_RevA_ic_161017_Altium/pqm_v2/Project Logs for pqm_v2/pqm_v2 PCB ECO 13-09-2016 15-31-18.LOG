@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=AGND Pin=J18-10
+Removed Pin From Net: NetName=VL1 Pin=J18-11
+Removed Pin From Net: NetName=VL2 Pin=J18-12
+Removed Pin From Net: NetName=VL3 Pin=J18-13
+Removed Pin From Net: NetName=VL4 Pin=J18-14
+Removed Pin From Net: NetName=NetJ3_13 Pin=J18-15
+Removed Pin From Net: NetName=NetJ3_11 Pin=J18-16
+Removed Pin From Net: NetName=NetJ3_9 Pin=J18-17
+Removed Pin From Net: NetName=NetJ3_7 Pin=J18-18
+Removed Pin From Net: NetName=DSP_SPI_SOMI Pin=J20-21
+Removed Pin From Net: NetName=DSP_SPI_SIMO Pin=J20-22
+Removed Pin From Net: NetName=DSP_SPI_CLK Pin=J20-23
+Removed Pin From Net: NetName=DSP_SPI_STE Pin=J20-24
+Added Pin To Net: NetName=DSP_SPI_SOMI Pin=J18-3
+Added Pin To Net: NetName=DSP_SPI_SIMO Pin=J18-4
+Added Pin To Net: NetName=DSP_SPI_CLK Pin=J18-5
+Added Pin To Net: NetName=DSP_SPI_STE Pin=J18-6
+Added Pin To Net: NetName=AGND Pin=J18-14
+Added Pin To Net: NetName=VL1 Pin=J18-15
+Added Pin To Net: NetName=VL2 Pin=J18-16
+Added Pin To Net: NetName=VL3 Pin=J18-17
+Added Pin To Net: NetName=VL4 Pin=J18-18
+Added Pin To Net: NetName=NetJ3_13 Pin=J18-19
+Added Pin To Net: NetName=NetJ3_11 Pin=J18-20
+Added Pin To Net: NetName=NetJ3_9 Pin=J18-21
+Added Pin To Net: NetName=NetJ3_7 Pin=J18-22
+Added Pin To Net: NetName=DSP_GPIO00 Pin=J3-23
+Added Pin To Net: NetName=DSP_GPIO00 Pin=J18-13
+Added Net: Name=DSP_GPIO00
+Added Pin To Net: NetName=DSP_GPIO01 Pin=J3-73
+Added Pin To Net: NetName=DSP_GPIO01 Pin=J18-12
+Added Net: Name=DSP_GPIO01
+Added Pin To Net: NetName=DSP_GPIO02 Pin=J3-24
+Added Pin To Net: NetName=DSP_GPIO02 Pin=J18-11
+Added Net: Name=DSP_GPIO02
+Added Pin To Net: NetName=DSP_GPIO03 Pin=J3-74
+Added Pin To Net: NetName=DSP_GPIO03 Pin=J18-10
+Added Net: Name=DSP_GPIO03

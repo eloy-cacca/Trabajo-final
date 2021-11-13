@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=SD_MCDA2 Pin=J11-55
+Removed Pin From Net: NetName=SD_MCDA3 Pin=J11-56
+Removed Pin From Net: NetName=SD_MCCDA Pin=J11-57
+Removed Pin From Net: NetName=SD_MCCK Pin=J11-58
+Removed Pin From Net: NetName=SD_MCDA0 Pin=J11-59
+Removed Pin From Net: NetName=SD_MCDA1 Pin=J11-60
+Added Pin To Net: NetName=SD_MCDA2 Pin=J11-54
+Added Pin To Net: NetName=SD_MCDA3 Pin=J11-55
+Added Pin To Net: NetName=SD_MCCDA Pin=J11-56
+Added Pin To Net: NetName=SD_MCCK Pin=J11-57
+Added Pin To Net: NetName=SD_MCDA0 Pin=J11-58
+Added Pin To Net: NetName=SD_MCDA1 Pin=J11-59
+Added Pin To Net: NetName=GND_ISO Pin=J11-60
+Added Pin To Net: NetName=GND_ISO Pin=U11-25
+Change Net Name : Old Net Name=GND_ISO New Net Name=SD_CD

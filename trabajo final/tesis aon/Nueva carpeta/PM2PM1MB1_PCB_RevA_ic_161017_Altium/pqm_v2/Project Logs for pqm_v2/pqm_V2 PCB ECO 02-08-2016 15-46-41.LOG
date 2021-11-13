@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=+5V_A Pin=C5-1
+Removed Pin From Net: NetName=+5V_A Pin=C6-1
+Removed Pin From Net: NetName=+5V_A Pin=C7-1
+Removed Pin From Net: NetName=+5V_A Pin=J1-6
+Removed Pin From Net: NetName=+5V_A Pin=J1-13
+Removed Pin From Net: NetName=+5V_A Pin=J1-14
+Removed Pin From Net: NetName=+5V_A Pin=L1-1
+Removed Pin From Net: NetName=NetC7_1 Pin=L1-2
+Removed Pin From Net: NetName=+5V_A Pin=R1-1
+Added Component: Designator=L1(MAG_INDUCTOR2A)
+Added Pin To Net: NetName=NetC7_1 Pin=C7-1
+Added Pin To Net: NetName=AGND Pin=C7-2
+Added Pin To Net: NetName=3.3V_ISO Pin=C?-1
+Added Pin To Net: NetName=NetC7_1 Pin=C?-1
+Added Pin To Net: NetName=NetC?_1 Pin=C?-1
+Added Pin To Net: NetName=AGND Pin=C?-2
+Added Pin To Net: NetName=GND_ISO Pin=C?-2
+Added Pin To Net: NetName=GND_ISO Pin=C?-2
+Added Pin To Net: NetName=3.3V_ISO Pin=J3-1
+Added Pin To Net: NetName=NetJ2_9 Pin=J3-2
+Added Pin To Net: NetName=GND_ISO Pin=J3-6
+Added Pin To Net: NetName=NetC28_1 Pin=J3-7
+Added Pin To Net: NetName=AGND Pin=J3-8
+Added Pin To Net: NetName=NetC21_1 Pin=J3-9
+Added Pin To Net: NetName=AGND Pin=J3-10
+Added Pin To Net: NetName=NetC16_1 Pin=J3-11
+Added Pin To Net: NetName=AGND Pin=J3-12
+Added Pin To Net: NetName=NetC9_1 Pin=J3-13
+Added Pin To Net: NetName=AGND Pin=J3-14
+Added Pin To Net: NetName=AGND Pin=J3-27
+Added Pin To Net: NetName=AGND Pin=J3-37
+Added Pin To Net: NetName=AGND Pin=J3-47
+Added Pin To Net: NetName=3.3V_ISO Pin=J3-51
+Added Pin To Net: NetName=NetJ2_1 Pin=J3-52
+Added Pin To Net: NetName=GND_ISO Pin=J3-56
+Added Pin To Net: NetName=AGND Pin=J3-58
+Added Pin To Net: NetName=AGND Pin=J3-60
+Added Pin To Net: NetName=AGND Pin=J3-62
+Added Pin To Net: NetName=AGND Pin=J3-64
+Added Pin To Net: NetName=NetC1_2 Pin=L1-1
+Added Pin To Net: NetName=NetC7_1 Pin=L1-2
+Added Pin To Net: NetName=+5V Pin=C5-1
+Added Pin To Net: NetName=+5V Pin=C6-1
+Added Pin To Net: NetName=+5V Pin=C7-1
+Added Pin To Net: NetName=+5V Pin=C7-1
+Added Pin To Net: NetName=+5V Pin=J1-6
+Added Pin To Net: NetName=+5V Pin=J1-13
+Added Pin To Net: NetName=+5V Pin=J1-14
+Added Pin To Net: NetName=+5V Pin=J3-77
+Added Pin To Net: NetName=+5V Pin=J3-82
+Added Pin To Net: NetName=+5V Pin=J3-87
+Added Pin To Net: NetName=+5V Pin=J3-92
+Added Pin To Net: NetName=+5V Pin=J3-96
+Added Pin To Net: NetName=+5V Pin=L1-1
+Added Pin To Net: NetName=+5V Pin=L1-2
+Added Pin To Net: NetName=+5V Pin=R1-1
+Added Net: Name=+5V
+Added Pin To Net: NetName=NetJ3_57 Pin=J3-57
+Added Net: Name=NetJ3_57
+Added Pin To Net: NetName=NetJ3_59 Pin=J3-59
+Added Net: Name=NetJ3_59
+Added Pin To Net: NetName=NetJ3_61 Pin=J3-61
+Added Net: Name=NetJ3_61
+Added Pin To Net: NetName=NetJ3_63 Pin=J3-63
+Added Net: Name=NetJ3_63

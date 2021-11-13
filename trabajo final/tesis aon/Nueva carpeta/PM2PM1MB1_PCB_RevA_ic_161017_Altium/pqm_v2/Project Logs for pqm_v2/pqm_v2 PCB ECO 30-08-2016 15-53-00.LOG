@@ -1,0 +1,9 @@
+Added Component: Designator=D8(Led)
+Added Component: Designator=R102(RESC2013X065BN)
+Added Pin To Net: NetName=AGND Pin=D8-2
+Added Pin To Net: NetName=+5V Pin=R102-2
+Added Pin To Net: NetName=NetD8_1 Pin=D8-1
+Added Pin To Net: NetName=NetD8_1 Pin=R102-1
+Added Net: Name=NetD8_1
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component D8 LED
+Added Member To Class: ClassName=pqm_v2_page1 Member=Component R102 RES_RC0805JR-07330RL_YAGEO
