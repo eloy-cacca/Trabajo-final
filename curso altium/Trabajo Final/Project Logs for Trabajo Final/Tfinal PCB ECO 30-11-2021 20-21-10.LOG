@@ -1,0 +1,115 @@
+Added Component: Designator=U3(arm ok)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Case/Package"; Value = "LQFP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/12272/doc11100-52688-12272160.pdf?src-supplier=Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/12272/doc11100-52688-12272160.pdf?src-supplier=Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/30476/0900766b811a941e-30476054.pdf?src-supplier=RSComponents"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/30476/0900766b811a941e-30476054.pdf?src-supplier=RSComponents"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/8010/1653605-8010699.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/8010/1653605-8010699.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Architecture"; Value = "ARM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Data Bus Width"; Value = "32b"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "120MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "1.6mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I2C,SPI,USB,IrDA,MMC,UART,USART"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "12mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Microchip / Atmel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "ATSAM4S8BA-AU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Frequency"; Value = "32MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "3.6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Size"; Value = "512KB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Type"; Value = "FLASH,ROM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "1.62V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of ADC Channels"; Value = "11"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of I2C Channels"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of I/Os"; Value = "47"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "64"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of PWM Channels"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of SPI Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Timers/Counters"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of UART Channels"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of USB Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Oscillator Type"; Value = "Internal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "160"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tray"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peripherals"; Value = "Brown-out Detect/Reset,POR,PWM,WDT,DMA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RAM Size"; Value = "128KB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "SAM4S"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Future Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "ATSAM4S8BA-AU-TRAY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Watchdog Timer"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "10mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ADVREF Pin=U3-1
+Added Pin To Net: NetName=DGND Pin=U3-2
+Added Pin To Net: NetName=AD4 Pin=U3-3
+Added Pin To Net: NetName=AD5 Pin=U3-4
+Added Pin To Net: NetName=UART URXD1 Pin=U3-5
+Added Pin To Net: NetName=UART UTXD1 Pin=U3-6
+Added Pin To Net: NetName=NetC16_23 Pin=U3-7
+Added Pin To Net: NetName=NetC24_23 Pin=U3-8
+Added Pin To Net: NetName=ADC1 Pin=U3-9
+Added Pin To Net: NetName=ADC2 Pin=U3-10
+Added Pin To Net: NetName=AD8 Pin=U3-11
+Added Pin To Net: NetName=NetC24_23 Pin=U3-12
+Added Pin To Net: NetName=AD2 Pin=U3-13
+Added Pin To Net: NetName=AD9 Pin=U3-14
+Added Pin To Net: NetName=PA23 Pin=U3-15
+Added Pin To Net: NetName=AD3 Pin=U3-16
+Added Pin To Net: NetName=DGND Pin=U3-17
+Added Pin To Net: NetName=NetC16_23 Pin=U3-18
+Added Pin To Net: NetName=ARM LED2 Pin=U3-19
+Added Pin To Net: NetName=PA15 Pin=U3-20
+Added Pin To Net: NetName=SPI SPCK Pin=U3-21
+Added Pin To Net: NetName=SPI MOSI Pin=U3-22
+Added Pin To Net: NetName=ARM LED1 Pin=U3-23
+Added Pin To Net: NetName=NetC24_23 Pin=U3-24
+Added Pin To Net: NetName=SD CD Pin=U3-25
+Added Pin To Net: NetName=SD MCDA2 Pin=U3-26
+Added Pin To Net: NetName=SPI MISO Pin=U3-27
+Added Pin To Net: NetName=SPI NPCS0 Pin=U3-28
+Added Pin To Net: NetName=UART UTXD0 Pin=U3-29
+Added Pin To Net: NetName=UART URXD0 Pin=U3-30
+Added Pin To Net: NetName=NetC15_22 Pin=U3-31
+Added Pin To Net: NetName=NetC22_22 Pin=U3-32
+Added Pin To Net: NetName=TDI Pin=U3-33
+Added Pin To Net: NetName=PA6 Pin=U3-34
+Added Pin To Net: NetName=PA5 Pin=U3-35
+Added Pin To Net: NetName=PA4 Pin=U3-36
+Added Pin To Net: NetName=SD MCDA3 Pin=U3-37
+Added Pin To Net: NetName=SD MCCDA Pin=U3-38
+Added Pin To Net: NetName=RESET Pin=U3-39
+Added Pin To Net: NetName=NetR32_2 Pin=U3-40
+Added Pin To Net: NetName=SD MCCK Pin=U3-41
+Added Pin To Net: NetName=SD MCDA0 Pin=U3-42
+Added Pin To Net: NetName=PA3 Pin=U3-43
+Added Pin To Net: NetName=PA2 Pin=U3-44
+Added Pin To Net: NetName=NetC16_23 Pin=U3-45
+Added Pin To Net: NetName=DGND Pin=U3-46
+Added Pin To Net: NetName=PA1 Pin=U3-47
+Added Pin To Net: NetName=PA0 Pin=U3-48
+Added Pin To Net: NetName=TDO Pin=U3-49
+Added Pin To Net: NetName=NetR31_2 Pin=U3-50
+Added Pin To Net: NetName=TMS Pin=U3-51
+Added Pin To Net: NetName=SD MCDA1 Pin=U3-52
+Added Pin To Net: NetName=TCK Pin=U3-53
+Added Pin To Net: NetName=NetC24_23 Pin=U3-54
+Added Pin To Net: NetName=ERASE Pin=U3-55
+Added Pin To Net: NetName=USB DDM Pin=U3-56
+Added Pin To Net: NetName=USB DDP Pin=U3-57
+Added Pin To Net: NetName=NetC16_23 Pin=U3-58
+Added Pin To Net: NetName=USB VBUS Pin=U3-59
+Added Pin To Net: NetName=DGND Pin=U3-60
+Added Pin To Net: NetName=PB8 Pin=U3-61
+Added Pin To Net: NetName=PB9 Pin=U3-62
+Added Pin To Net: NetName=DAC1 Pin=U3-63
+Added Pin To Net: NetName=NetC24_23 Pin=U3-64
+Added Member To Class: ClassName=arm Member=Component U3 ATSAM4S8BA-AU
