@@ -1,0 +1,5 @@
+Remove Pin=H1-1 From Net=RESET
+Remove Pin=H2-2 From Net=ERASE
+Change Component Comment: Designator=R35 Old Comment=RC1206FR-0710KL New Comment=RC1206JR-0768KL
+Change Pin Designator/Name:  Old Designator=R35-1 Old Name=1 New Designator =2 New Name=2
+Change Pin Designator/Name:  Old Designator=R35-2 Old Name=2 New Designator =1 New Name=1
