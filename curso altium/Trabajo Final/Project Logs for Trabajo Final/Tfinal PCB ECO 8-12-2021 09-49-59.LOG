@@ -1,0 +1,200 @@
+Removed Pin From Net: NetName=NetC1_23 Pin=C1-1
+Removed Pin From Net: NetName=ADC1 Pin=C1-2
+Removed Pin From Net: NetName=NetC2_22 Pin=C2-1
+Removed Pin From Net: NetName=NetC2_23 Pin=C2-2
+Removed Pin From Net: NetName=AGND Pin=C4-1
+Removed Pin From Net: NetName=+5V Pin=C4-2
+Removed Pin From Net: NetName=AGND Pin=C5-1
+Removed Pin From Net: NetName=+5V Pin=C5-2
+Removed Pin From Net: NetName=AGND Pin=C6-1
+Removed Pin From Net: NetName=+1V5c Pin=C6-2
+Removed Pin From Net: NetName=NetC8_22 Pin=C8-1
+Removed Pin From Net: NetName=+1V5c Pin=C8-2
+Removed Pin From Net: NetName=AGND Pin=C9-1
+Removed Pin From Net: NetName=NetC9_22 Pin=C9-2
+Removed Pin From Net: NetName=NetC10_23 Pin=C10-1
+Removed Pin From Net: NetName=ADC2 Pin=C10-2
+Removed Pin From Net: NetName=NetC11_22 Pin=C11-1
+Removed Pin From Net: NetName=NetC11_23 Pin=C11-2
+Removed Pin From Net: NetName=AGND Pin=C12-1
+Removed Pin From Net: NetName=+5V Pin=C12-2
+Removed Pin From Net: NetName=AGND Pin=C13-1
+Removed Pin From Net: NetName=+1V5v Pin=C13-2
+Removed Pin From Net: NetName=+3V3 Pin=C14-1
+Removed Pin From Net: NetName=DGND Pin=C14-2
+Removed Pin From Net: NetName=NetC15_22 Pin=C15-1
+Removed Pin From Net: NetName=DGND Pin=C15-2
+Removed Pin From Net: NetName=NetC16_23 Pin=C16-1
+Removed Pin From Net: NetName=DGND Pin=C16-2
+Removed Pin From Net: NetName=NetC16_23 Pin=C17-1
+Removed Pin From Net: NetName=DGND Pin=C17-2
+Removed Pin From Net: NetName=NetC16_23 Pin=C18-1
+Removed Pin From Net: NetName=DGND Pin=C18-2
+Removed Pin From Net: NetName=NetC16_23 Pin=C19-1
+Removed Pin From Net: NetName=DGND Pin=C19-2
+Removed Pin From Net: NetName=NetC16_23 Pin=C20-1
+Removed Pin From Net: NetName=DGND Pin=C20-2
+Removed Pin From Net: NetName=NetC16_23 Pin=C21-1
+Removed Pin From Net: NetName=DGND Pin=C21-2
+Removed Pin From Net: NetName=NetC22_22 Pin=C22-1
+Removed Pin From Net: NetName=DGND Pin=C22-2
+Removed Pin From Net: NetName=NetC24_23 Pin=C24-1
+Removed Pin From Net: NetName=DGND Pin=C24-2
+Removed Pin From Net: NetName=NetC24_23 Pin=C25-1
+Removed Pin From Net: NetName=DGND Pin=C25-2
+Removed Pin From Net: NetName=NetC24_23 Pin=C26-1
+Removed Pin From Net: NetName=DGND Pin=C26-2
+Removed Pin From Net: NetName=NetC24_23 Pin=C27-1
+Removed Pin From Net: NetName=DGND Pin=C27-2
+Removed Pin From Net: NetName=NetC24_23 Pin=C28-1
+Removed Pin From Net: NetName=DGND Pin=C28-2
+Removed Pin From Net: NetName=NetC29_23 Pin=C29-1
+Removed Pin From Net: NetName=DGND Pin=C29-2
+Removed Pin From Net: NetName=NetC29_23 Pin=C30-1
+Removed Pin From Net: NetName=DGND Pin=C30-2
+Removed Pin From Net: NetName=+3V3 Pin=C32-1
+Removed Pin From Net: NetName=DGND Pin=C32-2
+Removed Pin From Net: NetName=AGND Pin=C36-1
+Removed Pin From Net: NetName=+5V Pin=C36-2
+Removed Pin From Net: NetName=+3V3 Pin=C37-1
+Removed Pin From Net: NetName=AGND Pin=C37-2
+Removed Pin From Net: NetName=+5V Pin=C38-1
+Removed Pin From Net: NetName=AGND Pin=C38-2
+Removed Pin From Net: NetName=+12V Pin=C39-1
+Removed Pin From Net: NetName=AGND Pin=C39-2
+Removed Pin From Net: NetName=+5V Pin=C40-1
+Removed Pin From Net: NetName=AGND Pin=C40-2
+Removed Pin From Net: NetName=+3V3_WIFI Pin=C41-1
+Removed Pin From Net: NetName=AGND Pin=C41-2
+Removed Pin From Net: NetName=+5V Pin=C46-1
+Removed Pin From Net: NetName=AGND Pin=C46-2
+Removed Pin From Net: NetName=+1V5v Pin=C47-1
+Removed Pin From Net: NetName=NetC47_22 Pin=C47-2
+Removed Pin From Net: NetName=AGND Pin=C48-1
+Removed Pin From Net: NetName=NetC48_22 Pin=C48-2
+Removed Pin From Net: NetName=+5V Pin=C49-1
+Removed Pin From Net: NetName=AGND Pin=C49-2
+Removed Pin From Net: NetName=+5V Pin=C50-1
+Removed Pin From Net: NetName=AGND Pin=C50-2
+Removed Pin From Net: NetName=+5V Pin=C51-1
+Removed Pin From Net: NetName=AGND Pin=C51-2
+Removed Pin From Net: NetName=+5V Pin=C52-1
+Removed Pin From Net: NetName=AGND Pin=C52-2
+Removed Pin From Net: NetName=NetC53_25 Pin=C53-1
+Removed Pin From Net: NetName=NetC53_24 Pin=C53-2
+Removed Pin From Net: NetName=-5V Pin=C54-1
+Removed Pin From Net: NetName=AGND Pin=C54-2
+Removed Pin From Net: NetName=-5V Pin=C55-1
+Removed Pin From Net: NetName=AGND Pin=C55-2
+Removed Pin From Net: NetName=-5V Pin=C56-1
+Removed Pin From Net: NetName=AGND Pin=C56-2
+Removed Pin From Net: NetName=-5V Pin=C57-1
+Removed Pin From Net: NetName=AGND Pin=C57-2
+Removed Pin From Net: NetName=NetR46_1 Pin=U4-CD1
+Removed Pin From Net: NetName=DGND Pin=U4-G1
+Removed Pin From Net: NetName=DGND Pin=U4-G2
+Removed Pin From Net: NetName=+12V Pin=U7-3
+Removed Pin From Net: NetName=AGND Pin=U7-4
+Removed Pin From Net: NetName=NetC22_22 Pin=Y1-1
+Removed Pin From Net: NetName=NetC15_22 Pin=Y1-2
+Change component parameters: Designator = "R35"; Footprint = "Res 1206 ok"; UniqueID = "\RKQWSTFG"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "3216"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/7857/1692832-7857244.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/7857/1692832-7857244.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/7857/1692832-7857245.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/7857/1692832-7857245.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/46445/444357-46445703.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/46445/444357-46445703.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Construction"; Value = "Rectangular"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "1.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Moisture Resistant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.55mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "3.1mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer 1"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number 1"; Value = "RC1206FR-0710KL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "250mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "5000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "250mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=0,10000, 10=0,07400, 100=0,03010, 1000=0,01353, 2500=0,01174 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "REACH SVHC"; Value = "Unknown"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "10kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Thick Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "RC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size Code"; Value = "1206"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "845388"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "311-10.0KFRCT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "100ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "200V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "1.6mm"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAP smd 0805 ok)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/25796/cl21a106kocl3rc-25796224.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/25796/cl21a106kocl3rc-25796224.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.079inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL21A106KOCL3RC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "CL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-2398-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.037inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.049inch"; VariantName = "[No Variations]"
+Added Component: Designator=C7(CAP smd 0805 ok)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Capacitance"; Value = "10uF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/25796/cl21a106kocl3rc-25796224.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/25796/cl21a106kocl3rc-25796224.pdf?src-supplier=Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "0.079inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samsung"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "CL21A106KOCL3RC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "CL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "1276-2398-2-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Thickness"; Value = "0.037inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "10%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "16V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "0.049inch"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=adc_chanels.b Member=Component C3 CAP_CL21A106KOCL3RC
+Added Member To Class: ClassName=adc_chanels.b Member=Component C7 CAP_CL21A106KOCL3RC
+Added Room: Name=adc_chanels.b
+Added Room: Name=arm
+Added Room: Name=supply

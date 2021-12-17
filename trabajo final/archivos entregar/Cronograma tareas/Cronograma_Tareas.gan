@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="trabajo final" company="Eloy Caccaviello" webLink="http://" view-date="2021-08-01" view-index="0" gantt-divider-location="846" resource-divider-location="264" version="3.1.3100" locale="es_ES">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="358" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="248" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="236" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="184" order="0"/>
+        <field id="1" name="Función" width="76" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Incursion en conceptos referidos a la desagregacion de energia" color="#8cb6ce" meeting="false" start="2021-08-02" duration="10" complete="0" thirdDate="2021-08-02" thirdDate-constraint="1" expand="false">
+            <notes>
+                <![CDATA[Evaluar requerimientos de señales involucradas y cálculos por realizar.
+Reflejar en un documento resumido los conceptos relevados.]]>
+            </notes>
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <task id="12" name="Evaluar requerimientos de señales involucradas y cálculos por realizar." color="#8cb6ce" meeting="false" start="2021-08-02" duration="10" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true"/>
+            <task id="13" name="Reflejar en un documento resumido los conceptos relevados." color="#8cb6ce" meeting="false" start="2021-08-02" duration="10" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="1" name="Estudio y analisis de proyectos similares" color="#000000" meeting="false" start="2021-08-13" duration="7" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="false">
+            <depend id="90" type="2" difference="0" hardness="Strong"/>
+            <task id="15" name="Evaluar ventajas y desventajas, funcionales y circuitales. Actualizar documento." color="#8cb6ce" meeting="false" start="2021-08-13" duration="7" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true"/>
+            <task id="14" name="Reflejar estado del arte en documento resumido." color="#8cb6ce" meeting="false" start="2021-08-13" duration="7" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="90" name="Caracterizacion del proyecto" color="#000000" meeting="false" start="2021-08-24" duration="35" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true">
+            <task id="17" name="Definir alcance del proyecto" color="#8cb6ce" meeting="false" start="2021-08-24" duration="2" complete="0" thirdDate="2021-09-30" thirdDate-constraint="0" expand="true">
+                <depend id="91" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="91" name="Definicion caracteristicas proyecto" color="#8cb6ce" meeting="false" start="2021-08-26" duration="3" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="232" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" name="Armado presentacion formal del proyecto" color="#8cb6ce" meeting="false" start="2021-08-31" duration="30" complete="0" thirdDate="2021-09-30" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="230" name="Diseño circuital" color="#000000" meeting="false" start="2021-08-31" duration="29" complete="0" thirdDate="2021-08-31" thirdDate-constraint="0" expand="false">
+            <depend id="51" type="2" difference="0" hardness="Strong"/>
+            <depend id="52" type="2" difference="0" hardness="Strong"/>
+            <depend id="53" type="2" difference="0" hardness="Strong"/>
+            <depend id="54" type="2" difference="0" hardness="Strong"/>
+            <depend id="55" type="2" difference="0" hardness="Strong"/>
+            <task id="232" name="Diseño filtro antialiasing" color="#000000" meeting="false" start="2021-08-31" duration="7" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="false">
+                <depend id="239" type="2" difference="0" hardness="Strong"/>
+                <task id="233" name="estudio de filtros" color="#8cb6ce" meeting="false" start="2021-08-31" duration="2" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+                    <depend id="234" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="234" name="definicion de requerimientos" color="#8cb6ce" meeting="false" start="2021-09-02" duration="1" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+                    <depend id="235" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="235" name="eleccion del tipo de filtro" color="#8cb6ce" meeting="false" start="2021-09-03" duration="1" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+                    <depend id="236" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="236" name="Simulacion filtro" color="#8cb6ce" meeting="false" start="2021-09-06" duration="1" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+                    <depend id="237" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="237" name="estudio de componentes(hardware)" color="#8cb6ce" meeting="false" start="2021-09-07" duration="1" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+                    <depend id="238" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="238" name="eleccion de componentes y nueva simulacion con valores comerciales" color="#8cb6ce" meeting="false" start="2021-09-08" duration="1" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="239" name="Estudio, eleccion y diseño circuital ADC externo" color="#8cb6ce" meeting="false" start="2021-09-09" duration="4" complete="0" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true">
+                <depend id="240" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="240" name="Perifericos" color="#8cb6ce" meeting="false" start="2021-09-15" duration="3" complete="0" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true">
+                <depend id="242" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="242" name="ARM" color="#8cb6ce" meeting="false" start="2021-09-20" duration="5" complete="0" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true">
+                <depend id="241" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="241" name="RTC" color="#8cb6ce" meeting="false" start="2021-09-27" duration="1" complete="0" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true">
+                <depend id="244" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="244" name="Estudio y diseño de reguladores de tension" color="#8cb6ce" meeting="false" start="2021-09-28" duration="4" complete="0" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true">
+                <depend id="46" type="2" difference="0" hardness="Strong"/>
+                <depend id="47" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="46" name="Estudio fuentes de alimentacion sistema completo" color="#000000" meeting="false" start="2021-10-04" duration="5" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true">
+                <task id="47" name="Requerimientos fuente" color="#8cb6ce" meeting="false" start="2021-10-04" duration="3" complete="0" thirdDate="2021-10-21" thirdDate-constraint="0" expand="true">
+                    <depend id="48" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="48" name="Eleccion fuente a utilizar" color="#8cb6ce" meeting="false" start="2021-10-07" duration="2" complete="0" thirdDate="2021-10-05" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="51" name="PCB" color="#000000" meeting="false" start="2021-10-11" duration="56" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true">
+            <depend id="70" type="2" difference="0" hardness="Strong"/>
+            <task id="54" name="Eleccion de componentes" color="#8cb6ce" meeting="false" start="2021-10-11" duration="5" complete="0" thirdDate="2021-11-03" thirdDate-constraint="0" expand="true">
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="55" name="Estudio programa de diseño (ALTIUM)" color="#8cb6ce" meeting="false" start="2021-10-11" duration="5" complete="0" thirdDate="2021-11-03" thirdDate-constraint="0" expand="true">
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="52" name="estudio de diseño de placas" color="#8cb6ce" meeting="false" start="2021-10-11" duration="5" complete="0" thirdDate="2021-11-03" thirdDate-constraint="0" expand="true">
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="53" name="Consideraciones electromagneticas del diseño" color="#8cb6ce" meeting="false" start="2021-10-11" duration="3" complete="0" thirdDate="2021-11-03" thirdDate-constraint="0" expand="true">
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="56" name="Diseño de la placa" color="#8cb6ce" meeting="false" start="2021-10-18" duration="10" complete="0" thirdDate="2021-10-11" thirdDate-constraint="0" expand="true">
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="57" name="Mandar a fabricar placa" color="#8cb6ce" meeting="false" start="2021-11-01" duration="20" complete="0" thirdDate="2021-10-11" thirdDate-constraint="0" expand="true">
+                <depend id="28" type="2" difference="0" hardness="Strong"/>
+                <depend id="29" type="2" difference="0" hardness="Strong"/>
+                <depend id="30" type="2" difference="0" hardness="Strong"/>
+                <depend id="31" type="2" difference="0" hardness="Strong"/>
+                <depend id="62" type="2" difference="0" hardness="Strong"/>
+                <depend id="673" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="62" name="Armado de placa" color="#000000" meeting="false" start="2021-12-08" duration="11" complete="0" thirdDate="2021-10-11" thirdDate-constraint="0" expand="true">
+                <depend id="476" type="2" difference="0" hardness="Strong"/>
+                <task id="65" name="Soldar componentes" color="#8cb6ce" meeting="false" start="2021-12-08" duration="5" complete="0" thirdDate="2021-12-08" thirdDate-constraint="0" expand="true">
+                    <depend id="63" type="2" difference="0" hardness="Strong"/>
+                    <depend id="64" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="64" name="Verificar alimentaciones" color="#8cb6ce" meeting="false" start="2021-12-15" duration="2" complete="0" thirdDate="2021-10-14" thirdDate-constraint="0" expand="true"/>
+                <task id="63" name="programacion microcontrolador" color="#8cb6ce" meeting="false" start="2021-12-22" duration="1" complete="0" thirdDate="2021-10-14" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="476" name="Testeo" color="#000000" meeting="false" start="2021-12-23" duration="3" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="false">
+                <task id="480" name="medicion de cada una de las etapas" meeting="false" start="2021-12-23" duration="1" complete="0" expand="true">
+                    <depend id="481" type="2" difference="0" hardness="Strong"/>
+                    <depend id="482" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="481" name="comparar medicion con lo simulado" color="#8cb6ce" meeting="false" start="2021-12-24" duration="1" complete="0" thirdDate="2021-10-18" thirdDate-constraint="0" expand="true">
+                    <depend id="482" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="482" name="Ajuste de parametros si es necesario" color="#8cb6ce" meeting="false" start="2021-12-27" duration="1" complete="0" thirdDate="2021-10-18" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="26" name="Diseño firmware" color="#000000" meeting="false" start="2021-11-29" duration="32" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="false">
+            <depend id="71" type="2" difference="0" hardness="Strong"/>
+            <task id="28" name="Estudio caracteristicas microcontrolador" color="#8cb6ce" meeting="false" start="2021-11-29" duration="5" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="29" name="Estudio entorno de desarrollo" color="#8cb6ce" meeting="false" start="2021-11-29" duration="3" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="30" name="Estudio lenguaje de programacion en C" color="#8cb6ce" meeting="false" start="2021-11-29" duration="7" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="31" name="Estudio de librerias existentes" color="#8cb6ce" meeting="false" start="2021-11-29" duration="7" complete="0" thirdDate="2021-10-12" thirdDate-constraint="0" expand="true">
+                <depend id="32" type="2" difference="0" hardness="Strong"/>
+                <depend id="33" type="2" difference="0" hardness="Strong"/>
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="32" name="Diseño PLL digital" color="#8cb6ce" meeting="false" start="2021-12-08" duration="4" complete="0" thirdDate="2021-10-05" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="Diseño adquisidor de señales" color="#8cb6ce" meeting="false" start="2021-12-08" duration="5" complete="0" thirdDate="2021-10-05" thirdDate-constraint="0" expand="true">
+                <depend id="42" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="673" name="Programacion de puertos e interfaces" color="#8cb6ce" meeting="false" start="2021-11-29" duration="3" complete="0" thirdDate="2021-09-28" thirdDate-constraint="0" expand="true"/>
+            <task id="40" name="Diseño de comunicacion" color="#000000" meeting="false" start="2021-12-15" duration="15" complete="0" thirdDate="2021-10-05" thirdDate-constraint="0" expand="true">
+                <depend id="37" type="2" difference="0" hardness="Strong"/>
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+                <task id="35" name="Diseño comunicación USB" meeting="false" start="2021-12-15" duration="5" complete="0" expand="true">
+                    <depend id="38" type="2" difference="0" hardness="Strong"/>
+                    <depend id="45" type="2" difference="0" hardness="Strong"/>
+                    <depend id="63" type="2" difference="0" hardness="Strong"/>
+                    <task id="42" name="Envio de datos" color="#8cb6ce" meeting="false" start="2021-12-15" duration="5" complete="0" thirdDate="2021-12-08" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="36" name="Diseño comunicación modulo SD" meeting="false" start="2021-12-22" duration="5" complete="0" expand="true">
+                    <depend id="43" type="2" difference="0" hardness="Strong"/>
+                    <depend id="44" type="2" difference="0" hardness="Strong"/>
+                    <task id="38" name="Guardado informacion" color="#8cb6ce" meeting="false" start="2021-12-22" duration="5" complete="0" thirdDate="2021-12-08" thirdDate-constraint="0" expand="true"/>
+                    <task id="45" name="Reescribir memoria" color="#8cb6ce" meeting="false" start="2021-12-22" duration="5" complete="0" thirdDate="2021-12-08" thirdDate-constraint="0" expand="true"/>
+                </task>
+                <task id="34" name="Diseño comunicación modulo wifi" color="#000000" meeting="false" start="2021-12-29" duration="5" complete="0" thirdDate="2021-12-08" thirdDate-constraint="0" expand="true">
+                    <task id="43" name="Envio de datos" color="#8cb6ce" meeting="false" start="2021-12-29" duration="5" complete="0" thirdDate="2021-12-08" thirdDate-constraint="0" expand="true"/>
+                    <task id="44" name="request time" color="#8cb6ce" meeting="false" start="2021-12-29" duration="5" complete="0" thirdDate="2021-12-08" thirdDate-constraint="0" expand="true"/>
+                </task>
+            </task>
+            <task id="37" name="Pre-procesamiento datos adquiridos" color="#8cb6ce" meeting="false" start="2022-01-05" duration="5" complete="0" thirdDate="2021-10-05" thirdDate-constraint="0" expand="true"/>
+            <task id="39" name="Prueba del sistema completo" color="#8cb6ce" meeting="false" start="2022-01-05" duration="1" complete="0" thirdDate="2021-10-05" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="70" name="Gabinete y conexiones" color="#000000" meeting="false" start="2022-01-12" duration="6" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true">
+            <depend id="73" type="2" difference="0" hardness="Strong"/>
+            <task id="71" name="Esquema de conexiones y diseño del gabinete" color="#8cb6ce" meeting="false" start="2022-01-12" duration="3" complete="0" thirdDate="2021-12-28" thirdDate-constraint="0" expand="true">
+                <depend id="72" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="72" name="Diseño e impresión en 3D de molde para el hardware" color="#8cb6ce" meeting="false" start="2022-01-17" duration="3" complete="0" thirdDate="2021-10-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="73" name="Escritura trabajo final" color="#8cb6ce" meeting="false" start="2022-01-20" duration="20" complete="0" thirdDate="2021-09-29" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
