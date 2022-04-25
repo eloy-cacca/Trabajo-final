@@ -38,6 +38,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=Tfinal3.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QBPCAUVP
+
+[Document2]
 DocumentPath=cap.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -54,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FESTTMDY
 
-[Document2]
+[Document3]
 DocumentPath=adc_chanels.b.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -71,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YXBSYDJT
 
-[Document3]
+[Document4]
 DocumentPath=supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -88,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XRZGBRUW
 
-[Document4]
+[Document5]
 DocumentPath=arm.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PQEHCJCQ
 
-[Document5]
+[Document6]
 DocumentPath=Tfinal.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QBPCAUVP
 
-[Document6]
+[Document7]
 DocumentPath=Cap.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -139,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NRVWGVGF
 
-[Document7]
+[Document8]
 DocumentPath=res.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JEQPWAML
 
-[Document8]
+[Document9]
 DocumentPath=res.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QWXSUCEH
 
-[Document9]
+[Document10]
 DocumentPath=diode.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VPCPMOEL
 
-[Document10]
+[Document11]
 DocumentPath=diode.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -207,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRTCIYJJ
 
-[Document11]
+[Document12]
 DocumentPath=others.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -224,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GBOUILWL
 
-[Document12]
+[Document13]
 DocumentPath=others.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -241,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AVXOJRLD
 
-[Document13]
+[Document14]
 DocumentPath=conectors.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -258,7 +275,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LBWQUGXQ
 
-[Document14]
+[Document15]
 DocumentPath=inductores.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -275,7 +292,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZFFFTRZX
 
-[Document15]
+[Document16]
 DocumentPath=inductores.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -292,7 +309,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TRQCCAJL
 
-[Document16]
+[Document17]
 DocumentPath=ic.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -309,7 +326,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YETTFQKN
 
-[Document17]
+[Document18]
 DocumentPath=ic.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -326,25 +343,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GXPCFECX
 
-[Document18]
-DocumentPath=Trabajo Final.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [Document19]
-DocumentPath=Trabajo Final.BomDoc
+DocumentPath=Trabajo Final.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -378,7 +378,7 @@ GenerateClassCluster=0
 DocumentUniqueId=BZKHCIBI
 
 [Document21]
-DocumentPath=PCB1.PcbDoc
+DocumentPath=Trabajo Final2.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -392,7 +392,24 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FTWPRWAR
+DocumentUniqueId=
+
+[Document22]
+DocumentPath=Job1.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
@@ -730,16 +747,14 @@ Configuration1_Name3=General
 Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=True|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=True|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=True|BomSetName=
 Configuration1_Name4=GroupOrder
 Configuration1_Item4=
-Configuration1_Name5=SortOrder
-Configuration1_Item5=Designator=Up
-Configuration1_Name6=VisibleOrder
-Configuration1_Item6=Line #=53|Description=79|Quantity=67|Manufacturer Part Number 1=318|Supplier Part Number 1=361|Designator=100
-Configuration1_Name7=VisibleOrder_Base
-Configuration1_Item7=Line #=53|Description=79|Quantity=67|Manufacturer Part Number 1=318|Supplier Part Number 1=361|Designator=100
-Configuration1_Name8=VisibleOrder_Consolidated
-Configuration1_Item8=Quantity=87|Description=375|Manufacturer Part Number 1=318
-Configuration1_Name9=VisibleOrder_Flat
-Configuration1_Item9=Line #=53|Comment=52|Description=79|Designator=87|Manufacturer 1=157|Manufacturer Part Number 1=318|Manufacturer Lifecycle 1=143|Supplier 1=119|Supplier Part Number 1=361|Supplier Unit Price 1=123|Supplier Subtotal 1=116
+Configuration1_Name5=VisibleOrder
+Configuration1_Item5=Description=348|Quantity=67|Designator=339|Manufacturer Part Number 1=318|Supplier Unit Price 1=123|Supplier Subtotal 1=116
+Configuration1_Name6=VisibleOrder_Base
+Configuration1_Item6=Description=348|Quantity=67|Designator=339|Manufacturer Part Number 1=318|Supplier Unit Price 1=123|Supplier Subtotal 1=116
+Configuration1_Name7=VisibleOrder_Consolidated
+Configuration1_Item7=Quantity=87|Description=375|Manufacturer Part Number 1=318
+Configuration1_Name8=VisibleOrder_Flat
+Configuration1_Item8=Line #=53|Comment=193|Description=79|Designator=87|Manufacturer 1=157|Manufacturer Part Number 1=318|Manufacturer Lifecycle 1=143|Supplier 1=119|Supplier Part Number 1=361|Supplier Unit Price 1=123|Supplier Subtotal 1=116
 OutputType2=ComponentCrossReference
 OutputName2=Component Cross Reference Report
 OutputDocumentPath2=
