@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=+5V wifi Pin=U11-1
+Added Net: Name=+5V wifi
+Added Pin To Net: NetName=AD0 Pin=U3-9
+Added Net: Name=AD0
+Added Pin To Net: NetName=AGND wifi Pin=U11-3
+Added Net: Name=AGND wifi
+Added Net: Name=NetC3_23
+Added Pin To Net: NetName=PA9 Pin=U3-30
+Added Net: Name=PA9
+Added Pin To Net: NetName=PA10 Pin=U3-29
+Added Net: Name=PA10
+Added Pin To Net: NetName=PB14 Pin=U3-63
+Added Net: Name=PB14
