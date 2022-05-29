@@ -1,0 +1,31 @@
+Added Pin To Net: NetName=NetIC2_1 Pin=R35-2
+Added Pin To Net: NetName=NetIC2_1 Pin=R36-2
+Added Net: Name=NetIC2_1
+Added Pin To Net: NetName=NetR35_1 Pin=R35-1
+Added Pin To Net: NetName=NetR35_1 Pin=U9-1
+Added Net: Name=NetR35_1
+Added Pin To Net: NetName=NetR40_2 Pin=R40-2
+Added Pin To Net: NetName=NetR40_2 Pin=U12-9
+Added Net: Name=NetR40_2
+Added Pin To Net: NetName=NetR41_2 Pin=R41-2
+Added Pin To Net: NetName=NetR41_2 Pin=R45-2
+Added Pin To Net: NetName=NetR41_2 Pin=U12-8
+Added Net: Name=NetR41_2
+Added Pin To Net: NetName=NetR42_2 Pin=R42-2
+Added Pin To Net: NetName=NetR42_2 Pin=R44-2
+Added Pin To Net: NetName=NetR42_2 Pin=U12-7
+Added Net: Name=NetR42_2
+Added Pin To Net: NetName=NetR43_2 Pin=R43-2
+Added Pin To Net: NetName=NetR43_2 Pin=R47-2
+Added Pin To Net: NetName=NetR43_2 Pin=U12-1
+Added Net: Name=NetR43_2
+Added Pin To Net: NetName=NetR48_1 Pin=R48-1
+Added Net: Name=NetR48_1
+Added Pin To Net: NetName=NetR50_1 Pin=R50-1
+Added Net: Name=NetR50_1
+Added Pin To Net: NetName=NetR53_2 Pin=R53-2
+Added Net: Name=NetR53_2
+Added Pin To Net: NetName=NetR54_1 Pin=R54-1
+Added Net: Name=NetR54_1
+Added Net: Name=NetR?_1
+Added Net: Name=NetR?_2
